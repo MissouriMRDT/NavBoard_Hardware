@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name 2019NavBoard)(type KiCad)(uri C:/Users/poped/Documents/GitHub/NavBoard_Hardware/2019NavBoard)(options "")(descr ""))
+  (lib (name NavBoard_Hardware)(type KiCad)(uri C:/Users/poped/Documents/GitHub/NavBoard_Hardware)(options "")(descr ""))
+)
