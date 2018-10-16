@@ -6391,6 +6391,7 @@
       (xy 11.950441 -7.849394) (xy 11.953138 -7.835369) (xy 11.958067 -7.830303) (xy 11.962645 -7.830361)) (layer B.SilkS) (width 0.01))
   )
 
+  (gr_line (start 177.3174 55.6006) (end 116.3574 55.626) (layer Edge.Cuts) (width 0.15))
   (gr_text "GPS LED" (at 144.78 94.996) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
@@ -6401,7 +6402,6 @@
   (gr_line (start 116.3574 55.626) (end 116.3574 129.54) (layer Edge.Cuts) (width 0.15))
   (gr_arc (start 175.2854 96.52) (end 175.2854 98.552) (angle -90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 177.3174 55.626) (end 177.3174 96.52) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 177.292 55.626) (end 116.3574 55.626) (layer Edge.Cuts) (width 0.15))
   (gr_text "Board Power LED\n" (at 170.942 89.916) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.25)))
   )
