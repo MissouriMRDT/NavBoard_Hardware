@@ -1,0 +1,36 @@
+TM4C129E_Launchpad
+----X9:A1-------
++3V3:+3V3:A1_1
+LIDAR_MONITOR:PC4:A1_3 :DIO
+LIDAR_TRIGGER:PC5:A1_4 :DIO
+GPS_RX       :PC6:A1_5 :RX5
+GPS_TX       :PC7:A1_8 :TX5
+IMUSCL       :PB2:A1_9 :SCL(0)
+SDA(0)       :PB3:A1_10:SDA(0)
+
+-----X9:C1-----
+INT2AG:PL0:C1_7
+INT1AG:PL1:C1_8
+INTM:PL2:C1_9
+DRDYM:PL3:C1_10
+/////////////////////////////////////////////////////////////////
+---FGPMMOPAGH---
+VBACKUP:4:VBCK
+TX(7):9:TX
+RX(7):10:RX
+1PPS:13:1PPS
+/////////////////////////////////////////////////////////////////
+----Molex_SL_08----
+GND:1
+INT2AG:2
+INT1AG:3
+INTM:4
+DRDYM:5
+SDA(0):6
+SCL(0):7
++3V3:8
+/////////////////////////////////////////////////////////////////
+---Molex_SL_03---
++5V:1
+LIDAR_MONITOR/LIDAR_TRIGGER/1K ohm resitor:2
+GND:3
