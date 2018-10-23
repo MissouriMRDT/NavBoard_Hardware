@@ -14,23 +14,3 @@ INT1AG       :PL1:C1_8 :DIO
 INTM         :PL2:C1_9 :DIO
 DRDYM        :PL3:C1_10:DIO
 /////////////////////////////////////////////////////////////////
----FGPMMOPAGH---
-VBACKUP:4:VBCK
-TX(7):9:TX
-RX(7):10:RX
-1PPS:13:1PPS
-/////////////////////////////////////////////////////////////////
-----Molex_SL_08----
-GND:1
-INT2AG:2
-INT1AG:3
-INTM:4
-DRDYM:5
-SDA(0):6
-SCL(0):7
-+3V3:8
-/////////////////////////////////////////////////////////////////
----Molex_SL_03---
-+5V:1
-LIDAR_MONITOR/LIDAR_TRIGGER/1K ohm resitor:2
-GND:3
