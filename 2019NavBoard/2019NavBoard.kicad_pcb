@@ -648,7 +648,7 @@
   )
 
   (module MRDT_Connectors:MOLEX_SL_08_Horizontal (layer F.Cu) (tedit 5B78A6F4) (tstamp 5BC3D3B2)
-    (at 150.6474 69.088)
+    (at 148.717 69.0626)
     (path /5BC4C9CA)
     (fp_text reference Conn3 (at -7.62 2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
