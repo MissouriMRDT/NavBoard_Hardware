@@ -11,7 +11,8 @@ External IMU     - Molex SL-08
 	Pin7-SCL(0)
 	Pin8-+3V3
 LIDAR		 -Molex SL-03
-	Pin1-+5V
-	Pin2-LIDAR_MONITOR/R3/LIDAR_TRIGGER
-	Pin3-GND
+	Pin1-GND
+	Pin2-LIDAR_MONITOR
+	Pin3-LIDAR_TRIGGER
+	Pin4-+5v
 	
