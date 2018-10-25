@@ -602,7 +602,7 @@ GPS, and LiDAR\n
 Wire Notes Line
 	450  4350 11200 4350
 Text Notes 1050 2600 0    50   ~ 10
-Connector to off board ISM and Board Power LED
+Connector to off board IMU and Board Power LED
 Text GLabel 4550 3150 0    50   Input ~ 0
 LIDAR_MONITOR
 Text GLabel 4450 3300 0    50   Input ~ 0

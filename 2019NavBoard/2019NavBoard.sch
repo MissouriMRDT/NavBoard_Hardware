@@ -555,9 +555,9 @@ Wire Wire Line
 	8100 2350 8250 2350
 Wire Wire Line
 	8250 2450 7800 2450
-Text GLabel 8050 3350 0    50   Input ~ 0
+Text GLabel 8050 2750 0    50   Input ~ 0
 INT2AG
-Text GLabel 8050 3450 0    50   Input ~ 0
+Text GLabel 8050 2850 0    50   Input ~ 0
 INT1AG
 Text GLabel 8050 3550 0    50   Input ~ 0
 INTM
@@ -594,7 +594,7 @@ Wire Notes Line
 Text Notes 1500 750  0    50   ~ 10
 Power Distribution 
 Wire Notes Line
-	7450 4350 7450 450 
+	7400 4350 7400 450 
 Text Notes 8200 800  0    50   ~ 10
 TIVA and Battery Backup\n\n
 Text Notes 4550 900  0    50   ~ 10
@@ -607,9 +607,9 @@ Text GLabel 4550 3150 0    50   Input ~ 0
 LIDAR_MONITOR
 Text GLabel 4450 3300 0    50   Input ~ 0
 LIDAR_TRIGGER
-Text GLabel 8150 1750 0    50   Input ~ 0
+Text GLabel 8050 3350 0    50   Input ~ 0
 LIDAR_MONITOR
-Text GLabel 8150 1850 0    50   Input ~ 0
+Text GLabel 8050 3450 0    50   Input ~ 0
 LIDAR_TRIGGER
 Wire Wire Line
 	8000 1950 8250 1950
@@ -725,4 +725,8 @@ Wire Wire Line
 Wire Wire Line
 	4450 3400 5400 3400
 Connection ~ 5400 3400
+Wire Wire Line
+	8050 2750 8200 2750
+Wire Wire Line
+	8050 2850 8200 2850
 $EndSCHEMATC
