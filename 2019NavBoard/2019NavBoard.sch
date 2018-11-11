@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:2019NavBoard-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -347,17 +346,6 @@ F 1 "GND" H 4205 2227 50  0000 C CNN
 F 2 "" H 4200 2400 50  0001 C CNN
 F 3 "" H 4200 2400 50  0001 C CNN
 	1    4200 2400
-	1    0    0    -1  
-$EndComp
-$Comp
-L MRDT_Connectors:12mm_Coin_Cell_Battery_Holder Conn4
-U 1 1 5BC5B0C6
-P 10600 3950
-F 0 "Conn4" H 10812 4175 60  0000 L CNN
-F 1 "12mm_Coin_Cell_Battery_Holder" H 10700 3900 60  0001 C CNN
-F 2 "MRDT_Connectors:CR1220_Battery_Holder" H 10600 3950 60  0001 C CNN
-F 3 "" H 10600 3950 60  0001 C CNN
-	1    10600 3950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -733,4 +721,15 @@ Wire Wire Line
 Connection ~ 5650 3200
 Wire Wire Line
 	5650 3200 6050 3200
+$Comp
+L 2019_NavB:12mm_Coin_Battery_Cell_Holder U2
+U 1 1 5BE8F78F
+P 10600 4050
+F 0 "U2" H 10812 4421 50  0000 L CNN
+F 1 "12mm_Coin_Battery_Cell_Holder" H 10812 4330 50  0000 L CNN
+F 2 "MRDT_Connectors:CR1220_Battery_Holder" H 10600 4050 50  0001 C CNN
+F 3 "" H 10600 4050 50  0001 C CNN
+	1    10600 4050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

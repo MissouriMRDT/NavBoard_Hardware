@@ -11,4 +11,5 @@
   (lib (name MRDT_Shields)(type Legacy)(uri C:/MRDT_KiCAD_Libraries-2019R1/Device/MRDT_Shields.lib)(options "")(descr ""))
   (lib (name MRDT_Silkscreens)(type Legacy)(uri C:/MRDT_KiCAD_Libraries-2019R1/Device/MRDT_Silkscreens.lib)(options "")(descr ""))
   (lib (name MRDT_Switches)(type Legacy)(uri C:/MRDT_KiCAD_Libraries-2019R1/Device/MRDT_Switches.lib)(options "")(descr ""))
+  (lib (name 2019_NavB)(type Legacy)(uri "C:/Users/poped/Documents/GitHub/NavBoard_Hardware/2019NavBoard/2019 NavB.lib")(options "")(descr ""))
 )
