@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:2019NavBoard-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -190,11 +191,6 @@ Wire Wire Line
 Wire Wire Line
 	7000 1450 7000 2150
 Wire Wire Line
-	6700 2450 7000 2450
-Connection ~ 7000 2450
-Wire Wire Line
-	7000 2450 7000 2550
-Wire Wire Line
 	7000 2550 6700 2550
 Wire Wire Line
 	6700 2450 6700 2550
@@ -215,12 +211,6 @@ $EndComp
 Wire Wire Line
 	6400 2150 7000 2150
 Connection ~ 7000 2150
-Wire Wire Line
-	7000 2150 7000 2450
-Wire Wire Line
-	6400 2050 6500 2050
-Text GLabel 6500 2050 2    50   Input ~ 0
-1PPS
 Wire Wire Line
 	5500 2250 5350 2250
 Wire Wire Line
@@ -430,13 +420,13 @@ F 3 "" H 1200 3850 50  0001 C CNN
 	1    1200 3850
 	0    -1   -1   0   
 $EndComp
-Text GLabel 1200 3250 0    50   Input ~ 0
+Text GLabel 1200 3250 0    50   Output ~ 0
 INT2AG
-Text GLabel 1200 3350 0    50   Input ~ 0
+Text GLabel 1200 3350 0    50   Output ~ 0
 INT1AG
-Text GLabel 1200 3450 0    50   Input ~ 0
+Text GLabel 1200 3450 0    50   Output ~ 0
 INTM
-Text GLabel 1200 3550 0    50   Input ~ 0
+Text GLabel 1200 3550 0    50   Output ~ 0
 DRDYM
 Text GLabel 1200 3650 0    50   Input ~ 0
 SDA(0)
@@ -559,9 +549,9 @@ Wire Wire Line
 	8200 3550 8050 3550
 Wire Wire Line
 	8200 3650 8050 3650
-Text GLabel 8000 1950 0    50   Input ~ 0
+Text GLabel 8150 1850 0    50   Input ~ 0
 RX(7)
-Text GLabel 7900 2250 0    50   Input ~ 0
+Text GLabel 8150 1750 0    50   Input ~ 0
 TX(7)
 Wire Wire Line
 	7900 2250 8250 2250
@@ -576,7 +566,6 @@ F 3 "" H 5500 2050 60  0001 C CNN
 	1    5700 2300
 	1    0    0    -1  
 $EndComp
-Connection ~ 6700 2450
 Wire Notes Line
 	3400 2350 450  2350
 Text Notes 1500 750  0    50   ~ 10
@@ -732,4 +721,6 @@ F 3 "" H 10600 4050 50  0001 C CNN
 	1    10600 4050
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7000 2150 7000 2550
 $EndSCHEMATC
