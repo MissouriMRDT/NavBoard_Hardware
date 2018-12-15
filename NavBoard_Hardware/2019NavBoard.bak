@@ -41,7 +41,7 @@ L MRDT_Shields:TM4C129E_Launchpad U1
 U 3 1 5BC4AAD9
 P 9150 3350
 F 0 "U1" H 9150 3300 60  0000 L CNN
-F 1 "TM4C129E_Launchpad" H 9050 5900 60  0000 L CNN
+F 1 "~" H 9050 5900 60  0000 L CNN
 F 2 "MRDT_Shields:TM4C129E_Launchpad_X9" H 9150 3350 60  0001 C CNN
 F 3 "" H 9150 3350 60  0001 C CNN
 	3    9150 3350
@@ -1210,8 +1210,6 @@ Text Notes 4050 5100 0    39   ~ 0
 GREN\n
 Text Notes 4400 5100 0    39   ~ 0
 RED\n
-Wire Notes Line
-	3360 472  3360 5036
 Text GLabel 9950 1400 2    50   Input ~ 0
 Error_LED
 Wire Wire Line
@@ -1318,4 +1316,6 @@ Wire Wire Line
 	9950 1500 9850 1500
 Wire Wire Line
 	9850 1600 9950 1600
+Wire Notes Line
+	3360 472  3360 5144
 $EndSCHEMATC

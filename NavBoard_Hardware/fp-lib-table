@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name 2019NavBoard)(type KiCad)(uri C:/Users/poped/Documents/GitHub/NavBoard_Hardware/2019NavBoard)(options "")(descr ""))
   (lib (name NavBoard_Hardware)(type KiCad)(uri C:/Users/poped/Documents/GitHub/NavBoard_Hardware)(options "")(descr ""))
+  (lib (name NavBoard_Hardware_2)(type KiCad)(uri "C:/Users/austi/OneDrive/Desktop/Mars Rover/SRA Instruments/NavBoard_Hardware/Libraries/NavBoard_Hardware.pretty")(options "")(descr ""))
 )
