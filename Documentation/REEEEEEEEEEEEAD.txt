@@ -1,0 +1,1 @@
+L1 inductor on schematic doesnt have a value need to find to finish the bomb and schematic.

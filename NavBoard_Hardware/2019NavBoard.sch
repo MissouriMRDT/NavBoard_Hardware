@@ -122,9 +122,9 @@ $EndComp
 Wire Wire Line
 	6550 2200 7000 2200
 Text GLabel 5550 2300 0    50   Output ~ 0
-TivaRX(7)
+TivaRX
 Text GLabel 5550 2200 0    50   Input ~ 0
-TivaTX(7)
+TivaTX
 $Comp
 L pspice:INDUCTOR L1
 U 1 1 5BC4E974
@@ -214,45 +214,29 @@ F 3 "" H 4850 2150 50  0001 C CNN
 	1    4850 2150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4216 2686 4016 2686
-Wire Wire Line
-	3816 2236 4116 2236
-Wire Wire Line
-	4016 2686 4016 2786
-Connection ~ 4016 2686
-Wire Wire Line
-	4016 2686 3816 2686
 $Comp
 L power:GND #PWR0106
 U 1 1 5BC5C835
-P 4016 2786
-F 0 "#PWR0106" H 4016 2536 50  0001 C CNN
-F 1 "GND" H 4021 2613 50  0000 C CNN
-F 2 "" H 4016 2786 50  0001 C CNN
-F 3 "" H 4016 2786 50  0001 C CNN
-	1    4016 2786
+P 4250 2900
+F 0 "#PWR0106" H 4250 2650 50  0001 C CNN
+F 1 "GND" H 4255 2727 50  0000 C CNN
+F 2 "" H 4250 2900 50  0001 C CNN
+F 3 "" H 4250 2900 50  0001 C CNN
+	1    4250 2900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C5
 U 1 1 5BC5C880
-P 3816 2486
-F 0 "C5" H 3931 2532 50  0000 L CNN
-F 1 "1uF" H 3931 2441 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3816 2486 50  0001 C CNN
-F 3 "~" H 3816 2486 50  0001 C CNN
-	1    3816 2486
+P 3950 2650
+F 0 "C5" H 4065 2696 50  0000 L CNN
+F 1 "1uF" H 4065 2605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3950 2650 50  0001 C CNN
+F 3 "~" H 3950 2650 50  0001 C CNN
+	1    3950 2650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4116 2236 4116 2136
-Wire Wire Line
-	4116 2136 3916 2136
-Connection ~ 4116 2236
-Wire Wire Line
-	4116 2236 4216 2236
-Text GLabel 3916 2136 0    50   Input ~ 0
+Text GLabel 3900 2250 0    50   Input ~ 0
 VBACKUP
 Wire Wire Line
 	900  4600 1050 4600
@@ -301,9 +285,9 @@ INTM
 Text GLabel 1050 4200 2    50   Output ~ 0
 DRDYM
 Text GLabel 1050 4100 2    50   Input ~ 0
-SDA(0)
+IMU_SDA
 Text GLabel 1050 4000 2    50   Input ~ 0
-SCL(0)
+IMU_SCL
 $Comp
 L Device:R R2
 U 1 1 5BC68B57
@@ -392,21 +376,21 @@ F 3 "" H 9950 1300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 8850 2000 0    50   Input ~ 0
-SCL(0)
+IMU_SCL
 Text GLabel 8850 2100 0    50   Input ~ 0
-SDA(0)
-Text GLabel 8850 2400 0    50   Output ~ 0
+IMU_SDA
+Text GLabel 8850 2400 0    50   Input ~ 0
 INT2AG
-Text GLabel 8850 2500 0    50   Output ~ 0
+Text GLabel 8850 2500 0    50   Input ~ 0
 INT1AG
 Text GLabel 8850 3200 0    50   Input ~ 0
 INTM
 Text GLabel 8850 3300 0    50   Input ~ 0
 DRDYM
-Text GLabel 8650 1400 0    50   Output ~ 0
-TivaRX(7)
-Text GLabel 8850 1500 0    50   Input ~ 0
-TivaTX(7)
+Text GLabel 8850 1400 0    50   Input ~ 0
+TivaRX
+Text GLabel 8850 1500 0    50   Output ~ 0
+TivaTX
 $Comp
 L MRDT_Sensors:FGPMMOPA6H U5
 U 1 1 5BC3F376
@@ -451,7 +435,7 @@ U 1 1 5BD0BD22
 P 3050 4200
 F 0 "C7" H 3100 4300 50  0000 L CNN
 F 1 "680uF" H 3100 4100 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3088 4050 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 3088 4050 50  0001 C CNN
 F 3 "~" H 3050 4200 50  0001 C CNN
 	1    3050 4200
 	1    0    0    1   
@@ -500,9 +484,9 @@ F 3 "~" H 2500 4000 50  0001 C CNN
 	1    2500 4000
 	1    0    0    1   
 $EndComp
-Text GLabel 8850 3000 0    50   Output ~ 0
+Text GLabel 8850 3000 0    50   Input ~ 0
 LIDAR_SDA
-Text GLabel 8850 3100 0    50   Output ~ 0
+Text GLabel 8850 3100 0    50   Input ~ 0
 LIDAR_SCL
 Text Notes 1500 4250 0    50   ~ 0
 Blue
@@ -517,17 +501,6 @@ Wire Wire Line
 Wire Wire Line
 	2600 4050 2600 3850
 Connection ~ 2600 3850
-$Comp
-L 2019_NavB:12mm_Coin_Battery_Cell_Holder U2
-U 1 1 5BE8F78F
-P 4216 2786
-F 0 "U2" H 4300 3222 50  0000 L CNN
-F 1 "12mm_Coin_Battery_Cell_Holder" H 3500 2472 50  0000 L CNN
-F 2 "MRDT_Connectors:CR1220_Battery_Holder" H 4216 2786 50  0001 C CNN
-F 3 "" H 4216 2786 50  0001 C CNN
-	1    4216 2786
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C_Small C10
 U 1 1 5C0FFA1D
@@ -645,10 +618,6 @@ Wire Wire Line
 Wire Wire Line
 	7000 1500 7000 2200
 Wire Wire Line
-	3816 2236 3816 2386
-Wire Wire Line
-	3816 2586 3816 2686
-Wire Wire Line
 	9950 1150 9950 1200
 Wire Wire Line
 	9850 1300 9950 1300
@@ -668,10 +637,6 @@ Wire Wire Line
 	8850 3200 8950 3200
 Wire Wire Line
 	8850 3300 8950 3300
-Text Label 8950 1400 2    50   ~ 0
-Serial7
-Wire Wire Line
-	8650 1400 8950 1400
 Text Notes 600  3750 0    79   ~ 16
 IMU 
 $Comp
@@ -947,7 +912,7 @@ LIDAR_SDA
 Wire Wire Line
 	4800 3950 4800 4000
 Text GLabel 5100 3950 1    39   Input ~ 0
-SDA(0)
+IMU_SDA
 $Comp
 L Device:R R10
 U 1 1 5C7E76CF
@@ -988,11 +953,11 @@ Wire Wire Line
 Wire Wire Line
 	5100 4000 5100 3950
 Text GLabel 5450 3950 1    39   Input ~ 0
-TivaRX(7)
+TivaRX
 Wire Wire Line
 	5450 3950 5450 4000
 Text GLabel 5800 4000 1    39   Input ~ 0
-TivaTX(7)
+TivaTX
 Text Notes 3700 5100 0    39   ~ 0
 GREN\n
 Text Notes 5400 5100 0    39   ~ 0
@@ -1007,7 +972,7 @@ Text Notes 4050 5100 0    39   ~ 0
 GREN\n
 Text Notes 4400 5100 0    39   ~ 0
 RED\n
-Text GLabel 9950 1400 2    50   Input ~ 0
+Text GLabel 9950 1400 2    50   Output ~ 0
 Error_LED
 Wire Wire Line
 	9850 1400 9950 1400
@@ -1101,9 +1066,9 @@ Text GLabel 6150 3950 1    50   Input ~ 0
 SW_Flg1
 Text GLabel 6500 3950 1    50   Input ~ 0
 SW_Flg2
-Text GLabel 9950 1500 2    50   Input ~ 0
+Text GLabel 9950 1500 2    50   Output ~ 0
 SW_Flg1
-Text GLabel 9950 1600 2    50   Input ~ 0
+Text GLabel 9950 1600 2    50   Output ~ 0
 SW_Flg2
 Wire Wire Line
 	9950 1500 9850 1500
@@ -1198,4 +1163,49 @@ Connection ~ 1600 1450
 Connection ~ 1700 2350
 Wire Wire Line
 	1600 2350 1700 2350
+Wire Wire Line
+	3950 2450 3950 2550
+Wire Wire Line
+	4250 2900 4250 2850
+Connection ~ 4250 2850
+Wire Wire Line
+	4250 2850 3950 2850
+Wire Wire Line
+	3900 2250 4200 2250
+Wire Wire Line
+	4200 2250 4200 2450
+Connection ~ 4200 2450
+Wire Wire Line
+	4200 2450 3950 2450
+Wire Wire Line
+	4450 2450 4200 2450
+Wire Wire Line
+	4450 2850 4250 2850
+Wire Wire Line
+	8850 1400 8950 1400
+Text Notes 8500 1350 0    50   ~ 0
+Serial 7\n
+Text Notes 8700 2350 2    50   ~ 0
+I2C2
+$Comp
+L Device:Battery_Cell BT1
+U 1 1 5C1A9C73
+P 4450 2700
+F 0 "BT1" H 4568 2796 50  0000 L CNN
+F 1 "Battery_Cell" H 4568 2705 50  0000 L CNN
+F 2 "MRDT_Connectors:CR1220_Battery_Holder" V 4450 2760 50  0001 C CNN
+F 3 "~" V 4450 2760 50  0001 C CNN
+	1    4450 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 2450 4450 2500
+Wire Wire Line
+	4450 2800 4450 2850
+Wire Wire Line
+	3950 2850 3950 2750
+Text Notes 6250 5100 2    39   ~ 0
+YELO
+Text Notes 6600 5100 2    39   ~ 0
+YELO\n
 $EndSCHEMATC
