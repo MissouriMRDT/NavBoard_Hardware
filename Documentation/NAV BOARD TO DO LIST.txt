@@ -1,0 +1,57 @@
+Download gitingore from google drive and repalce the old one.
+Clean up the repository.
+rename to navboard hardware
+delete the bad gps library
+Make project librays for all libraries
+text file renamed to documntation folder
+Gerbs will go into the gerb folder
+
+Schematic:
+
+make capacitors to nopolarized or to C7/ Csmall//
+Power flags pointing up and ground flags are pointing down//
+clean up wireing//
+less grid space between components//
+make the R2 to 500 Ohms//
+mirror command on the IMU//
+change font size of text a little larger//
+Connect the the dotted lines//
+	Connections:IMU  indicators: Power LED
+Move LiDAR//
+RX7 should be an output//
+rename RX7 to TivaRX and //
+serial7 by The RX7//
+Text about the of what the gps is//
+use European resistor symbols//
+move the D1 closer to the diode//
+Move the backup battery into the GPS block//
+5 volt flag on the indicator//
+Center X9:C1 by 1 space//
+TX7: pc5//
+RX7: PC4//
+Intgs are outputs on the outputs//
+Delete 1PPS//
+Repalce LED Defualt LED//
+Add Red LED for an Error signal connected to a Digitial input/output//
+led on the sda for lidar and off board IMU and Add led to gps rx(yellow)//
+Pin ll on gps name wire EXAnt//
+NO oki instead AP1509: 5 Volt, specify on slik screen that it is 5 volts//
+LiDAR
+Test LiDAR sensor as soon as possible
+
+
+PCB Board Layout:
+High level placement placed at anything divisable by 10//
+Line up the parts to the grid//
+fix the silk screen
+Line up the leds with the resistors//
+fix all the diagonals to not diagnoals//
+reasign all components to 0603 //
+bring the components closer to its parent Module//
+play around with the traces and component placement//
+work on the Title Card
+Move the text closer to its componentes//
+Make sexy polygons
+
+
+
