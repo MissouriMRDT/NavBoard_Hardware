@@ -1,0 +1,3 @@
+LiDAR capacitor is backwards on layout
+	also make it a polar cap in shcematic
+we're sending 5V to the LiDAR I2C pins through the pullup resistors. those should go to 3.3V
