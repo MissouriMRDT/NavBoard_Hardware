@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:2019NavBoard-cache
+LIBS:NavBoard_Hardware-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -960,9 +960,9 @@ Text GLabel 5800 4000 1    39   Input ~ 0
 TivaTX
 Text Notes 3700 5100 0    39   ~ 0
 GREN\n
-Text Notes 5400 5100 0    39   ~ 0
+Text Notes 6100 5100 0    39   ~ 0
 BLU\n
-Text Notes 5750 5100 0    39   ~ 0
+Text Notes 6450 5100 0    39   ~ 0
 BLU\n
 Text Notes 5050 5100 0    39   ~ 0
 YELO\n
@@ -1185,8 +1185,8 @@ Wire Wire Line
 	8850 1400 8950 1400
 Text Notes 8500 1350 0    50   ~ 0
 Serial 7\n
-Text Notes 8700 2350 2    50   ~ 0
-I2C2
+Text Notes 8450 2050 2    50   ~ 0
+I2C0
 $Comp
 L Device:Battery_Cell BT1
 U 1 1 5C1A9C73
@@ -1204,8 +1204,10 @@ Wire Wire Line
 	4450 2800 4450 2850
 Wire Wire Line
 	3950 2850 3950 2750
-Text Notes 6250 5100 2    39   ~ 0
+Text Notes 5550 5100 2    39   ~ 0
 YELO
-Text Notes 6600 5100 2    39   ~ 0
+Text Notes 5900 5100 2    39   ~ 0
 YELO\n
+Text Notes 8400 3100 2    50   ~ 0
+I2C2
 $EndSCHEMATC
