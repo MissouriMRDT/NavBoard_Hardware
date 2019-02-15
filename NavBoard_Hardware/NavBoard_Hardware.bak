@@ -64,7 +64,7 @@ U 1 1 5BC4B8F6
 P 1200 2450
 F 0 "Conn1" H 1300 2400 60  0000 C CNN
 F 1 "AndersonPP" H 1300 2300 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 1050 1900 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 1050 1900 60  0001 C CNN
 F 3 "" H 1050 1900 60  0001 C CNN
 	1    1200 2450
 	1    0    0    -1  
@@ -75,7 +75,7 @@ U 2 1 5BC4B94F
 P 1100 1550
 F 0 "Conn1" H 1306 1937 60  0000 C CNN
 F 1 "AndersonPP" H 1306 1831 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 950 1000 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 950 1000 60  0001 C CNN
 F 3 "" H 950 1000 60  0001 C CNN
 	2    1100 1550
 	1    0    0    -1  
@@ -97,7 +97,7 @@ U 1 1 5BC4CB02
 P 6850 2300
 F 0 "J1" H 6949 2276 50  0000 L CNN
 F 1 "Conn_Coaxial" H 6850 2500 50  0000 L CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132134-16_Vertical" H 6850 2300 50  0001 C CNN
+F 2 "Connector_Coaxial:SMB_Jack_Vertical" H 6850 2300 50  0001 C CNN
 F 3 " ~" H 6850 2300 50  0001 C CNN
 	1    6850 2300
 	1    0    0    -1  
@@ -430,15 +430,15 @@ $EndComp
 Wire Wire Line
 	2600 4350 2600 4500
 $Comp
-L Device:C C7
+L Device:CP1 C7
 U 1 1 5BD0BD22
 P 3050 4200
 F 0 "C7" H 3100 4300 50  0000 L CNN
-F 1 "680uF" H 3100 4100 50  0000 L CNN
+F 1 "680uF" H 2800 4100 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 3088 4050 50  0001 C CNN
 F 3 "~" H 3050 4200 50  0001 C CNN
 	1    3050 4200
-	1    0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0114
@@ -449,17 +449,6 @@ F 1 "GND" H 2505 4227 50  0000 C CNN
 F 2 "" H 2500 4400 50  0001 C CNN
 F 3 "" H 2500 4400 50  0001 C CNN
 	1    2500 4400
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0115
-U 1 1 5BD195C6
-P 3050 3850
-F 0 "#PWR0115" H 3050 3700 50  0001 C CNN
-F 1 "+5V" H 3065 4023 50  0000 C CNN
-F 2 "" H 3050 3850 50  0001 C CNN
-F 3 "" H 3050 3850 50  0001 C CNN
-	1    3050 3850
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -682,7 +671,6 @@ Wire Wire Line
 	3050 4050 3050 3850
 Wire Wire Line
 	3050 4350 3050 4500
-Connection ~ 3050 3850
 Wire Wire Line
 	2600 3850 3050 3850
 Text Notes 2300 3750 0    79   ~ 16
@@ -1193,7 +1181,7 @@ U 1 1 5C1A9C73
 P 4450 2700
 F 0 "BT1" H 4568 2796 50  0000 L CNN
 F 1 "Battery_Cell" H 4568 2705 50  0000 L CNN
-F 2 "MRDT_Connectors:CR1220_Battery_Holder" V 4450 2760 50  0001 C CNN
+F 2 "MRDT_Shields:TM4C129E_Launchpad_X9_SMD_BOTTOM" V 4450 2760 50  0001 C CNN
 F 3 "~" V 4450 2760 50  0001 C CNN
 	1    4450 2700
 	1    0    0    -1  
@@ -1210,4 +1198,16 @@ Text Notes 5900 5100 2    39   ~ 0
 YELO\n
 Text Notes 8400 3100 2    50   ~ 0
 I2C2
+$Comp
+L power:+3V3 #PWR0115
+U 1 1 5C6D088C
+P 3050 3850
+F 0 "#PWR0115" H 3050 3700 50  0001 C CNN
+F 1 "+3V3" H 3065 4023 50  0000 C CNN
+F 2 "" H 3050 3850 50  0001 C CNN
+F 3 "" H 3050 3850 50  0001 C CNN
+	1    3050 3850
+	1    0    0    -1  
+$EndComp
+Connection ~ 3050 3850
 $EndSCHEMATC
