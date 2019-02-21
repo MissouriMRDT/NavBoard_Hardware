@@ -3,5 +3,5 @@ LiDAR capacitor is backwards on layout
 we're sending 5V to the LiDAR I2C pins through the pullup resistors. those should go to 3.3V
 
 
-LiDAR might need an ATmega in the board to communicate correctly.
-ATmega might need an external 16MHz clock to communicate with the TIVA over 115200 baud which is the current rate.
+LiDAR might need an ATmega in the board to communicate correctly. Our ATmegas are ATmega328P-PU (longer thin form factor).
+
