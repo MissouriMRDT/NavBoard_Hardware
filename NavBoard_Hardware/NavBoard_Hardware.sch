@@ -1201,23 +1201,23 @@ F 3 "" H 2300 3850 50  0001 C CNN
 	1    2300 3850
 	1    0    0    -1  
 $EndComp
+Connection ~ 2300 3850
+Wire Wire Line
+	2600 3850 2600 4050
+Wire Wire Line
+	3050 3850 2650 3850
+Wire Wire Line
+	2600 3850 2650 3850
+Connection ~ 2650 3850
 $Comp
-L power:+5V #PWR0126
+L power:+3V3 #PWR0126
 U 1 1 5C6DE8F5
 P 2650 3850
 F 0 "#PWR0126" H 2650 3700 50  0001 C CNN
-F 1 "+5V" H 2665 4023 50  0000 C CNN
+F 1 "+3V3" H 2665 4023 50  0000 C CNN
 F 2 "" H 2650 3850 50  0001 C CNN
 F 3 "" H 2650 3850 50  0001 C CNN
 	1    2650 3850
 	1    0    0    -1  
 $EndComp
-Connection ~ 2300 3850
-Wire Wire Line
-	2600 3850 2650 3850
-Wire Wire Line
-	3050 3850 2650 3850
-Connection ~ 2650 3850
-Wire Wire Line
-	2600 3850 2600 4050
 $EndSCHEMATC
