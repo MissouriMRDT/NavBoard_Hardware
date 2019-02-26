@@ -375,10 +375,10 @@ F 3 "" H 9950 1300 50  0001 C CNN
 	1    9950 1300
 	0    -1   -1   0   
 $EndComp
-Text GLabel 8850 2000 0    50   Input ~ 0
-IMU_SCL
-Text GLabel 8850 2100 0    50   Input ~ 0
-IMU_SDA
+Text GLabel 8850 1600 0    50   Input ~ 0
+IMU_RX
+Text GLabel 8850 1900 0    50   Input ~ 0
+IMU_TX
 Text GLabel 8850 2400 0    50   Input ~ 0
 INT2AG
 Text GLabel 8850 2500 0    50   Input ~ 0
@@ -608,9 +608,9 @@ Wire Wire Line
 Wire Wire Line
 	9850 1300 9950 1300
 Wire Wire Line
-	8850 2000 8950 2000
+	8850 1600 8950 1600
 Wire Wire Line
-	8850 2100 8950 2100
+	8850 1900 8950 1900
 Wire Wire Line
 	8850 2400 8950 2400
 Wire Wire Line
@@ -962,8 +962,6 @@ Wire Notes Line
 	7358 5144 472  5144
 Wire Notes Line
 	472  5144 472  5036
-Wire Notes Line
-	7358 472  7358 5144
 $Comp
 L Device:R R11
 U 1 1 5C196BC0
@@ -1165,8 +1163,8 @@ Wire Wire Line
 	8850 1400 8950 1400
 Text Notes 8500 1350 0    50   ~ 0
 Serial 7\n
-Text Notes 8450 2050 2    50   ~ 0
-I2C0
+Text Notes 8525 1775 2    50   ~ 0
+Serial 5
 $Comp
 L Device:Battery_Cell BT1
 U 1 1 5C1A9C73
@@ -1220,4 +1218,151 @@ F 3 "" H 2650 3850 50  0001 C CNN
 	1    2650 3850
 	1    0    0    -1  
 $EndComp
+$Comp
+L Project_Library:ATMEGA328P U?
+U 1 1 5C75E7DE
+P 8450 6250
+F 0 "U?" H 9250 8917 50  0000 C CNN
+F 1 "ATMEGA328P" H 9250 8826 50  0000 C CNN
+F 2 "DIL28" H 9200 7550 50  0001 C CIN
+F 3 "http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet.pdf" H 9200 7550 50  0001 C CNN
+	1    8450 6250
+	1    0    0    -1  
+$EndComp
+Text GLabel 10250 5100 2    50   Input ~ 0
+LIDAR_SDA
+Text GLabel 10250 5200 2    50   Input ~ 0
+LIDAR_SCL
+Wire Wire Line
+	10200 5100 10250 5100
+Wire Wire Line
+	10200 5200 10250 5200
+Text Notes 10900 5200 2    50   ~ 0
+I2C2
+Text GLabel 10250 5650 2    50   Output ~ 0
+TivaRX
+Text GLabel 10250 5750 2    50   Input ~ 0
+TivaTX
+Wire Wire Line
+	10250 5750 10200 5750
+Wire Wire Line
+	10200 5650 10250 5650
+Wire Notes Line
+	7358 6520 11220 6520
+Wire Notes Line
+	7358 472  7358 6520
+$Comp
+L Device:R R13
+U 1 1 5C7E6AE8
+P 10400 5450
+F 0 "R13" V 10350 5650 50  0000 C CNN
+F 1 "1K" V 10400 5450 50  0000 C CNN
+F 2 "" V 10330 5450 50  0001 C CNN
+F 3 "~" H 10400 5450 50  0001 C CNN
+	1    10400 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 5C7E6BF2
+P 10400 5550
+F 0 "R14" V 10350 5750 50  0000 C CNN
+F 1 "1K" V 10400 5550 50  0000 C CNN
+F 2 "" V 10330 5550 50  0001 C CNN
+F 3 "~" H 10400 5550 50  0001 C CNN
+	1    10400 5550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10200 5450 10250 5450
+Wire Wire Line
+	10200 5550 10250 5550
+Wire Wire Line
+	10550 5450 10700 5450
+Wire Wire Line
+	10550 5550 10700 5550
+Text GLabel 10700 5450 2    50   Input ~ 0
+IC_RX
+Text GLabel 10700 5550 2    50   Output ~ 0
+IC_TX
+$Comp
+L MRDT_Connectors:Molex_SL_04 Conn4
+U 1 1 5C74EB18
+P 2400 5750
+F 0 "Conn4" H 2350 5700 60  0000 L CNN
+F 1 "External_Connector" H 2350 6200 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_04_Horizontal" H 2400 5750 60  0001 C CNN
+F 3 "" H 2400 5750 60  0001 C CNN
+	1    2400 5750
+	1    0    0    -1  
+$EndComp
+Text GLabel 2150 5500 0    50   Output ~ 0
+IC_RX
+Text GLabel 2150 5600 0    50   Input ~ 0
+IC_TX
+Wire Wire Line
+	2200 5500 2150 5500
+Wire Wire Line
+	2200 5600 2150 5600
+Text GLabel 8150 4250 0    50   Input ~ 0
+RESET
+Wire Wire Line
+	8150 4250 8200 4250
+Text GLabel 2150 5700 0    50   Output ~ 0
+RESET
+Wire Wire Line
+	2200 5700 2150 5700
+Wire Wire Line
+	8150 3850 8150 3750
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5C7BECE7
+P 8150 3750
+F 0 "#PWR?" H 8150 3600 50  0001 C CNN
+F 1 "+3.3V" H 8165 3923 50  0000 C CNN
+F 2 "" H 8150 3750 50  0001 C CNN
+F 3 "" H 8150 3750 50  0001 C CNN
+	1    8150 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 6150 8300 6050
+Wire Wire Line
+	8300 6150 8200 6150
+$Comp
+L power:GND #PWR?
+U 1 1 5C7CB729
+P 8200 6150
+F 0 "#PWR?" H 8200 5900 50  0001 C CNN
+F 1 "GND" V 8205 6022 50  0000 R CNN
+F 2 "" H 8200 6150 50  0001 C CNN
+F 3 "" H 8200 6150 50  0001 C CNN
+	1    8200 6150
+	1    0    0    -1  
+$EndComp
+Connection ~ 8300 6150
+Wire Wire Line
+	8300 4000 8300 3850
+Wire Wire Line
+	8150 3850 8200 3850
+Connection ~ 8300 3850
+$Comp
+L Device:R R?
+U 1 1 5C7F7D90
+P 8200 4100
+F 0 "R?" H 8050 4150 50  0000 L CNN
+F 1 "R" H 8175 4100 50  0000 L CNN
+F 2 "" V 8130 4100 50  0001 C CNN
+F 3 "~" H 8200 4100 50  0001 C CNN
+	1    8200 4100
+	1    0    0    -1  
+$EndComp
+Connection ~ 8200 4250
+Wire Wire Line
+	8200 4250 8300 4250
+Wire Wire Line
+	8200 3950 8200 3850
+Connection ~ 8200 3850
+Wire Wire Line
+	8200 3850 8300 3850
 $EndSCHEMATC
