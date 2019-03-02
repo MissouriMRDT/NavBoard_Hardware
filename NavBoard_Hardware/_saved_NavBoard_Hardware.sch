@@ -1215,30 +1215,30 @@ Programming_TX
 $Comp
 L NavBoard_Hardware-rescue:Molex_SL_04-MRDT_Connectors Conn4
 U 1 1 5C74EB18
-P 1480 5520
-F 0 "Conn4" H 1160 5285 60  0000 L CNN
-F 1 "External_Connector" H 820 5370 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_04_Horizontal" H 1480 5520 60  0001 C CNN
-F 3 "" H 1480 5520 60  0001 C CNN
-	1    1480 5520
+P 1330 5020
+F 0 "Conn4" H 1010 4785 60  0000 L CNN
+F 1 "External_Connector" H 670 4870 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_04_Horizontal" H 1330 5020 60  0001 C CNN
+F 3 "" H 1330 5020 60  0001 C CNN
+	1    1330 5020
 	1    0    0    -1  
 $EndComp
-Text GLabel 1230 5270 0    50   Output ~ 0
+Text GLabel 1080 4770 0    50   Output ~ 0
 Programing_RX
-Text GLabel 1230 5370 0    50   Input ~ 0
+Text GLabel 1080 4870 0    50   Input ~ 0
 Programing_TX
 Wire Wire Line
-	1280 5270 1230 5270
+	1130 4770 1080 4770
 Wire Wire Line
-	1280 5370 1230 5370
+	1130 4870 1080 4870
 Text GLabel 4535 4260 0    50   Input ~ 0
 RESET
 Wire Wire Line
 	4535 4260 4585 4260
-Text GLabel 1230 5470 0    50   Output ~ 0
+Text GLabel 1080 4970 0    50   Output ~ 0
 RESET
 Wire Wire Line
-	1280 5470 1230 5470
+	1130 4970 1080 4970
 $Comp
 L NavBoard_Hardware-rescue:+3.3V-power #PWR0127
 U 1 1 5C7BECE7
@@ -1292,10 +1292,10 @@ Wire Wire Line
 	4585 3860 4685 3860
 Wire Notes Line
 	3360 6540 470  6540
-Text GLabel 1230 5170 0    50   Input ~ 0
+Text GLabel 1080 4670 0    50   Input ~ 0
 GND
 Wire Wire Line
-	1230 5170 1280 5170
+	1080 4670 1130 4670
 $Comp
 L NavBoard_Hardware-rescue:C-Device C1
 U 1 1 5C7E8BD1

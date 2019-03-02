@@ -12,4 +12,5 @@
   (lib (name MRDT_Switches)(type Legacy)(uri C:/MRDT_KiCAD_Libraries-2019R2/Symbols/MRDT_Switches.lib)(options "")(descr ""))
   (lib (name GPS_Clock)(type Legacy)(uri C:/Users/poped/Documents/GitHub/GPS_Clock_Hardware/GPS_Clock.lib)(options "")(descr ""))
   (lib (name Project_Library)(type Legacy)(uri "C:/Users/poped/Documents/GitHub/GPS_Clock_Hardware/Project Library.lib")(options "")(descr ""))
+  (lib (name NavBoard_Hardware-rescue)(type Legacy)(uri ${KIPRJMOD}/NavBoard_Hardware-rescue.lib)(options "")(descr ""))
 )

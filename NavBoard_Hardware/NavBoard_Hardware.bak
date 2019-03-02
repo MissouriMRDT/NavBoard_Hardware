@@ -81,17 +81,6 @@ F 3 "" H 950 1000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:Molex_SL_08 Conn3
-U 1 1 5BC4C9CA
-P 700 3850
-F 0 "Conn3" H 512 4900 60  0000 L CNN
-F 1 "Molex_SL_08" H 266 4786 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_08_Horizontal" H 700 4150 60  0001 C CNN
-F 3 "" H 700 4150 60  0001 C CNN
-	1    700  3850
-	-1   0    0    1   
-$EndComp
-$Comp
 L Connector:Conn_Coaxial J1
 U 1 1 5BC4CB02
 P 6850 2300
@@ -238,56 +227,6 @@ F 3 "~" H 3950 2650 50  0001 C CNN
 $EndComp
 Text GLabel 3900 2250 0    50   Input ~ 0
 VBACKUP
-Wire Wire Line
-	900  4600 1050 4600
-$Comp
-L power:GND #PWR0107
-U 1 1 5BC60B10
-P 1050 4600
-F 0 "#PWR0107" H 1050 4350 50  0001 C CNN
-F 1 "GND" H 1250 4550 50  0000 R CNN
-F 2 "" H 1050 4600 50  0001 C CNN
-F 3 "" H 1050 4600 50  0001 C CNN
-	1    1050 4600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	900  4500 1050 4500
-Wire Wire Line
-	900  4400 1050 4400
-Wire Wire Line
-	900  4300 1050 4300
-Wire Wire Line
-	900  4200 1050 4200
-Wire Wire Line
-	900  4100 1050 4100
-Wire Wire Line
-	900  4000 1050 4000
-Wire Wire Line
-	900  3900 1050 3900
-$Comp
-L power:+3V3 #PWR0108
-U 1 1 5BC68540
-P 1050 3900
-F 0 "#PWR0108" H 1050 3750 50  0001 C CNN
-F 1 "+3V3" H 1100 3950 50  0000 L CNN
-F 2 "" H 1050 3900 50  0001 C CNN
-F 3 "" H 1050 3900 50  0001 C CNN
-	1    1050 3900
-	1    0    0    -1  
-$EndComp
-Text GLabel 1050 4500 2    50   Output ~ 0
-INT2AG
-Text GLabel 1050 4400 2    50   Output ~ 0
-INT1AG
-Text GLabel 1050 4300 2    50   Output ~ 0
-INTM
-Text GLabel 1050 4200 2    50   Output ~ 0
-DRDYM
-Text GLabel 1050 4100 2    50   Input ~ 0
-IMU_TX
-Text GLabel 1050 4000 2    50   Input ~ 0
-IMU_RX
 $Comp
 L Device:R R2
 U 1 1 5BC68B57
@@ -623,8 +562,6 @@ Wire Wire Line
 	8810 3040 8910 3040
 Wire Wire Line
 	8810 3140 8910 3140
-Text Notes 600  3750 0    79   ~ 16
-IMU 
 $Comp
 L power:GND #PWR0101
 U 1 1 5C5C9DBF
@@ -1383,26 +1320,26 @@ Serial 5
 $Comp
 L MRDT_Connectors:Molex_SL_03 Conn5
 U 1 1 5C8136C3
-P 2535 5435
-F 0 "Conn5" H 2662 5643 60  0000 L CNN
-F 1 "Molex_SL_03" H 2662 5537 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_03_Horizontal" H 2535 5435 60  0001 C CNN
-F 3 "" H 2535 5435 60  0001 C CNN
-	1    2535 5435
+P 1095 4230
+F 0 "Conn5" H 830 4030 60  0000 L CNN
+F 1 "Molex_SL_03" H 705 4125 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_03_Horizontal" H 1095 4230 60  0001 C CNN
+F 3 "" H 1095 4230 60  0001 C CNN
+	1    1095 4230
 	1    0    0    -1  
 $EndComp
-Text GLabel 2295 5185 0    50   Input ~ 0
+Text GLabel 855  3980 0    50   Input ~ 0
 GND
 Wire Wire Line
-	2295 5185 2335 5185
+	855  3980 895  3980
 Wire Wire Line
-	2335 5285 2295 5285
-Text GLabel 2295 5385 0    50   Input ~ 0
+	895  4080 855  4080
+Text GLabel 855  4180 0    50   Input ~ 0
 IMU_TX
-Text GLabel 2295 5285 0    50   Input ~ 0
+Text GLabel 855  4080 0    50   Input ~ 0
 IMU_RX
 Wire Wire Line
-	2335 5385 2295 5385
+	895  4180 855  4180
 Connection ~ 4535 3860
 Wire Notes Line
 	472  3300 11220 3300
@@ -1468,4 +1405,6 @@ Wire Notes Line
 	3360 6535 3360 470 
 Text Notes 3390 3485 0    118  ~ 24
 ATMEGA-328P\n
+Text Notes 600  3750 0    79   ~ 16
+IMU 
 $EndSCHEMATC
