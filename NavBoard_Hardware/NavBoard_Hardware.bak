@@ -737,7 +737,7 @@ Wire Notes Line
 	3360 6535 3360 470 
 Text Notes 3390 3485 0    118  ~ 24
 ATMEGA-328P\n
-Text Notes 1850 4950 0    79   ~ 16
+Text Notes 1850 4900 0    79   ~ 16
 IMU 
 $Comp
 L NavBoard_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields U1
@@ -926,9 +926,6 @@ Wire Wire Line
 Connection ~ 3950 4650
 Wire Wire Line
 	3950 3900 3800 3900
-Connection ~ 3950 3900
-Text GLabel 3800 3900 0    50   Input ~ 0
-GND
 $Comp
 L power:+3V3 #PWR0107
 U 1 1 5CA14005
@@ -1341,16 +1338,14 @@ $EndComp
 $Comp
 L NavBoard_Hardware-rescue:Molex_SL_04-MRDT_Connectors Conn4
 U 1 1 5C7FFA12
-P 2100 5900
-F 0 "Conn4" H 2250 6100 60  0000 L CNN
-F 1 "Molex_SL_04-MRDT_Connectors" H 1350 5850 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_04_Horizontal" H 2100 5900 60  0001 C CNN
-F 3 "" H 2100 5900 60  0001 C CNN
-	1    2100 5900
+P 2100 5950
+F 0 "Conn4" H 2250 6150 60  0000 L CNN
+F 1 "Molex_SL_04-MRDT_Connectors" H 1350 5900 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_04_Horizontal" H 2100 5950 60  0001 C CNN
+F 3 "" H 2100 5950 60  0001 C CNN
+	1    2100 5950
 	1    0    0    -1  
 $EndComp
-Text GLabel 1850 5100 0    50   Input ~ 0
-GND
 Text GLabel 1850 5300 0    50   Input ~ 0
 IMU_TX
 Text GLabel 1850 5200 0    50   Output ~ 0
@@ -1361,22 +1356,97 @@ Wire Wire Line
 	1900 5200 1850 5200
 Wire Wire Line
 	1850 5300 1900 5300
-Text GLabel 1850 5550 0    50   Input ~ 0
-GND
-Text GLabel 1850 5650 0    50   Output ~ 0
+Text GLabel 1850 5700 0    50   Output ~ 0
 Programing_RX
-Text GLabel 1850 5750 0    50   Input ~ 0
+Text GLabel 1850 5800 0    50   Input ~ 0
 Programing_TX
-Text GLabel 1850 5850 0    50   Input ~ 0
+Text GLabel 1850 5900 0    50   Output ~ 0
 RESET
 Wire Wire Line
-	1850 5550 1900 5550
+	1850 5600 1900 5600
 Wire Wire Line
-	1850 5650 1900 5650
+	1850 5700 1900 5700
 Wire Wire Line
-	1850 5750 1900 5750
+	1850 5800 1900 5800
 Wire Wire Line
-	1850 5850 1900 5850
+	1850 5900 1900 5900
 Wire Wire Line
 	1500 2350 1700 2350
+Connection ~ 3950 3900
+$Comp
+L power:GND #PWR0125
+U 1 1 5C80B424
+P 3800 3900
+F 0 "#PWR0125" H 3800 3650 50  0001 C CNN
+F 1 "GND" H 3805 3727 50  0000 C CNN
+F 2 "" H 3800 3900 50  0001 C CNN
+F 3 "" H 3800 3900 50  0001 C CNN
+	1    3800 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0127
+U 1 1 5C819482
+P 1850 5100
+F 0 "#PWR0127" H 1850 4850 50  0001 C CNN
+F 1 "GND" H 2000 5050 50  0000 C CNN
+F 2 "" H 1850 5100 50  0001 C CNN
+F 3 "" H 1850 5100 50  0001 C CNN
+	1    1850 5100
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0128
+U 1 1 5C826EF8
+P 1850 5600
+F 0 "#PWR0128" H 1850 5350 50  0001 C CNN
+F 1 "GND" H 2000 5550 50  0000 C CNN
+F 2 "" H 1850 5600 50  0001 C CNN
+F 3 "" H 1850 5600 50  0001 C CNN
+	1    1850 5600
+	-1   0    0    1   
+$EndComp
+Text Notes 7985 6505 0    39   ~ 0
+YELO\n
+$Comp
+L Device:LED D11
+U 1 1 5C827458
+P 8050 6050
+F 0 "D11" V 8088 5933 50  0000 R CNN
+F 1 "LED" V 7997 5933 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8050 6050 50  0001 C CNN
+F 3 "~" H 8050 6050 50  0001 C CNN
+	1    8050 6050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R16
+U 1 1 5C82745F
+P 8050 5700
+F 0 "R16" H 8100 5700 50  0000 L CNN
+F 1 "500" V 8050 5600 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7980 5700 50  0001 C CNN
+F 3 "~" H 8050 5700 50  0001 C CNN
+	1    8050 5700
+	1    0    0    -1  
+$EndComp
+Text GLabel 8050 5500 1    50   Input ~ 0
+IMU_TX
+Wire Wire Line
+	8050 5500 8050 5550
+Wire Wire Line
+	8050 5850 8050 5900
+$Comp
+L power:GND #PWR0129
+U 1 1 5C827469
+P 8050 6250
+F 0 "#PWR0129" H 8050 6000 50  0001 C CNN
+F 1 "GND" H 8055 6077 50  0000 C CNN
+F 2 "" H 8050 6250 50  0001 C CNN
+F 3 "" H 8050 6250 50  0001 C CNN
+	1    8050 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 6200 8050 6250
 $EndSCHEMATC

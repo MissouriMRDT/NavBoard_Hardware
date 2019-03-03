@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\Admin\Documents\GitHub\NavBoard_Hardware\NavBoard_Hardware\NavBoard_Hardware.sch)
-    (date "3/3/2019 2:49:40 PM")
+    (date "3/3/2019 2:50:34 PM")
     (tool "Eeschema (5.0.2)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
