@@ -1351,10 +1351,10 @@ F 3 "" H 2100 5900 60  0001 C CNN
 $EndComp
 Text GLabel 1850 5100 0    50   Input ~ 0
 GND
-Text GLabel 1850 5200 0    50   Input ~ 0
-IMU_RX
-Text GLabel 1850 5300 0    50   Output ~ 0
+Text GLabel 1850 5300 0    50   Input ~ 0
 IMU_TX
+Text GLabel 1850 5200 0    50   Output ~ 0
+IMU_RX
 Wire Wire Line
 	1850 5100 1900 5100
 Wire Wire Line
