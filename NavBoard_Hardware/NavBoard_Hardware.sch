@@ -1313,7 +1313,7 @@ Wire Wire Line
 Wire Wire Line
 	10800 4800 10800 4850
 $Comp
-L MRDT_Connectors:Molex_SL_02 Conn3
+L NavBoard_Hardware-rescue:Molex_SL_02-MRDT_Connectors Conn3
 U 1 1 5C7D6386
 P 1250 5400
 F 0 "Conn3" H 1400 5550 60  0000 L CNN
@@ -1334,10 +1334,10 @@ F 3 "" H 2850 5450 60  0001 C CNN
 	1    2850 5450
 	1    0    0    -1  
 $EndComp
-Text GLabel 1000 5350 0    50   Output ~ 0
+Text GLabel 1000 5250 0    50   Output ~ 0
 IMU_RX
 Wire Wire Line
-	1000 5350 1050 5350
+	1000 5250 1050 5250
 Text GLabel 2600 5200 0    50   Output ~ 0
 Programing_RX
 Text GLabel 2600 5300 0    50   Input ~ 0
@@ -1369,13 +1369,13 @@ $EndComp
 $Comp
 L power:GND #PWR0127
 U 1 1 5C819482
-P 1000 5250
-F 0 "#PWR0127" H 1000 5000 50  0001 C CNN
-F 1 "GND" H 1150 5200 50  0000 C CNN
-F 2 "" H 1000 5250 50  0001 C CNN
-F 3 "" H 1000 5250 50  0001 C CNN
-	1    1000 5250
-	-1   0    0    1   
+P 1000 5350
+F 0 "#PWR0127" H 1000 5100 50  0001 C CNN
+F 1 "GND" H 1150 5300 50  0000 C CNN
+F 2 "" H 1000 5350 50  0001 C CNN
+F 3 "" H 1000 5350 50  0001 C CNN
+	1    1000 5350
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0128
@@ -1388,49 +1388,6 @@ F 3 "" H 2600 5100 50  0001 C CNN
 	1    2600 5100
 	-1   0    0    1   
 $EndComp
-Text Notes 7985 6505 0    39   ~ 0
-YELO\n
-$Comp
-L Device:LED D11
-U 1 1 5C827458
-P 8050 6050
-F 0 "D11" V 8088 5933 50  0000 R CNN
-F 1 "LED" V 7997 5933 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8050 6050 50  0001 C CNN
-F 3 "~" H 8050 6050 50  0001 C CNN
-	1    8050 6050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R16
-U 1 1 5C82745F
-P 8050 5700
-F 0 "R16" H 8100 5700 50  0000 L CNN
-F 1 "500" V 8050 5600 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7980 5700 50  0001 C CNN
-F 3 "~" H 8050 5700 50  0001 C CNN
-	1    8050 5700
-	1    0    0    -1  
-$EndComp
-Text GLabel 8050 5500 1    50   Input ~ 0
-IMU_TX
-Wire Wire Line
-	8050 5500 8050 5550
-Wire Wire Line
-	8050 5850 8050 5900
-$Comp
-L power:GND #PWR0129
-U 1 1 5C827469
-P 8050 6250
-F 0 "#PWR0129" H 8050 6000 50  0001 C CNN
-F 1 "GND" H 8055 6077 50  0000 C CNN
-F 2 "" H 8050 6250 50  0001 C CNN
-F 3 "" H 8050 6250 50  0001 C CNN
-	1    8050 6250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8050 6200 8050 6250
 Text GLabel 6650 5800 2    50   Output ~ 0
 TIVAtoATM_TX
 Text GLabel 6650 5700 2    50   Input ~ 0
@@ -1681,7 +1638,7 @@ U 1 1 5CAB5E96
 P 2650 6750
 F 0 "D12" H 2650 6534 50  0000 C CNN
 F 1 "1N4148" H 2650 6625 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2650 6575 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323" H 2650 6575 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2650 6750 50  0001 C CNN
 	1    2650 6750
 	-1   0    0    1   
@@ -1703,5 +1660,5 @@ Wire Notes Line
 Wire Notes Line
 	4000 6550 4000 7800
 Wire Wire Line
-	1050 5250 1000 5250
+	1050 5350 1000 5350
 $EndSCHEMATC

@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Device:C
+# Device_C
 #
-DEF Device:C C 0 10 N Y 1 F N
+DEF Device_C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Device:C" 25 -100 50 H V L CNN
+F1 "Device_C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -19,11 +19,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:Crystal
+# Device_Crystal
 #
-DEF Device:Crystal Y 0 40 N N 1 F N
+DEF Device_Crystal Y 0 40 N N 1 F N
 F0 "Y" 0 150 50 H V C CNN
-F1 "Device:Crystal" 0 -150 50 H V C CNN
+F1 "Device_Crystal" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -40,11 +40,11 @@ X 2 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:LED
+# Device_LED
 #
-DEF Device:LED D 0 40 N N 1 F N
+DEF Device_LED D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Device:LED" 0 -100 50 H V C CNN
+F1 "Device_LED" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -63,11 +63,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:R
+# Device_R
 #
-DEF Device:R R 0 0 N Y 1 F N
+DEF Device_R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Device:R" 0 0 50 V V C CNN
+F1 "Device_R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -80,11 +80,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Diode:1N4148
+# Diode_1N4148
 #
-DEF Diode:1N4148 D 0 40 N N 1 F N
+DEF Diode_1N4148 D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Diode:1N4148" 0 -100 50 H V C CNN
+F1 "Diode_1N4148" 0 -100 50 H V C CNN
 F2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" 0 -175 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 ALIAS 1N4448 1N4149 1N4151 1N914 BA243 BA244 BA282 BA283 BAV17 BAV18 BAV19 BAV20 BAV21 BAW75 BAW76 BAY93
@@ -100,25 +100,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MRDT_Connectors:Molex_SL_02
+# NavBoard_Hardware-rescue_+3.3V-power
 #
-DEF MRDT_Connectors:Molex_SL_02 Conn 0 40 Y Y 1 F N
-F0 "Conn" 150 -50 60 H V C CNN
-F1 "MRDT_Connectors:Molex_SL_02" 50 250 60 H V C CNN
-F2 "" 0 -100 60 H I C CNN
-F3 "" 0 -100 60 H I C CNN
-DRAW
-S 0 200 100 0 0 1 0 N
-X ~ 1 -200 150 200 R 50 50 1 1 I
-X ~ 2 -200 50 200 R 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# NavBoard_Hardware-rescue:+3.3V-power
-#
-DEF NavBoard_Hardware-rescue:+3.3V-power #PWR 0 0 Y Y 1 F P
+DEF NavBoard_Hardware-rescue_+3.3V-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "NavBoard_Hardware-rescue:+3.3V-power" 0 140 50 H V C CNN
+F1 "NavBoard_Hardware-rescue_+3.3V-power" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -129,11 +115,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# NavBoard_Hardware-rescue:+3V3-power
+# NavBoard_Hardware-rescue_+3V3-power
 #
-DEF NavBoard_Hardware-rescue:+3V3-power #PWR 0 0 Y Y 1 F P
+DEF NavBoard_Hardware-rescue_+3V3-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "NavBoard_Hardware-rescue:+3V3-power" 0 140 50 H V C CNN
+F1 "NavBoard_Hardware-rescue_+3V3-power" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -144,11 +130,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# NavBoard_Hardware-rescue:+5V-power
+# NavBoard_Hardware-rescue_+5V-power
 #
-DEF NavBoard_Hardware-rescue:+5V-power #PWR 0 0 Y Y 1 F P
+DEF NavBoard_Hardware-rescue_+5V-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "NavBoard_Hardware-rescue:+5V-power" 0 140 50 H V C CNN
+F1 "NavBoard_Hardware-rescue_+5V-power" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -159,11 +145,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# NavBoard_Hardware-rescue:ATMEGA328P-Project_Library
+# NavBoard_Hardware-rescue_ATMEGA328P-Project_Library
 #
-DEF NavBoard_Hardware-rescue:ATMEGA328P-Project_Library U 0 40 Y Y 1 F N
+DEF NavBoard_Hardware-rescue_ATMEGA328P-Project_Library U 0 40 Y Y 1 F N
 F0 "U" 1550 -100 50 H V L BNN
-F1 "NavBoard_Hardware-rescue:ATMEGA328P-Project_Library" 500 2550 50 H V L BNN
+F1 "NavBoard_Hardware-rescue_ATMEGA328P-Project_Library" 500 2550 50 H V L BNN
 F2 "DIL28" 750 1300 50 H I C CIN
 F3 "" 750 1300 50 H I C CNN
 $FPLIST
@@ -203,11 +189,11 @@ X (PCINT6/XTAL1/TOSC1)PB6 9 -150 1550 150 R 40 40 1 1 B
 ENDDRAW
 ENDDEF
 #
-# NavBoard_Hardware-rescue:AndersonPP-MRDT_Connectors
+# NavBoard_Hardware-rescue_AndersonPP-MRDT_Connectors
 #
-DEF NavBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn 0 0 N Y 5 L N
+DEF NavBoard_Hardware-rescue_AndersonPP-MRDT_Connectors Conn 0 0 N Y 5 L N
 F0 "Conn" 150 -50 60 H V C CNN
-F1 "NavBoard_Hardware-rescue:AndersonPP-MRDT_Connectors" 100 250 60 H V C CNN
+F1 "NavBoard_Hardware-rescue_AndersonPP-MRDT_Connectors" 100 250 60 H V C CNN
 F2 "" -150 -550 60 H I C CNN
 F3 "" -150 -550 60 H I C CNN
 DRAW
@@ -223,11 +209,11 @@ X ~ 1 400 100 200 L 50 39 5 1 I
 ENDDRAW
 ENDDEF
 #
-# NavBoard_Hardware-rescue:Battery_Cell-Device
+# NavBoard_Hardware-rescue_Battery_Cell-Device
 #
-DEF NavBoard_Hardware-rescue:Battery_Cell-Device BT 0 0 N N 1 F N
+DEF NavBoard_Hardware-rescue_Battery_Cell-Device BT 0 0 N N 1 F N
 F0 "BT" 100 100 50 H V L CNN
-F1 "NavBoard_Hardware-rescue:Battery_Cell-Device" 100 0 50 H V L CNN
+F1 "NavBoard_Hardware-rescue_Battery_Cell-Device" 100 0 50 H V L CNN
 F2 "" 0 60 50 V I C CNN
 F3 "" 0 60 50 V I C CNN
 DRAW
@@ -242,11 +228,11 @@ X - 2 0 -100 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# NavBoard_Hardware-rescue:CP1-Device
+# NavBoard_Hardware-rescue_CP1-Device
 #
-DEF NavBoard_Hardware-rescue:CP1-Device C 0 10 N N 1 F N
+DEF NavBoard_Hardware-rescue_CP1-Device C 0 10 N N 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "NavBoard_Hardware-rescue:CP1-Device" 25 -100 50 H V L CNN
+F1 "NavBoard_Hardware-rescue_CP1-Device" 25 -100 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -262,11 +248,11 @@ X ~ 2 0 -150 130 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# NavBoard_Hardware-rescue:C_Small-Device
+# NavBoard_Hardware-rescue_C_Small-Device
 #
-DEF NavBoard_Hardware-rescue:C_Small-Device C 0 10 N N 1 F N
+DEF NavBoard_Hardware-rescue_C_Small-Device C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "NavBoard_Hardware-rescue:C_Small-Device" 10 -80 50 H V L CNN
+F1 "NavBoard_Hardware-rescue_C_Small-Device" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -280,11 +266,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# NavBoard_Hardware-rescue:Conn_Coaxial-Connector
+# NavBoard_Hardware-rescue_Conn_Coaxial-Connector
 #
-DEF NavBoard_Hardware-rescue:Conn_Coaxial-Connector J 0 40 Y N 1 F N
+DEF NavBoard_Hardware-rescue_Conn_Coaxial-Connector J 0 40 Y N 1 F N
 F0 "J" 10 120 50 H V C CNN
-F1 "NavBoard_Hardware-rescue:Conn_Coaxial-Connector" 115 0 50 V V C CNN
+F1 "NavBoard_Hardware-rescue_Conn_Coaxial-Connector" 115 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -305,11 +291,11 @@ X Ext 2 0 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# NavBoard_Hardware-rescue:FGPMMOPA6H-MRDT_Sensors
+# NavBoard_Hardware-rescue_FGPMMOPA6H-MRDT_Sensors
 #
-DEF NavBoard_Hardware-rescue:FGPMMOPA6H-MRDT_Sensors U 0 40 Y Y 1 F N
+DEF NavBoard_Hardware-rescue_FGPMMOPA6H-MRDT_Sensors U 0 40 Y Y 1 F N
 F0 "U" 50 -50 60 H V C CNN
-F1 "NavBoard_Hardware-rescue:FGPMMOPA6H-MRDT_Sensors" 250 1050 60 H V C CNN
+F1 "NavBoard_Hardware-rescue_FGPMMOPA6H-MRDT_Sensors" 250 1050 60 H V C CNN
 F2 "" -200 -250 60 H I C CNN
 F3 "" -200 -250 60 H I C CNN
 DRAW
@@ -337,11 +323,11 @@ X TX 9 -200 150 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# NavBoard_Hardware-rescue:GND-power
+# NavBoard_Hardware-rescue_GND-power
 #
-DEF NavBoard_Hardware-rescue:GND-power #PWR 0 0 Y Y 1 F P
+DEF NavBoard_Hardware-rescue_GND-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "NavBoard_Hardware-rescue:GND-power" 0 -150 50 H V C CNN
+F1 "NavBoard_Hardware-rescue_GND-power" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -350,11 +336,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# NavBoard_Hardware-rescue:INDUCTOR-pspice
+# NavBoard_Hardware-rescue_INDUCTOR-pspice
 #
-DEF NavBoard_Hardware-rescue:INDUCTOR-pspice L 0 0 N Y 1 F N
+DEF NavBoard_Hardware-rescue_INDUCTOR-pspice L 0 0 N Y 1 F N
 F0 "L" 0 100 50 H V C CNN
-F1 "NavBoard_Hardware-rescue:INDUCTOR-pspice" 0 -50 50 H V C CNN
+F1 "NavBoard_Hardware-rescue_INDUCTOR-pspice" 0 -50 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -367,11 +353,11 @@ X 2 2 250 0 50 L 30 30 1 1 I
 ENDDRAW
 ENDDEF
 #
-# NavBoard_Hardware-rescue:LED-Device
+# NavBoard_Hardware-rescue_LED-Device
 #
-DEF NavBoard_Hardware-rescue:LED-Device D 0 40 N N 1 F N
+DEF NavBoard_Hardware-rescue_LED-Device D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "NavBoard_Hardware-rescue:LED-Device" 0 -100 50 H V C CNN
+F1 "NavBoard_Hardware-rescue_LED-Device" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -390,11 +376,25 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# NavBoard_Hardware-rescue:Molex_SL_04-MRDT_Connectors
+# NavBoard_Hardware-rescue_Molex_SL_02-MRDT_Connectors
 #
-DEF NavBoard_Hardware-rescue:Molex_SL_04-MRDT_Connectors Conn 0 40 Y Y 1 F N
+DEF NavBoard_Hardware-rescue_Molex_SL_02-MRDT_Connectors Conn 0 40 Y Y 1 F N
 F0 "Conn" 150 -50 60 H V C CNN
-F1 "NavBoard_Hardware-rescue:Molex_SL_04-MRDT_Connectors" 50 450 60 H V C CNN
+F1 "NavBoard_Hardware-rescue_Molex_SL_02-MRDT_Connectors" 50 250 60 H V C CNN
+F2 "" 0 -100 60 H I C CNN
+F3 "" 0 -100 60 H I C CNN
+DRAW
+S 0 200 100 0 0 1 0 N
+X ~ 1 -200 150 200 R 50 50 1 1 I
+X ~ 2 -200 50 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# NavBoard_Hardware-rescue_Molex_SL_04-MRDT_Connectors
+#
+DEF NavBoard_Hardware-rescue_Molex_SL_04-MRDT_Connectors Conn 0 40 Y Y 1 F N
+F0 "Conn" 150 -50 60 H V C CNN
+F1 "NavBoard_Hardware-rescue_Molex_SL_04-MRDT_Connectors" 50 450 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -406,11 +406,11 @@ X ~ 4 -200 50 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# NavBoard_Hardware-rescue:OKI-MRDT_Devices
+# NavBoard_Hardware-rescue_OKI-MRDT_Devices
 #
-DEF NavBoard_Hardware-rescue:OKI-MRDT_Devices U 0 40 Y Y 1 F N
+DEF NavBoard_Hardware-rescue_OKI-MRDT_Devices U 0 40 Y Y 1 F N
 F0 "U" 50 -50 60 H I C CNN
-F1 "NavBoard_Hardware-rescue:OKI-MRDT_Devices" 200 250 60 H V C CNN
+F1 "NavBoard_Hardware-rescue_OKI-MRDT_Devices" 200 250 60 H V C CNN
 F2 "" -200 -100 60 H I C CNN
 F3 "" -200 -100 60 H I C CNN
 DRAW
@@ -421,11 +421,11 @@ X Vo 3 600 100 200 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# NavBoard_Hardware-rescue:R-Device
+# NavBoard_Hardware-rescue_R-Device
 #
-DEF NavBoard_Hardware-rescue:R-Device R 0 0 N Y 1 F N
+DEF NavBoard_Hardware-rescue_R-Device R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "NavBoard_Hardware-rescue:R-Device" 0 0 50 V V C CNN
+F1 "NavBoard_Hardware-rescue_R-Device" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -438,11 +438,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# NavBoard_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields
+# NavBoard_Hardware-rescue_TM4C129E_Launchpad-MRDT_Shields
 #
-DEF NavBoard_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields U 0 20 Y Y 8 L N
+DEF NavBoard_Hardware-rescue_TM4C129E_Launchpad-MRDT_Shields U 0 20 Y Y 8 L N
 F0 "U" 100 -50 60 H V C CNN
-F1 "NavBoard_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields" 100 1150 60 H V C CNN
+F1 "NavBoard_Hardware-rescue_TM4C129E_Launchpad-MRDT_Shields" 100 1150 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -538,14 +538,14 @@ X D2_5 Rese' -200 550 200 R 50 50 8 1 I
 ENDDRAW
 ENDDEF
 #
-# Transistor_FET:BSS138
+# Transistor_FET_BSS138
 #
-DEF Transistor_FET:BSS138 Q 0 0 Y N 1 F N
+DEF Transistor_FET_BSS138 Q 0 0 Y N 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "Transistor_FET:BSS138" 200 0 50 H V L CNN
+F1 "Transistor_FET_BSS138" 200 0 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-23" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
-ALIAS 2N7002 MMBF170
+ALIAS 2N7002 2N7002E 2N7002H BS170F BS870 BSN20 BSS123 BSS127S DMG2302U DMG3402L DMG3404L DMG3406L DMG3414U DMG3418L DMN10H220L DMN10H700S DMN13H750S DMN2041L DMN2050L DMN2056U DMN2058U DMN2075U DMN2230U DMN24H11DS DMN24H3D5L DMN3042L DMN3051L DMN30H4D0L DMN3110S DMN3150L DMN3300U DMN3404L DMN6075S DMN6140L DMN67D7L DMN67D8L MMBF170 VN10LF ZVN3306F ZVN3310F ZVN3320F ZVN4106F ZXM61N02F ZXM61N03F ZXMN10A07F ZXMN2A01F ZXMN2A14F ZXMN2B01F ZXMN2B14FH ZXMN2F30FH ZXMN2F34FH ZXMN3A01F ZXMN3A14F ZXMN3B01F ZXMN3B14F ZXMN3F30FH ZXMN6A07F IRLML2060
 $FPLIST
  SOT?23*
 $ENDFPLIST
@@ -573,11 +573,11 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# power:+3V3
+# power_+3V3
 #
-DEF power:+3V3 #PWR 0 0 Y Y 1 F P
+DEF power_+3V3 #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+3V3" 0 140 50 H V C CNN
+F1 "power_+3V3" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 ALIAS +3.3V
@@ -589,11 +589,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:+5V
+# power_+5V
 #
-DEF power:+5V #PWR 0 0 Y Y 1 F P
+DEF power_+5V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+5V" 0 140 50 H V C CNN
+F1 "power_+5V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -604,11 +604,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:GND
+# power_GND
 #
-DEF power:GND #PWR 0 0 Y Y 1 F P
+DEF power_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power:GND" 0 -150 50 H V C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
