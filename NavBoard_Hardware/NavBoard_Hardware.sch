@@ -756,9 +756,9 @@ Connection ~ 1900 3850
 Connection ~ 1800 3850
 Text Notes 7385 5260 2    50   ~ 0
 I2C2
-Text GLabel 7100 5500 2    50   Input ~ 0
+Text GLabel 7100 5500 2    50   Output ~ 0
 Programming_TX
-Text GLabel 7100 5600 2    50   Output ~ 0
+Text GLabel 7100 5600 2    50   Input ~ 0
 Programming_RX
 $Comp
 L NavBoard_Hardware-rescue:ATMEGA328P-Project_Library U2
@@ -1363,9 +1363,9 @@ Wire Wire Line
 	1850 5300 1900 5300
 Text GLabel 1850 5550 0    50   Input ~ 0
 GND
-Text GLabel 1850 5650 0    50   Input ~ 0
+Text GLabel 1850 5650 0    50   Output ~ 0
 Programing_RX
-Text GLabel 1850 5750 0    50   Output ~ 0
+Text GLabel 1850 5750 0    50   Input ~ 0
 Programing_TX
 Text GLabel 1850 5850 0    50   Input ~ 0
 RESET
