@@ -257,8 +257,6 @@ F 3 "" H 9915 1200 50  0001 C CNN
 $EndComp
 Text GLabel 8815 1500 0    50   Input ~ 0
 IMU_RX
-Text GLabel 8815 1800 0    50   Output ~ 0
-IMU_TX
 Text GLabel 8815 1300 0    50   Input ~ 0
 GPS_RX
 Text GLabel 8815 1400 0    50   Output ~ 0
@@ -345,10 +343,6 @@ F 3 "~" H 1800 4000 50  0001 C CNN
 	1    1800 4000
 	1    0    0    1   
 $EndComp
-Text GLabel 8810 2840 0    50   Input ~ 0
-LIDAR_SDA
-Text GLabel 8810 2940 0    50   Input ~ 0
-LIDAR_SCL
 Text Notes 800  4250 0    50   ~ 0
 Blue
 Text Notes 800  4150 0    50   ~ 0
@@ -483,10 +477,6 @@ Wire Wire Line
 	8815 1500 8915 1500
 Wire Wire Line
 	8815 1800 8915 1800
-Wire Wire Line
-	8810 2840 8910 2840
-Wire Wire Line
-	8810 2940 8910 2940
 $Comp
 L NavBoard_Hardware-rescue:GND-power #PWR0101
 U 1 1 5C5C9DBF
@@ -680,7 +670,7 @@ Wire Wire Line
 	8815 1300 8915 1300
 Text Notes 8465 1250 0    50   ~ 0
 Serial 7\n
-Text Notes 8490 1675 2    50   ~ 0
+Text Notes 8590 1725 2    50   ~ 0
 Serial 5
 $Comp
 L NavBoard_Hardware-rescue:Battery_Cell-Device BT1
@@ -703,8 +693,6 @@ Text Notes 9935 5155 2    39   ~ 0
 YELO
 Text Notes 10285 5155 2    39   ~ 0
 YELO\n
-Text Notes 8360 2940 2    50   ~ 0
-I2C2
 Wire Wire Line
 	1900 3850 1900 4050
 Wire Wire Line
@@ -724,7 +712,7 @@ F 3 "" H 1950 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	3360 6540 470  6540
+	3360 5580 470  5580
 Text Notes 800  4070 0    50   ~ 0
 Serial 5
 Wire Notes Line
@@ -927,11 +915,11 @@ Connection ~ 3950 4650
 Wire Wire Line
 	3950 3900 3800 3900
 $Comp
-L power:+3V3 #PWR0107
+L power:+5V #PWR0107
 U 1 1 5CA14005
 P 4500 3900
 F 0 "#PWR0107" H 4500 3750 50  0001 C CNN
-F 1 "+3V3" H 4515 4073 50  0000 C CNN
+F 1 "+5V" H 4515 4073 50  0000 C CNN
 F 2 "" H 4500 3900 50  0001 C CNN
 F 3 "" H 4500 3900 50  0001 C CNN
 	1    4500 3900
@@ -1327,49 +1315,47 @@ Wire Wire Line
 $Comp
 L NavBoard_Hardware-rescue:Molex_SL_03-MRDT_Connectors Conn3
 U 1 1 5C7D6386
-P 2100 5350
-F 0 "Conn3" H 2250 5500 60  0000 L CNN
-F 1 "Molex_SL_03-MRDT_Connectors" H 1350 5300 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_03_Horizontal" H 2100 5350 60  0001 C CNN
-F 3 "" H 2100 5350 60  0001 C CNN
-	1    2100 5350
+P 1250 5400
+F 0 "Conn3" H 1400 5550 60  0000 L CNN
+F 1 "Molex_SL-03" H 500 5350 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_03_Horizontal" H 1250 5400 60  0001 C CNN
+F 3 "" H 1250 5400 60  0001 C CNN
+	1    1250 5400
 	1    0    0    -1  
 $EndComp
 $Comp
 L NavBoard_Hardware-rescue:Molex_SL_04-MRDT_Connectors Conn4
 U 1 1 5C7FFA12
-P 2100 5950
-F 0 "Conn4" H 2250 6150 60  0000 L CNN
-F 1 "Molex_SL_04-MRDT_Connectors" H 1350 5900 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_04_Horizontal" H 2100 5950 60  0001 C CNN
-F 3 "" H 2100 5950 60  0001 C CNN
-	1    2100 5950
+P 2850 5450
+F 0 "Conn4" H 3000 5650 60  0000 L CNN
+F 1 "Molex_SL_04" H 2100 5400 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_04_Horizontal" H 2850 5450 60  0001 C CNN
+F 3 "" H 2850 5450 60  0001 C CNN
+	1    2850 5450
 	1    0    0    -1  
 $EndComp
-Text GLabel 1850 5300 0    50   Input ~ 0
-IMU_TX
-Text GLabel 1850 5200 0    50   Output ~ 0
+Text GLabel 1000 5250 0    50   Output ~ 0
 IMU_RX
 Wire Wire Line
-	1850 5100 1900 5100
+	1000 5150 1050 5150
 Wire Wire Line
-	1900 5200 1850 5200
+	1050 5250 1000 5250
 Wire Wire Line
-	1850 5300 1900 5300
-Text GLabel 1850 5700 0    50   Output ~ 0
+	1000 5350 1050 5350
+Text GLabel 2600 5200 0    50   Output ~ 0
 Programing_RX
-Text GLabel 1850 5800 0    50   Input ~ 0
+Text GLabel 2600 5300 0    50   Input ~ 0
 Programing_TX
-Text GLabel 1850 5900 0    50   Output ~ 0
+Text GLabel 2600 5400 0    50   Output ~ 0
 RESET
 Wire Wire Line
-	1850 5600 1900 5600
+	2600 5100 2650 5100
 Wire Wire Line
-	1850 5700 1900 5700
+	2600 5200 2650 5200
 Wire Wire Line
-	1850 5800 1900 5800
+	2600 5300 2650 5300
 Wire Wire Line
-	1850 5900 1900 5900
+	2600 5400 2650 5400
 Wire Wire Line
 	1500 2350 1700 2350
 Connection ~ 3950 3900
@@ -1387,23 +1373,23 @@ $EndComp
 $Comp
 L power:GND #PWR0127
 U 1 1 5C819482
-P 1850 5100
-F 0 "#PWR0127" H 1850 4850 50  0001 C CNN
-F 1 "GND" H 2000 5050 50  0000 C CNN
-F 2 "" H 1850 5100 50  0001 C CNN
-F 3 "" H 1850 5100 50  0001 C CNN
-	1    1850 5100
+P 1000 5150
+F 0 "#PWR0127" H 1000 4900 50  0001 C CNN
+F 1 "GND" H 1150 5100 50  0000 C CNN
+F 2 "" H 1000 5150 50  0001 C CNN
+F 3 "" H 1000 5150 50  0001 C CNN
+	1    1000 5150
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR0128
 U 1 1 5C826EF8
-P 1850 5600
-F 0 "#PWR0128" H 1850 5350 50  0001 C CNN
-F 1 "GND" H 2000 5550 50  0000 C CNN
-F 2 "" H 1850 5600 50  0001 C CNN
-F 3 "" H 1850 5600 50  0001 C CNN
-	1    1850 5600
+P 2600 5100
+F 0 "#PWR0128" H 2600 4850 50  0001 C CNN
+F 1 "GND" H 2750 5050 50  0000 C CNN
+F 2 "" H 2600 5100 50  0001 C CNN
+F 3 "" H 2600 5100 50  0001 C CNN
+	1    2600 5100
 	-1   0    0    1   
 $EndComp
 Text Notes 7985 6505 0    39   ~ 0
@@ -1449,4 +1435,269 @@ F 3 "" H 8050 6250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8050 6200 8050 6250
+Text GLabel 6650 5800 2    50   Output ~ 0
+TIVAtoATM_TX
+Text GLabel 6650 5700 2    50   Input ~ 0
+TIVAtoATM_RX
+Wire Wire Line
+	6650 5700 6600 5700
+Wire Wire Line
+	6650 5800 6600 5800
+Text GLabel 8815 1800 0    50   Input ~ 0
+TIVA_TX
+Text GLabel 9915 1800 2    50   Output ~ 0
+TIVA_RX
+Wire Wire Line
+	9915 1800 9815 1800
+$Comp
+L Device:R R?
+U 1 1 5C8E176A
+P 950 6150
+F 0 "R?" H 1020 6196 50  0000 L CNN
+F 1 "10K" V 950 6050 50  0000 L CNN
+F 2 "" V 880 6150 50  0001 C CNN
+F 3 "~" H 950 6150 50  0001 C CNN
+	1    950  6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C8E1810
+P 1350 6150
+F 0 "R?" H 1420 6196 50  0000 L CNN
+F 1 "10K" V 1350 6050 50  0000 L CNN
+F 2 "" V 1280 6150 50  0001 C CNN
+F 3 "~" H 1350 6150 50  0001 C CNN
+	1    1350 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5C8F9600
+P 950 5950
+F 0 "#PWR?" H 950 5800 50  0001 C CNN
+F 1 "+3V3" H 965 6123 50  0000 C CNN
+F 2 "" H 950 5950 50  0001 C CNN
+F 3 "" H 950 5950 50  0001 C CNN
+	1    950  5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5C8F9697
+P 1350 5950
+F 0 "#PWR?" H 1350 5800 50  0001 C CNN
+F 1 "+5V" H 1365 6123 50  0000 C CNN
+F 2 "" H 1350 5950 50  0001 C CNN
+F 3 "" H 1350 5950 50  0001 C CNN
+	1    1350 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:BSS138 Q?
+U 1 1 5C8F97FD
+P 1150 6350
+F 0 "Q?" V 1400 6350 50  0000 C CNN
+F 1 "BSS138" V 1491 6350 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 1350 6275 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 1150 6350 50  0001 L CNN
+	1    1150 6350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	950  6000 1150 6000
+Wire Wire Line
+	1350 6300 1350 6450
+Text GLabel 900  6450 0    50   Input ~ 0
+TIVA_TX
+Wire Wire Line
+	900  6450 950  6450
+Text GLabel 1400 6450 2    50   Output ~ 0
+TIVAtoATM_RX
+Wire Wire Line
+	1350 6450 1400 6450
+Wire Wire Line
+	1350 5950 1350 6000
+Wire Wire Line
+	950  5950 950  6000
+Connection ~ 950  6000
+Wire Wire Line
+	950  6300 950  6450
+Connection ~ 950  6450
+Connection ~ 1350 6450
+Wire Wire Line
+	1150 6000 1150 6150
+$Comp
+L Device:R R?
+U 1 1 5C9E79FC
+P 900 7200
+F 0 "R?" H 970 7246 50  0000 L CNN
+F 1 "10K" V 900 7100 50  0000 L CNN
+F 2 "" V 830 7200 50  0001 C CNN
+F 3 "~" H 900 7200 50  0001 C CNN
+	1    900  7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C9E7A03
+P 1300 7200
+F 0 "R?" H 1370 7246 50  0000 L CNN
+F 1 "10K" V 1300 7100 50  0000 L CNN
+F 2 "" V 1230 7200 50  0001 C CNN
+F 3 "~" H 1300 7200 50  0001 C CNN
+	1    1300 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5C9E7A0A
+P 900 7000
+F 0 "#PWR?" H 900 6850 50  0001 C CNN
+F 1 "+3V3" H 915 7173 50  0000 C CNN
+F 2 "" H 900 7000 50  0001 C CNN
+F 3 "" H 900 7000 50  0001 C CNN
+	1    900  7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5C9E7A10
+P 1300 7000
+F 0 "#PWR?" H 1300 6850 50  0001 C CNN
+F 1 "+5V" H 1315 7173 50  0000 C CNN
+F 2 "" H 1300 7000 50  0001 C CNN
+F 3 "" H 1300 7000 50  0001 C CNN
+	1    1300 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:BSS138 Q?
+U 1 1 5C9E7A16
+P 1100 7400
+F 0 "Q?" V 1350 7400 50  0000 C CNN
+F 1 "BSS138" V 1441 7400 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 1300 7325 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 1100 7400 50  0001 L CNN
+	1    1100 7400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	900  7050 1100 7050
+Wire Wire Line
+	1300 7350 1300 7500
+Text GLabel 850  7500 0    50   Input ~ 0
+TIVA_RX
+Wire Wire Line
+	850  7500 900  7500
+Text GLabel 1350 7500 2    50   Output ~ 0
+TIVAtoATM_TX
+Wire Wire Line
+	1300 7500 1350 7500
+Wire Wire Line
+	1300 7000 1300 7050
+Wire Wire Line
+	900  7000 900  7050
+Connection ~ 900  7050
+Wire Wire Line
+	900  7350 900  7500
+Connection ~ 900  7500
+Connection ~ 1300 7500
+Wire Wire Line
+	1100 7050 1100 7200
+Wire Notes Line
+	1950 7800 1950 5600
+$Comp
+L Device:R R?
+U 1 1 5C9FA790
+P 2500 6000
+F 0 "R?" V 2400 6000 50  0000 C CNN
+F 1 "0" V 2500 6000 50  0000 C CNN
+F 2 "" V 2430 6000 50  0001 C CNN
+F 3 "~" H 2500 6000 50  0001 C CNN
+	1    2500 6000
+	0    1    1    0   
+$EndComp
+Text GLabel 2300 6000 0    50   Input ~ 0
+TIVA_TX
+Wire Wire Line
+	2300 6000 2350 6000
+Text GLabel 2700 6000 2    50   Output ~ 0
+TIVAtoATM_RX
+Wire Wire Line
+	2650 6000 2700 6000
+Text GLabel 2300 6750 0    50   Input ~ 0
+TIVA_RX
+$Comp
+L Device:R R?
+U 1 1 5CA440FD
+P 2400 6950
+F 0 "R?" V 2300 6950 50  0000 C CNN
+F 1 "30K" V 2400 6950 50  0000 C CNN
+F 2 "" V 2330 6950 50  0001 C CNN
+F 3 "~" H 2400 6950 50  0001 C CNN
+	1    2400 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CA5FB60
+P 2400 7150
+F 0 "#PWR?" H 2400 6900 50  0001 C CNN
+F 1 "GND" H 2405 6977 50  0000 C CNN
+F 2 "" H 2400 7150 50  0001 C CNN
+F 3 "" H 2400 7150 50  0001 C CNN
+	1    2400 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 6750 2400 6750
+Wire Wire Line
+	2400 6750 2400 6800
+Wire Wire Line
+	2400 7100 2400 7150
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5CA7C380
+P 2400 6400
+F 0 "#PWR?" H 2400 6250 50  0001 C CNN
+F 1 "+3V3" H 2415 6573 50  0000 C CNN
+F 2 "" H 2400 6400 50  0001 C CNN
+F 3 "" H 2400 6400 50  0001 C CNN
+	1    2400 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CA7C418
+P 2400 6600
+F 0 "R?" V 2300 6600 50  0000 C CNN
+F 1 "10K" V 2400 6600 50  0000 C CNN
+F 2 "" V 2330 6600 50  0001 C CNN
+F 3 "~" H 2400 6600 50  0001 C CNN
+	1    2400 6600
+	1    0    0    -1  
+$EndComp
+Connection ~ 2400 6750
+Wire Wire Line
+	2400 6400 2400 6450
+$Comp
+L Diode:1N4148 D?
+U 1 1 5CAB5E96
+P 2650 6750
+F 0 "D?" H 2650 6534 50  0000 C CNN
+F 1 "1N4148" H 2650 6625 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2650 6575 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2650 6750 50  0001 C CNN
+	1    2650 6750
+	-1   0    0    1   
+$EndComp
+Text GLabel 2850 6750 2    50   Output ~ 0
+TIVAtoATM_TX
+Wire Wire Line
+	2400 6750 2500 6750
+Wire Wire Line
+	2800 6750 2850 6750
+Text Notes 2550 7000 0    50   ~ 0
+add 15K resistor in place\nof diode to create a voltage divider.\n
 $EndSCHEMATC
