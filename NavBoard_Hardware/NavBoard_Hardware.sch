@@ -1313,12 +1313,12 @@ Wire Wire Line
 Wire Wire Line
 	10800 4800 10800 4850
 $Comp
-L NavBoard_Hardware-rescue:Molex_SL_03-MRDT_Connectors Conn3
+L MRDT_Connectors:Molex_SL_02 Conn3
 U 1 1 5C7D6386
 P 1250 5400
 F 0 "Conn3" H 1400 5550 60  0000 L CNN
-F 1 "Molex_SL-03" H 500 5350 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_03_Horizontal" H 1250 5400 60  0001 C CNN
+F 1 "Molex_SL-02" H 500 5350 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_02_Horizontal" H 1250 5400 60  0001 C CNN
 F 3 "" H 1250 5400 60  0001 C CNN
 	1    1250 5400
 	1    0    0    -1  
@@ -1334,12 +1334,8 @@ F 3 "" H 2850 5450 60  0001 C CNN
 	1    2850 5450
 	1    0    0    -1  
 $EndComp
-Text GLabel 1000 5250 0    50   Output ~ 0
+Text GLabel 1000 5350 0    50   Output ~ 0
 IMU_RX
-Wire Wire Line
-	1000 5150 1050 5150
-Wire Wire Line
-	1050 5250 1000 5250
 Wire Wire Line
 	1000 5350 1050 5350
 Text GLabel 2600 5200 0    50   Output ~ 0
@@ -1373,12 +1369,12 @@ $EndComp
 $Comp
 L power:GND #PWR0127
 U 1 1 5C819482
-P 1000 5150
-F 0 "#PWR0127" H 1000 4900 50  0001 C CNN
-F 1 "GND" H 1150 5100 50  0000 C CNN
-F 2 "" H 1000 5150 50  0001 C CNN
-F 3 "" H 1000 5150 50  0001 C CNN
-	1    1000 5150
+P 1000 5250
+F 0 "#PWR0127" H 1000 5000 50  0001 C CNN
+F 1 "GND" H 1150 5200 50  0000 C CNN
+F 2 "" H 1000 5250 50  0001 C CNN
+F 3 "" H 1000 5250 50  0001 C CNN
+	1    1000 5250
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1706,4 +1702,6 @@ Wire Notes Line
 	1950 5800 1950 7800
 Wire Notes Line
 	4000 6550 4000 7800
+Wire Wire Line
+	1050 5250 1000 5250
 $EndSCHEMATC
