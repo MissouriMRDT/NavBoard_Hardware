@@ -754,7 +754,7 @@ U 1 1 5C9131BA
 P 4850 6300
 F 0 "U2" H 5650 8967 50  0000 C CNN
 F 1 "ATMEGA328P-Project_Library" H 5650 8876 50  0000 C CNN
-F 2 "" H 5600 7600 50  0001 C CIN
+F 2 "Package_DIP:DIP-28_W7.62mm" H 5600 7600 50  0001 C CIN
 F 3 "" H 5600 7600 50  0001 C CNN
 	1    4850 6300
 	1    0    0    -1  
@@ -818,7 +818,7 @@ L Device:R R2
 U 1 1 5C989157
 P 4500 4100
 F 0 "R2" H 4350 4100 50  0000 L CNN
-F 1 "1K" V 4500 4050 50  0000 L CNN
+F 1 "10K" V 4500 4050 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4430 4100 50  0001 C CNN
 F 3 "~" H 4500 4100 50  0001 C CNN
 	1    4500 4100
@@ -1313,17 +1313,6 @@ Wire Wire Line
 Wire Wire Line
 	10800 4800 10800 4850
 $Comp
-L NavBoard_Hardware-rescue:Molex_SL_02-MRDT_Connectors Conn3
-U 1 1 5C7D6386
-P 1250 5400
-F 0 "Conn3" H 1400 5550 60  0000 L CNN
-F 1 "Molex_SL-02" H 500 5350 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_02_Horizontal" H 1250 5400 60  0001 C CNN
-F 3 "" H 1250 5400 60  0001 C CNN
-	1    1250 5400
-	1    0    0    -1  
-$EndComp
-$Comp
 L NavBoard_Hardware-rescue:Molex_SL_04-MRDT_Connectors Conn4
 U 1 1 5C7FFA12
 P 2850 5450
@@ -1334,10 +1323,10 @@ F 3 "" H 2850 5450 60  0001 C CNN
 	1    2850 5450
 	1    0    0    -1  
 $EndComp
-Text GLabel 1000 5250 0    50   Output ~ 0
+Text GLabel 950  5250 0    50   Output ~ 0
 IMU_RX
 Wire Wire Line
-	1000 5250 1050 5250
+	950  5250 1000 5250
 Text GLabel 2600 5200 0    50   Output ~ 0
 Programming_RX
 Text GLabel 2600 5300 0    50   Input ~ 0
@@ -1369,12 +1358,12 @@ $EndComp
 $Comp
 L power:GND #PWR0127
 U 1 1 5C819482
-P 1000 5350
-F 0 "#PWR0127" H 1000 5100 50  0001 C CNN
-F 1 "GND" H 1150 5300 50  0000 C CNN
-F 2 "" H 1000 5350 50  0001 C CNN
-F 3 "" H 1000 5350 50  0001 C CNN
-	1    1000 5350
+P 950 5350
+F 0 "#PWR0127" H 950 5100 50  0001 C CNN
+F 1 "GND" H 1100 5300 50  0000 C CNN
+F 2 "" H 950 5350 50  0001 C CNN
+F 3 "" H 950 5350 50  0001 C CNN
+	1    950  5350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1660,11 +1649,35 @@ Wire Notes Line
 Wire Notes Line
 	4000 6550 4000 7800
 Wire Wire Line
-	1050 5350 1000 5350
+	1000 5350 950  5350
 Text Notes 7350 7500 0    91   ~ 0
 Navigation PCB Rev. 2\n
 Text Notes 8100 7650 0    50   ~ 0
 03/03/2019\n
 Text Notes 10600 7650 0    50   ~ 0
 2\n
+$Comp
+L NavBoard_Hardware-rescue:Molex_SL_03-MRDT_Connectors Conn3
+U 1 1 5C7DBB4B
+P 1200 5400
+F 0 "Conn3" H 1327 5608 60  0000 L CNN
+F 1 "Molex_SL_03" H 1050 5300 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_03_Horizontal" H 1200 5400 60  0001 C CNN
+F 3 "" H 1200 5400 60  0001 C CNN
+	1    1200 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0129
+U 1 1 5C7F8FA0
+P 950 5150
+F 0 "#PWR0129" H 950 5000 50  0001 C CNN
+F 1 "+3V3" H 965 5323 50  0000 C CNN
+F 2 "" H 950 5150 50  0001 C CNN
+F 3 "" H 950 5150 50  0001 C CNN
+	1    950  5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 5150 950  5150
 $EndSCHEMATC

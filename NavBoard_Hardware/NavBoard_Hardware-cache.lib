@@ -376,17 +376,18 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# NavBoard_Hardware-rescue_Molex_SL_02-MRDT_Connectors
+# NavBoard_Hardware-rescue_Molex_SL_03-MRDT_Connectors
 #
-DEF NavBoard_Hardware-rescue_Molex_SL_02-MRDT_Connectors Conn 0 40 Y Y 1 F N
+DEF NavBoard_Hardware-rescue_Molex_SL_03-MRDT_Connectors Conn 0 40 Y Y 1 F N
 F0 "Conn" 150 -50 60 H V C CNN
-F1 "NavBoard_Hardware-rescue_Molex_SL_02-MRDT_Connectors" 50 250 60 H V C CNN
-F2 "" 0 -100 60 H I C CNN
-F3 "" 0 -100 60 H I C CNN
+F1 "NavBoard_Hardware-rescue_Molex_SL_03-MRDT_Connectors" 50 350 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
 DRAW
-S 0 200 100 0 0 1 0 N
-X ~ 1 -200 150 200 R 50 50 1 1 I
-X ~ 2 -200 50 200 R 50 50 1 1 I
+S 0 300 100 0 0 1 0 N
+X ~ 1 -200 250 200 R 50 50 1 1 I
+X ~ 2 -200 150 200 R 50 50 1 1 I
+X ~ 3 -200 50 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
