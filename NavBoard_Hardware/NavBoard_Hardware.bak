@@ -256,7 +256,7 @@ F 3 "" H 9915 1200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 8815 1500 0    50   Input ~ 0
-IMU_RX
+TIVA_RX
 Text GLabel 8815 1300 0    50   Input ~ 0
 GPS_RX
 Text GLabel 8815 1400 0    50   Output ~ 0
@@ -1389,17 +1389,17 @@ F 3 "" H 2600 5100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text GLabel 6650 5800 2    50   Output ~ 0
-TIVAtoATM_TX
+ATM_TX
 Text GLabel 6650 5700 2    50   Input ~ 0
-TIVAtoATM_RX
+ATM_RX
 Wire Wire Line
 	6650 5700 6600 5700
 Wire Wire Line
 	6650 5800 6600 5800
-Text GLabel 8815 1800 0    50   Input ~ 0
+Text GLabel 8815 1800 0    50   Output ~ 0
 TIVA_TX
-Text GLabel 9915 1800 2    50   Output ~ 0
-TIVA_RX
+Text GLabel 9915 1800 2    50   Input ~ 0
+IMU_RX
 Wire Wire Line
 	9915 1800 9815 1800
 $Comp
@@ -1466,7 +1466,7 @@ TIVA_TX
 Wire Wire Line
 	900  6450 950  6450
 Text GLabel 1400 6450 2    50   Output ~ 0
-TIVAtoATM_RX
+ATM_RX
 Wire Wire Line
 	1350 6450 1400 6450
 Wire Wire Line
@@ -1539,12 +1539,12 @@ Wire Wire Line
 	900  7050 1100 7050
 Wire Wire Line
 	1300 7350 1300 7500
-Text GLabel 850  7500 0    50   Input ~ 0
+Text GLabel 850  7500 0    50   Output ~ 0
 TIVA_RX
 Wire Wire Line
 	850  7500 900  7500
-Text GLabel 1350 7500 2    50   Output ~ 0
-TIVAtoATM_TX
+Text GLabel 1350 7500 2    50   Input ~ 0
+ATM_TX
 Wire Wire Line
 	1300 7500 1350 7500
 Wire Wire Line
@@ -1574,10 +1574,10 @@ TIVA_TX
 Wire Wire Line
 	2300 6000 2350 6000
 Text GLabel 2700 6000 2    50   Output ~ 0
-TIVAtoATM_RX
+ATM_RX
 Wire Wire Line
 	2650 6000 2700 6000
-Text GLabel 2300 6750 0    50   Input ~ 0
+Text GLabel 2300 6750 0    50   Output ~ 0
 TIVA_RX
 $Comp
 L Device:R R22
@@ -1643,8 +1643,8 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2650 
 	1    2650 6750
 	-1   0    0    1   
 $EndComp
-Text GLabel 2850 6750 2    50   Output ~ 0
-TIVAtoATM_TX
+Text GLabel 2850 6750 2    50   Input ~ 0
+ATM_TX
 Wire Wire Line
 	2400 6750 2500 6750
 Wire Wire Line
@@ -1661,4 +1661,6 @@ Wire Notes Line
 	4000 6550 4000 7800
 Wire Wire Line
 	1050 5350 1000 5350
+Text Notes 7350 7500 0    91   ~ 0
+Navigation PCB Rev. 2\n
 $EndSCHEMATC

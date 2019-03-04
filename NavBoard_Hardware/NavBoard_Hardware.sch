@@ -1661,4 +1661,10 @@ Wire Notes Line
 	4000 6550 4000 7800
 Wire Wire Line
 	1050 5350 1000 5350
+Text Notes 7350 7500 0    91   ~ 0
+Navigation PCB Rev. 2\n
+Text Notes 8100 7650 0    50   ~ 0
+03/03/2019\n
+Text Notes 10600 7650 0    50   ~ 0
+2\n
 $EndSCHEMATC
