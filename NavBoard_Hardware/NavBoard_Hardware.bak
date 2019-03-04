@@ -1638,7 +1638,7 @@ U 1 1 5CAB5E96
 P 2650 6750
 F 0 "D12" H 2650 6534 50  0000 C CNN
 F 1 "1N4148" H 2650 6625 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2650 6575 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323" H 2650 6575 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2650 6750 50  0001 C CNN
 	1    2650 6750
 	-1   0    0    1   
