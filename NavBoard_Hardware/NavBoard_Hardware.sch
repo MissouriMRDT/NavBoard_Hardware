@@ -1339,9 +1339,9 @@ IMU_RX
 Wire Wire Line
 	1000 5250 1050 5250
 Text GLabel 2600 5200 0    50   Output ~ 0
-Programing_RX
+Programming_RX
 Text GLabel 2600 5300 0    50   Input ~ 0
-Programing_TX
+Programming_TX
 Text GLabel 2600 5400 0    50   Output ~ 0
 RESET
 Wire Wire Line
@@ -1652,7 +1652,7 @@ Wire Wire Line
 Text Notes 2550 7000 0    50   ~ 0
 add 15K resistor in place\nof diode to create a voltage divider.\n
 Text Notes 550  5750 0    118  ~ 24
-5V to 3.3V  Circuitry 
+Level Shifter Circuitry 
 Wire Notes Line
 	450  5800 3350 5800
 Wire Notes Line
