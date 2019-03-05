@@ -718,7 +718,7 @@ Serial 5
 Wire Notes Line
 	472  3300 11220 3300
 Wire Notes Line
-	7825 6535 7825 470 
+	7800 6565 7800 500 
 Wire Notes Line
 	6970 6535 3360 6535
 Wire Notes Line
