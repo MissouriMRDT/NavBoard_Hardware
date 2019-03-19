@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source C:\Users\Admin\Documents\GitHub\NavBoard_Hardware\NavBoard_Hardware\NavBoard_Hardware.sch)
-    (date "3/4/2019 5:02:55 PM")
+    (source C:\Users\Admin\Desktop\NavBoard_Hardware\NavBoard_Hardware.sch)
+    (date "3/4/2019 5:14:40 PM")
     (tool "Eeschema (5.0.2)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -157,7 +157,7 @@
       (tstamp 5C1A9C73))
     (comp (ref U2)
       (value ATMEGA328P-Project_Library)
-      (footprint Package_DIP:DIP-28_W7.62mm)
+      (footprint Package_DIP:DIP-28_W7.62mm_Socket)
       (libsource (lib NavBoard_Hardware-rescue) (part ATMEGA328P-Project_Library) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5C9131BA))
@@ -815,7 +815,7 @@
     (library (logical Diode)
       (uri C:/kicad-symbols-master/Diode.lib))
     (library (logical NavBoard_Hardware-rescue)
-      (uri C:\Users\Admin\Documents\GitHub\NavBoard_Hardware\NavBoard_Hardware/NavBoard_Hardware-rescue.lib))
+      (uri C:\Users\Admin\Desktop\NavBoard_Hardware/NavBoard_Hardware-rescue.lib))
     (library (logical Transistor_FET)
       (uri C:/kicad-symbols-master/Transistor_FET.lib)))
   (nets
