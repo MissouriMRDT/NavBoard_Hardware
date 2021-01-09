@@ -683,7 +683,7 @@
       (net 102 "Net-(U7-Pad1)"))
   )
 
-  (module MRDT_ICs:MODULE_NEO-M8P-2 (layer F.Cu) (tedit 5FF977B3) (tstamp 5FF9D202)
+  (module MRDT_ICs:MODULE_NEO-M8P-2 (layer F.Cu) (tedit 5FF7E0EF) (tstamp 5FF9D202)
     (at 212.612 80.092)
     (path /5FF93E45)
     (fp_text reference U3 (at -3.098795 -9.162765) (layer F.SilkS)
@@ -828,11 +828,6 @@
       (net 1 GND))
     (pad 1 smd rect (at -6 -7) (size 1.8 0.8) (layers F.Cu)
       (net 54 "Net-(U3-Pad1)"))
-    (model "${MRDT_KICAD_LIBRARIES}/3D Files/MRDT_ICs/NEO-M8P-2.STEP"
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 -90))
-    )
   )
 
   (module MRDT_Devices:OKI_Horizontal (layer F.Cu) (tedit 5DD8981C) (tstamp 5FF9D18E)
