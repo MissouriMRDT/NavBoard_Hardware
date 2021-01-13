@@ -266,9 +266,9 @@ F 3 "" H 4800 1180 50  0001 C CNN
 	1    4800 1180
 	1    0    0    -1  
 $EndComp
-Text GLabel 10630 1230 2    50   Output ~ 0
+Text GLabel 10630 1230 2    50   Input ~ 0
 BNO055_TX
-Text GLabel 10630 1130 2    50   Input ~ 0
+Text GLabel 10630 1130 2    50   Output ~ 0
 BNO055_RX
 Wire Wire Line
 	10520 1130 10630 1130
