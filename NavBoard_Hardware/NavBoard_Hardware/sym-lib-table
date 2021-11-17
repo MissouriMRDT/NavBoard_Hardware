@@ -1,3 +1,5 @@
 (sym_lib_table
   (lib (name NavBoard_Hardware-rescue)(type Legacy)(uri ${KIPRJMOD}/NavBoard_Hardware-rescue.lib)(options "")(descr ""))
+  (lib (name ICM-20608-G)(type Legacy)(uri C:/Users/ehler/Documents/GitHub/NavBoard_Hardware/Library/ICM-20608-G/ICM-20608-G.lib)(options "")(descr ""))
+  (lib (name 2021-11-17_00-14-18)(type Legacy)(uri C:/Users/ehler/Documents/GitHub/NavBoard_Hardware/Library/BHI160B/2021-11-17_00-14-18.lib)(options "")(descr ""))
 )
