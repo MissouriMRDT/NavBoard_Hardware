@@ -1,4 +1,0 @@
-(fp_lib_table
-  (lib (name ICM-20608-G)(type KiCad)(uri C:/Users/ehler/Documents/GitHub/NavBoard_Hardware/Library/ICM-20608-G)(options "")(descr ""))
-  (lib (name BHI160B)(type KiCad)(uri C:/Users/ehler/Documents/GitHub/NavBoard_Hardware/Library/BHI160B)(options "")(descr ""))
-)

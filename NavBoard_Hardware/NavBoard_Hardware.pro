@@ -1,4 +1,4 @@
-update=11/16/2021 11:36:45 AM
+update=11/17/2021 7:17:18 PM
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=../../Documentation/NavBoard_Hardware.net
+LastNetListRead=../Documentation/NavBoard_Hardware.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
