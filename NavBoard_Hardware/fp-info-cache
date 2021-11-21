@@ -1,4 +1,4 @@
-19546780751028674
+19548954437869417
 BHI160B
 BHI160B
 
@@ -56868,6 +56868,13 @@ LQFP-64
 64
 64
 MRDT_ICs
+TB67H400AFNG,EL
+HTSSOP-48_6.1x12.5mm_P0.5mm
+HTSSOP SO
+0
+49
+49
+MRDT_ICs
 USEQGSEAN8L180
 
 
@@ -78077,8 +78084,15 @@ LEM Hall Effect Voltage transducer
 0
 5
 5
-Signature
+Signatures
 z_sig_Jorge_Noriega_34.3mmx15.1mm
+
+
+0
+0
+0
+Signatures
+z_sig_Malacki_Ehlers_15.3mmx4.7mm
 
 
 0
