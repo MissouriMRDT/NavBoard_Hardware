@@ -16,7 +16,7 @@ $EndDescr
 Text Notes 1700 800  0    138  Italic 28
 Power
 $Comp
-L NavBoard_Hardware-rescue:OKI-MRDT_Devices U1
+L MRDT_Devices:OKI U1
 U 1 1 6163A482
 P 1600 1400
 F 0 "U1" H 1650 1350 60  0001 C CNN
@@ -130,7 +130,7 @@ Connection ~ 2350 1300
 Wire Wire Line
 	2350 1300 2800 1300
 $Comp
-L NavBoard_Hardware-rescue:OKI-MRDT_Devices U4
+L MRDT_Devices:OKI U4
 U 1 1 6164B408
 P 1600 2600
 F 0 "U4" H 1650 2550 60  0001 C CNN
@@ -230,7 +230,7 @@ F 3 "" H 2800 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L NavBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn1
+L MRDT_Connectors:AndersonPP Conn1
 U 1 1 6164CAA9
 P 1100 3950
 F 0 "Conn1" H 1308 4337 60  0000 C CNN
@@ -241,7 +241,7 @@ F 3 "" H 950 3400 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L NavBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn1
+L MRDT_Connectors:AndersonPP Conn1
 U 2 1 6164D0F6
 P 2200 3950
 F 0 "Conn1" H 2408 4337 60  0000 C CNN
@@ -323,7 +323,7 @@ F 3 "" H 950 7450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L NavBoard_Hardware-rescue:Raspberry_Pi-MRDT_Shields U6
+L MRDT_Shields:Raspberry_Pi U6
 U 1 1 6161ED1C
 P 1750 7450
 F 0 "U6" H 1650 9550 60  0000 C CNN
@@ -495,7 +495,7 @@ Wire Wire Line
 Wire Wire Line
 	1550 5700 1450 5700
 $Comp
-L ICM-20608-G:ICM-20608-G U3
+L MRDT_Sensors:ICM-20608-G U3
 U 1 1 619643F9
 P 5250 2750
 F 0 "U3" H 5250 3517 50  0000 C CNN
@@ -1264,7 +1264,7 @@ Wire Notes Line
 Wire Notes Line
 	3650 4850 11200 4850
 $Comp
-L BHI160B:BHI160B U2
+L MRDT_Sensors:BHI160B U2
 U 1 1 6197BE60
 P 7750 2200
 F 0 "U2" H 9894 1903 60  0000 L CNN
