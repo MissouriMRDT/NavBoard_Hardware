@@ -1,11 +1,11 @@
-19532581448049982
-BNO080
-BNO080
-BNO080-2
-Accelerometer
+19548954437869417
+BHI160B
+BHI160B
+
+
 0
-28
-28
+24
+24
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -51673,6 +51673,13 @@ heatsink
 0
 2
 1
+ICM-20608-G
+ICM-20608-G
+
+
+0
+16
+16
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
@@ -56602,6 +56609,27 @@ MOLEX_uF_S_07_Vertical
 7
 7
 MRDT_Connectors
+MOLEX_uF_S_08_Vertical
+
+
+0
+8
+8
+MRDT_Connectors
+MOLEX_uF_S_09_Vertical
+
+
+0
+9
+9
+MRDT_Connectors
+RJ45_Teensy
+
+
+0
+16
+16
+MRDT_Connectors
 RP-SMA_Jack_Tru-Hole_Right-Angle
 
 
@@ -56839,6 +56867,13 @@ LQFP-64
 0
 64
 64
+MRDT_ICs
+TB67H400AFNG,EL
+HTSSOP-48_6.1x12.5mm_P0.5mm
+HTSSOP SO
+0
+49
+49
 MRDT_ICs
 USEQGSEAN8L180
 
@@ -57085,6 +57120,13 @@ LAUNCHXL_F28069M_J5_THT_TOP
 40
 39
 MRDT_Shields
+MODULE_DEV-16771
+
+
+0
+65
+65
+MRDT_Shields
 RASPBERRY_PI_HEADERS
 
 
@@ -57155,6 +57197,13 @@ TM4C129E_Launchpad_FULL_THT_TOP
 80
 77
 MRDT_Shields
+TM4C129E_Launchpad_FULL_Vertical
+
+
+0
+80
+77
+MRDT_Shields
 TM4C129E_Launchpad_X7_SMD_BOTTOM
 
 
@@ -57210,6 +57259,13 @@ TM4C129E_Launchpad_X9_THT_TOP
 0
 40
 39
+MRDT_Shields
+Teensy_4_1_Vertical
+
+
+0
+65
+65
 MRDT_Silkscreens
 0-README
 
@@ -78028,6 +78084,20 @@ LEM Hall Effect Voltage transducer
 0
 5
 5
+Signatures
+z_sig_Jorge_Noriega_34.3mmx15.1mm
+
+
+0
+0
+0
+Signatures
+z_sig_Malacki_Ehlers_15.3mmx4.7mm
+
+
+0
+0
+0
 Socket
 3M_Textool_240-1288-00-0602J_2x20_P2.54mm
 3M 40-pin zero insertion force socket, though-hole, row spacing 25.4 mm (1000 mils)
