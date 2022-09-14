@@ -1,2 +1,13 @@
 (sym_lib_table
+  (lib (name "MRDT_Actives")(type "KiCad")(uri "C:/Users/frisc/Documents/GitHub/MRDT_KiCAD_Libraries/Symbols/MRDT_Actives.kicad_sym")(options "")(descr ""))
+  (lib (name "MRDT_Connectors")(type "KiCad")(uri "C:/Users/frisc/Documents/GitHub/MRDT_KiCAD_Libraries/Symbols/MRDT_Connectors.kicad_sym")(options "")(descr ""))
+  (lib (name "MRDT_Devices")(type "KiCad")(uri "C:/Users/frisc/Documents/GitHub/MRDT_KiCAD_Libraries/Symbols/MRDT_Devices.kicad_sym")(options "")(descr ""))
+  (lib (name "MRDT_Drill_Holes")(type "KiCad")(uri "C:/Users/frisc/Documents/GitHub/MRDT_KiCAD_Libraries/Symbols/MRDT_Drill_Holes.kicad_sym")(options "")(descr ""))
+  (lib (name "MRDT_Headers")(type "KiCad")(uri "C:/Users/frisc/Documents/GitHub/MRDT_KiCAD_Libraries/Symbols/MRDT_Headers.kicad_sym")(options "")(descr ""))
+  (lib (name "MRDT_ICs")(type "KiCad")(uri "C:/Users/frisc/Documents/GitHub/MRDT_KiCAD_Libraries/Symbols/MRDT_ICs.kicad_sym")(options "")(descr ""))
+  (lib (name "MRDT_Passives")(type "KiCad")(uri "C:/Users/frisc/Documents/GitHub/MRDT_KiCAD_Libraries/Symbols/MRDT_Passives.kicad_sym")(options "")(descr ""))
+  (lib (name "MRDT_Sensors")(type "KiCad")(uri "C:/Users/frisc/Documents/GitHub/MRDT_KiCAD_Libraries/Symbols/MRDT_Sensors.kicad_sym")(options "")(descr ""))
+  (lib (name "MRDT_Shields")(type "KiCad")(uri "C:/Users/frisc/Documents/GitHub/MRDT_KiCAD_Libraries/Symbols/MRDT_Shields.kicad_sym")(options "")(descr ""))
+  (lib (name "MRDT_Silkscreens")(type "KiCad")(uri "C:/Users/frisc/Documents/GitHub/MRDT_KiCAD_Libraries/Symbols/MRDT_Silkscreens.kicad_sym")(options "")(descr ""))
+  (lib (name "MRDT_Switches")(type "KiCad")(uri "C:/Users/frisc/Documents/GitHub/MRDT_KiCAD_Libraries/Symbols/MRDT_Switches.kicad_sym")(options "")(descr ""))
 )
