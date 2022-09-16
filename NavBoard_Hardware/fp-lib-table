@@ -10,4 +10,7 @@
   (lib (name "MRDT_Shields")(type "KiCad")(uri "C:/Users/frisc_000/Documents/GitHub/MRDT_KiCAD_Libraries/Package/MRDT_Shields.pretty")(options "")(descr ""))
   (lib (name "MRDT_Silkscreens")(type "KiCad")(uri "C:/Users/frisc_000/Documents/GitHub/MRDT_KiCAD_Libraries/Package/MRDT_Silkscreens.pretty")(options "")(descr ""))
   (lib (name "MRDT_Switches")(type "KiCad")(uri "C:/Users/frisc_000/Documents/GitHub/MRDT_KiCAD_Libraries/Package/MRDT_Switches.pretty")(options "")(descr ""))
+  (lib (name "BHI160B")(type "KiCad")(uri "C:/Users/frisc_000/Documents/GitHub/NavBoard_Hardware/Library/BHI160B")(options "")(descr ""))
+  (lib (name "ICM-20608-G")(type "KiCad")(uri "C:/Users/frisc_000/Documents/GitHub/NavBoard_Hardware/Library/ICM-20608-G")(options "")(descr ""))
+  (lib (name "Signatures")(type "KiCad")(uri "C:/Users/frisc_000/Documents/GitHub/NavBoard_Hardware/Library/Signatures")(options "")(descr ""))
 )
