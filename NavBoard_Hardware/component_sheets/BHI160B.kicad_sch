@@ -402,8 +402,8 @@
   )
 
   (no_connect (at 164.465 79.375) (uuid a5c9a4fd-54d3-455a-ab2e-594426d43f01))
-  (no_connect (at 164.465 76.835) (uuid a5c9a4fd-54d3-455a-ab2e-594426d43f01))
-  (no_connect (at 164.465 81.915) (uuid a5c9a4fd-54d3-455a-ab2e-594426d43f01))
+  (no_connect (at 164.465 76.835) (uuid a5c9a4fd-54d3-455a-ab2e-594426d43f02))
+  (no_connect (at 164.465 81.915) (uuid a5c9a4fd-54d3-455a-ab2e-594426d43f03))
 
   (wire (pts (xy 170.18 45.72) (xy 162.56 45.72))
     (stroke (width 0) (type default) (color 0 0 0 0))

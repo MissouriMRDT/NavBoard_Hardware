@@ -204,7 +204,7 @@
     (uuid a7bac2cd-7a44-4919-a1b4-850e1f118815)
   )
 
-  (symbol (lib_id "Device:C_Polarized_US") (at 115.57 96.52 0)
+  (symbol (lib_id "Device:C_Polarized_US") (at 115.57 96.52 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 01cf29d6-65fd-424c-a1f9-49ef3759f2ec)
     (property "Reference" "C1" (id 0) (at 118.491 95.3516 0)
@@ -223,7 +223,7 @@
     (pin "2" (uuid 13a8719a-0c36-43ee-ac66-529481597b7f))
   )
 
-  (symbol (lib_id "Device:C_Polarized_US") (at 146.05 96.52 0)
+  (symbol (lib_id "Device:C_Polarized_US") (at 146.05 96.52 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 2e304444-7195-4027-b495-eddacb745316)
     (property "Reference" "C2" (id 0) (at 149.0472 95.3516 0)
@@ -242,7 +242,7 @@
     (pin "2" (uuid f91d9c48-3796-4b45-8af4-a3b74917176d))
   )
 
-  (symbol (lib_id "Device:C_Polarized_US") (at 157.48 96.52 0)
+  (symbol (lib_id "Device:C_Polarized_US") (at 157.48 96.52 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ded8385f-d976-40a3-b9d3-3c651b0902e5)
     (property "Reference" "C3" (id 0) (at 160.4772 95.3516 0)
@@ -261,7 +261,7 @@
     (pin "2" (uuid c29630ae-d05a-499f-86f6-c01599ae89c3))
   )
 
-  (symbol (lib_id "MRDT_Devices:OKI") (at 127 92.71 0)
+  (symbol (lib_id "MRDT_Devices:OKI") (at 127 92.71 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e8067ed1-f723-45e3-86a9-60164243f6b4)
     (property "Reference" "U1" (id 0) (at 128.27 93.98 0)
