@@ -431,6 +431,22 @@
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
       ""
+    ],
+    [
+      "c3859b88-ee1c-4daa-9fe4-63386a16086c",
+      "IMU #1 - BHI160B"
+    ],
+    [
+      "e9df2aa3-1084-4574-9b2a-3d92d0e416c5",
+      "OKI - 5V"
+    ],
+    [
+      "ca9a75b0-b6fb-43b6-8af9-a74f30e15ab3",
+      "OKI - 3V3"
+    ],
+    [
+      "3f471579-ab93-4bcd-9d3e-35a66e2346b9",
+      "IMU #2 - ICM-20608"
     ]
   ],
   "text_variables": {}
