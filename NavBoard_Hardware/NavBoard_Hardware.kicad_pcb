@@ -1210,7 +1210,7 @@
       (net 1 "GND") (pinfunction "GND") (pintype "power_in") (tstamp cbdcaa78-3bbc-413f-91bf-2709119373ce))
     (pad "40" thru_hole circle locked (at 99.06 -51.816) (size 1.7 1.7) (drill 0.9) (layers *.Cu *.Mask)
       (net 28 "unconnected-(J2-Pad40)") (pinfunction "GPIO21/SCLK1") (pintype "bidirectional+no_connect") (tstamp 1e1b062d-fad0-427c-a622-c5b8a80b5268))
-    (model "C:/Users/frisc_000/Documents/GitHub/NavBoard_Hardware/Library/RaspberryPi/Raspberry Pi 4 Model B.STEP" hide
+    (model "C:/Users/frisc_000/Documents/GitHub/NavBoard_Hardware/Library/RaspberryPi/Raspberry Pi 4 Model B.STEP"
       (offset (xyz 84.95 26.05 -9))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
