@@ -2238,7 +2238,7 @@
     )
     (pin "I2C_ADR" input (at 261.62 79.375 0)
       (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 238692f1-096d-4ff4-9d05-0b760edfcc39)
+      (uuid 1753a892-c826-474a-980a-e72a7e2ed4ac)
     )
   )
 
