@@ -5,6 +5,15 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "MRDT NavBoard")
+    (date "2022-09-23")
+    (rev "2, 2023")
+    (company "Thomas Francois, Katherine Dunlap, Missouri S&T Mars Rover Design Team")
+    (comment 1 "Raspberry Pi Daughter Board")
+    (comment 2 "Contains Two Accelerometers & Connections To One UART GPS Module")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)

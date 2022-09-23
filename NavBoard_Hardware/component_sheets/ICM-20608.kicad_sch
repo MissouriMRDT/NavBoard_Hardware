@@ -8,7 +8,7 @@
     (title "ICM-20608-G Inertial Measurement Unit")
     (date "2022-09-15")
     (rev "2, 2023")
-    (company "Missouri S&T Rover Design Team")
+    (company "Thomas Francois, Katherine Dunlap, Missouri S&T Mars Rover Design Team")
     (comment 1 "ICM-2060B-G IMU & Supporting Components")
     (comment 2 "Provides Position & Acceleration Data")
   )

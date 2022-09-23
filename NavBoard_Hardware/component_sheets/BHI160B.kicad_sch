@@ -8,7 +8,7 @@
     (title "BHI160B Inertial Measurement Unit")
     (date "2022-09-15")
     (rev "2, 2023")
-    (company "Missouri S&T Rover Design Team")
+    (company "Thomas Francois, Katherine Dunlap, Missouri S&T Mars Rover Design Team")
     (comment 1 "BHI160B IMU & Supporting Components")
     (comment 2 "Provides Position & Acceleration Data")
   )

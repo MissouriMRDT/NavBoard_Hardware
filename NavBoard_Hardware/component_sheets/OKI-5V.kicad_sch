@@ -6,7 +6,7 @@
 
   (title_block
     (title "OKI 5V Voltage Regulator")
-    (company "Missouri S&T Mars Rover Design Team")
+    (company "Thomas Francois, Katherine Dunlap, Missouri S&T Mars Rover Design Team")
     (comment 1 "OKI 5V Voltage Regulator")
     (comment 2 "Provides Stable 5V From 12V Input")
   )

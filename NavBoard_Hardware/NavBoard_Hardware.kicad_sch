@@ -8,7 +8,7 @@
     (title "MRDT NavBoard")
     (date "2022-09-14")
     (rev "2, 2023")
-    (company "Missouri S&T Mars Rover Design Team")
+    (company "Thomas Francois, Katherine Dunlap, Missouri S&T Mars Rover Design Team")
     (comment 1 "Raspberry Pi Daughter Board")
     (comment 2 "Contains Two Accelerometers & Connections To One UART GPS Module")
   )
