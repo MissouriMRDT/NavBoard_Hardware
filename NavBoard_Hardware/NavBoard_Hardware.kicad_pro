@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 1.0,
+          "height": 2.5,
+          "width": 1.5
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -470,11 +470,11 @@
     ],
     [
       "b6ba73bb-0e4b-47eb-b14c-72930e936971",
-      "OKI - 5V"
+      "5V Regulator (OKI or TSR)"
     ],
     [
       "9fe43653-090e-41d1-81ad-b1efbf245cec",
-      "OKI - 3V3"
+      "3V3 Regulator (OKI or TSR)"
     ]
   ],
   "text_variables": {}
