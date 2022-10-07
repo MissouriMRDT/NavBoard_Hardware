@@ -552,7 +552,7 @@
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Header Type" "2.54mm Sockets" (id 2) (at 118.11 21.59 0))
-    (property "Ethernet Header Type" "2.00mm Sockets" (id 3) (at 109.855 179.705 0))
+    (property "Ethernet Header Type" "2.54mm Sockets" (id 3) (at 109.855 179.705 0))
     (property "Inner Header Type" "2.54mm Sockets" (id 4) (at 158.75 156.21 0))
     (pin "ETHERNET_LED" input (at 118.11 172.72 180)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -911,7 +911,7 @@
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Header Type" "2.54mm Pins" (id 2) (at 95.885 21.59 0))
-    (property "Ethernet Header Type" "2.00mm Pins" (id 3) (at 102.87 165.735 0))
+    (property "Ethernet Header Type" "2.54mm Pins" (id 3) (at 102.87 165.735 0))
     (pin "ETHERNET_RX-" input (at 95.885 177.8 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid c5947cc6-1bce-47bb-949e-2b4f40412bcb)
@@ -1255,6 +1255,9 @@
     (path "/1cf30331-e31a-4dae-8418-1a281b51585f/9042d5a8-57b9-4228-a030-9bd1f7c4dd83"
       (reference "#PWR047") (unit 1) (value "GND") (footprint "")
     )
+    (path "/f643fe13-52b3-46d1-8243-a8bbe65cd5c3/19d38986-c68b-4a05-8050-ecac7441163e"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/1cf30331-e31a-4dae-8418-1a281b51585f/cfa695dc-e859-4ad7-a02d-ada1f7512f16/d997983e-985b-4240-8c4e-c57a43eedad7"
       (reference "C1") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
@@ -1319,7 +1322,7 @@
       (reference "J1") (unit 2) (value "24Pin to 16Pin") (footprint "Nav_Board:24Pin_To_16Pin_2.54mm_Separate_Pins")
     )
     (path "/40b46045-12d0-4208-984c-573a30ffe5b1/837c6c65-a505-4a3a-b098-3f51addddc5f"
-      (reference "J2") (unit 1) (value "Teensy Ethernet") (footprint "Connector_PinSocket_2.00mm:PinSocket_2x03_P2.00mm_Vertical")
+      (reference "J2") (unit 1) (value "Teensy Ethernet") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical")
     )
     (path "/40b46045-12d0-4208-984c-573a30ffe5b1/7ad0c62d-6820-4583-8e6c-b98466a24e10"
       (reference "J3") (unit 1) (value "Ethernet Jack w/ Magnetics") (footprint "Connector_RJ:RJ45_Cetus_J1B1211CCD_Horizontal")
@@ -1344,6 +1347,9 @@
     )
     (path "/1cf30331-e31a-4dae-8418-1a281b51585f/aadcc3c2-a98b-438c-84e9-303d941471b5"
       (reference "J8") (unit 1) (value "6 Pin Molex Micro-Fit") (footprint "Connector_Molex:Molex_Micro-Fit_3.0_43650-0600_1x06_P3.00mm_Horizontal")
+    )
+    (path "/f643fe13-52b3-46d1-8243-a8bbe65cd5c3/44c5f4fd-8f37-434e-a7f1-2821029d5e51"
+      (reference "J?") (unit 1) (value "Teensy Ethernet") (footprint "Connector_PinSocket_2.00mm:PinSocket_2x03_P2.00mm_Vertical")
     )
     (path "/1cf30331-e31a-4dae-8418-1a281b51585f/fc5a0194-7f1f-41ed-a352-74d1778bc892"
       (reference "JP1") (unit 1) (value "Solder Jumper") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
