@@ -14,4 +14,5 @@
   (lib (name "MRDT_Silkscreens")(type "Legacy")(uri "${MRDT_KICAD_LIBRARIES}/Symbols/MRDT_Silkscreens.lib")(options "")(descr ""))
   (lib (name "MRDT_Switches")(type "Legacy")(uri "${MRDT_KICAD_LIBRARIES}/Symbols/MRDT_Switches.lib")(options "")(descr ""))
   (lib (name "Nav_Board")(type "KiCad")(uri "C:/Users/frisc_000/Documents/GitHub/NavBoard_Hardware/Library/Nav_Board/Nav_Board.kicad_sym")(options "")(descr ""))
+  (lib (name "J1B1211CCD")(type "Legacy")(uri "C:/Users/frisc_000/Documents/GitHub/NavBoard_Hardware/Library/Ethernet_Mag_Jack/J1B1211CCD.lib")(options "")(descr ""))
 )
