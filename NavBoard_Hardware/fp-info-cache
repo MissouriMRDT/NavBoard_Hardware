@@ -1,4 +1,4 @@
-20215884445763520
+20219220103194753
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -60815,6 +60815,20 @@ Nav_Board
 0
 80
 80
+Nav_Board
+BHI160B
+
+
+0
+24
+24
+Nav_Board
+ICM-20608-G
+
+
+0
+24
+24
 Nav_Board
 PinSocket_2x16_P2.54mm_Vertical_Nav_Board
 
