@@ -2766,6 +2766,7 @@
     (pin "10" (uuid f0893d52-3d43-4fb3-9f72-dd1fea9d8bf4))
     (pin "11" (uuid a0293088-c6ef-4cd8-9587-4e3b31d26a57))
     (pin "12" (uuid 24b4bd42-7132-4abf-b235-5464b51e9fd8))
+    (pin "13" (uuid f33d5698-e4c5-4983-9946-619e50e45bb4))
     (pin "2" (uuid 46778413-c1d2-491a-88a6-721e0334b0a9))
     (pin "3" (uuid a12bc0ea-f0fb-4e6d-a9d7-99f88e3b55db))
     (pin "4" (uuid c5967f22-4f25-4879-aa01-f649ad54752c))
@@ -2774,7 +2775,6 @@
     (pin "7" (uuid 7185eb0e-8214-4271-9e6d-782fa4ce1924))
     (pin "8" (uuid 5d6bbd90-c502-42f5-a5fd-6619779289fe))
     (pin "9" (uuid 9d87d068-28ea-4306-9e0e-966441c69895))
-    (pin "13" (uuid f33d5698-e4c5-4983-9946-619e50e45bb4))
   )
 
   (symbol (lib_id "power:+3V3") (at 40.005 43.815 0) (mirror y) (unit 1)
