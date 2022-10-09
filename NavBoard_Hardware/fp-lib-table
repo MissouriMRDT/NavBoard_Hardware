@@ -15,4 +15,5 @@
   (lib (name "MRDT_Silkscreens")(type "KiCad")(uri "C:/Users/frisc_000/Documents/GitHub/MRDT_KiCAD_Libraries/Package/MRDT_Silkscreens.pretty")(options "")(descr ""))
   (lib (name "MRDT_Switches")(type "KiCad")(uri "C:/Users/frisc_000/Documents/GitHub/MRDT_KiCAD_Libraries/Package/MRDT_Switches.pretty")(options "")(descr ""))
   (lib (name "Nav_Board")(type "KiCad")(uri "C:/Users/frisc_000/Documents/GitHub/NavBoard_Hardware/Library/Nav_Board/Nav_Board.pretty")(options "")(descr ""))
+  (lib (name "Mouse_Bites")(type "KiCad")(uri "C:/Users/frisc_000/Documents/GitHub/NavBoard_Hardware/Library/Nav_Board/Mouse_Bites.pretty")(options "")(descr ""))
 )
