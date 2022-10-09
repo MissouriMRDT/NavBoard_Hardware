@@ -4,6 +4,14 @@
 
   (paper "A4")
 
+  (title_block
+    (title "MRDT NavBoard - Top Board")
+    (rev "1, 2023")
+    (company "Thomas Francois, Missouri S&T Mars Rover Design Team")
+    (comment 1 "Topmost Teensy module")
+    (comment 2 "Contains Molex Micro-Fit for GPS, and 2 accelerometers")
+  )
+
   (lib_symbols
     (symbol "Connector_Generic:Conn_01x03" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 5.08 0)

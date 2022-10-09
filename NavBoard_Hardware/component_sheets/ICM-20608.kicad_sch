@@ -5,11 +5,11 @@
   (paper "A4")
 
   (title_block
-    (title "ICM-20608-G Inertial Measurement Unit")
+    (title "MRDT NavBoard - ICM-20608-G")
     (date "2022-09-15")
-    (rev "2, 2023")
-    (company "Thomas Francois, Katherine Dunlap, Missouri S&T Mars Rover Design Team")
-    (comment 1 "ICM-2060B-G IMU & Supporting Components")
+    (rev "1, 2023")
+    (company "Thomas Francois, Missouri S&T Mars Rover Design Team")
+    (comment 1 "Inertial Measurement Unit and Supporting Components")
     (comment 2 "Provides Position & Acceleration Data")
   )
 

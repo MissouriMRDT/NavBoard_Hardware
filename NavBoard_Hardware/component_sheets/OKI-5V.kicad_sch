@@ -5,10 +5,11 @@
   (paper "A4")
 
   (title_block
-    (title "OKI 5V Voltage Regulator")
-    (company "Missouri S&T Mars Rover Design Team")
+    (title "MRDT NavBoard")
+    (rev "1, 2023")
+    (company "Thomas Francois, Missouri S&T Mars Rover Design Team")
     (comment 1 "OKI 5V Voltage Regulator")
-    (comment 2 "Provides Stable 5V From 12V Input")
+    (comment 2 "Provides stable 5V from 12V input")
   )
 
   (lib_symbols

@@ -5,9 +5,13 @@
   (paper "A4")
 
   (title_block
-    (title "NavBoard")
-    (rev "1")
-    (company "MRDT")
+    (title "MRDT NavBoard")
+    (date "2022-10-08")
+    (rev "1, 2023")
+    (company "Thomas Francois, Missouri S&T Mars Rover Design Team")
+    (comment 1 "Teensy 4.1 Daughter Boards and Modules")
+    (comment 2 "and accelerometers")
+    (comment 3 "These boards are to be stacked together, and connects the Teensy to power, ethernet, ")
   )
 
   (lib_symbols

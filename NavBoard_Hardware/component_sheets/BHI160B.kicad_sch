@@ -5,12 +5,12 @@
   (paper "A4")
 
   (title_block
-    (title "BHI160B Inertial Measurement Unit")
+    (title "MRDT NavBoard - BHI160B")
     (date "2022-09-15")
-    (rev "2, 2023")
-    (company "Thomas Francois, Katherine Dunlap, Missouri S&T Mars Rover Design Team")
-    (comment 1 "BHI160B IMU & Supporting Components")
-    (comment 2 "Provides Position & Acceleration Data")
+    (rev "1, 2023")
+    (company "Thomas Francois, Missouri S&T Mars Rover Design Team")
+    (comment 1 "BHI160B Inertial Measurement Unit & Supporting Components")
+    (comment 2 "Provides Position and Acceleration Data")
   )
 
   (lib_symbols

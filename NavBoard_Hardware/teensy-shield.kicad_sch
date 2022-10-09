@@ -4,6 +4,14 @@
 
   (paper "A4")
 
+  (title_block
+    (title "MRDT NavBoard - Teensy Adapter")
+    (rev "1, 2023")
+    (company "Thomas Francois, Missouri S&T Mars Rover Design Team")
+    (comment 1 "Teensy 4.1 and Adapter Board")
+    (comment 2 "Widens the Teensy to fit the other modules")
+  )
+
   (lib_symbols
     (symbol "Connector_Generic:Conn_01x06" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 7.62 0)
