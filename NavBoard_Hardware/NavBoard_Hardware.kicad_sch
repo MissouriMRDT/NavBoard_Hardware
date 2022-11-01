@@ -1400,7 +1400,7 @@
     (path "/40b46045-12d0-4208-984c-573a30ffe5b1/d0993be0-fd80-4bb6-942e-ed63dd778efa/52d8a84d-aba9-4a17-9ffc-3c0921b90a99"
       (reference "U4") (unit 1) (value "OKI-3V3") (footprint "MRDT_Devices:OKI_Horizontal")
     )
-    (path "/f643fe13-52b3-46d1-8243-a8bbe65cd5c3/d4d50840-1699-4064-8797-8e3612bca957"
+    (path "/40b46045-12d0-4208-984c-573a30ffe5b1/2b4ec33e-09ed-40fd-ad97-076778448929"
       (reference "U5") (unit 1) (value "Teensy4.1") (footprint "teensy:Teensy41")
     )
   )
