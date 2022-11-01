@@ -500,7 +500,7 @@
       "IMU #1 - BHI160B"
     ],
     [
-      "357a43eb-a87c-4cdf-9487-a68be7ac6c3f",
+      "0e0c640d-a895-4212-a4dc-6549d969ffca",
       "OKI - 5V"
     ],
     [
@@ -508,16 +508,8 @@
       "IMU #2 - ICM-20608"
     ],
     [
-      "d0993be0-fd80-4bb6-942e-ed63dd778efa",
-      "OKI - 3V3"
-    ],
-    [
       "40b46045-12d0-4208-984c-573a30ffe5b1",
       "Main Board"
-    ],
-    [
-      "f643fe13-52b3-46d1-8243-a8bbe65cd5c3",
-      "Teensy & Shield"
     ],
     [
       "1cf30331-e31a-4dae-8418-1a281b51585f",
