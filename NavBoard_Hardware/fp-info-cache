@@ -1,4 +1,4 @@
-20239214285529659
+20244214311130417
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -60858,7 +60858,21 @@ BHI160B
 24
 24
 Nav_Board
+BHI160B_ExtendedPads
+
+
+0
+24
+24
+Nav_Board
 ICM-20608-G
+
+
+0
+16
+16
+Nav_Board
+ICM-20608-G_ExtendedPads
 
 
 0
@@ -79617,6 +79631,13 @@ LEM Hall Effect Voltage transducer
 0
 5
 5
+Signatures
+ThomasFSignature
+
+
+0
+0
+0
 Signatures
 z_sig_Jorge_Noriega_34.3mmx15.1mm
 
