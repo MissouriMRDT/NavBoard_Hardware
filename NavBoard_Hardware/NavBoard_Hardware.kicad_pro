@@ -491,24 +491,16 @@
       ""
     ],
     [
-      "cfa695dc-e859-4ad7-a02d-ada1f7512f16",
-      "IMU #1 - BHI160B"
-    ],
-    [
-      "0e0c640d-a895-4212-a4dc-6549d969ffca",
+      "3f8fe91c-27eb-4e87-b1b6-b82d620cf1b6",
       "OKI - 5V"
     ],
     [
-      "86eac231-1167-4d7a-9297-0b8976912df5",
+      "ee12da06-5179-4bbc-90db-77534d3be73c",
+      "IMU #1 - BHI160B"
+    ],
+    [
+      "7aacf566-e10e-4c4a-97b2-58f204396e3a",
       "IMU #2 - ICM-20608"
-    ],
-    [
-      "40b46045-12d0-4208-984c-573a30ffe5b1",
-      "Main Board"
-    ],
-    [
-      "1cf30331-e31a-4dae-8418-1a281b51585f",
-      "Top Board"
     ]
   ],
   "text_variables": {}
