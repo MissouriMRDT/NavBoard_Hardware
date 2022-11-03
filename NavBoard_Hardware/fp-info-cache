@@ -1,4 +1,4 @@
-20237546846380314
+20239214285529659
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -60878,6 +60878,13 @@ MRDT_Logo_2
 0
 0
 0
+Nav_Board
+OKI_Vertical_TSR
+
+
+0
+3
+3
 Nav_Board
 PinSocket_2x16_P2.54mm_Vertical_Nav_Board
 
