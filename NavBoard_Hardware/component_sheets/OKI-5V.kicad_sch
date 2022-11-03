@@ -6,12 +6,12 @@
 
   (title_block
     (title "MRDT NavBoard")
-    (date "2022-10-08")
+    (date "2022-11-03")
     (rev "3, 2023")
     (company "Thomas Francois, Missouri S&T Mars Rover Design Team")
-    (comment 1 "Teensy 4.1 Daughter Boards and Modules")
-    (comment 2 "and accelerometers")
-    (comment 3 "These boards are to be stacked together, and connects the Teensy to power, ethernet, ")
+    (comment 1 "Teensy 4.1 Daughter Board")
+    (comment 2 "accelerometers, and a GPS receiver")
+    (comment 3 "This module is a Teensy4.1 daughter board, and connects the Teensy to power, ethernet, ")
   )
 
   (lib_symbols
@@ -365,7 +365,7 @@
     (uuid a7bac2cd-7a44-4919-a1b4-850e1f118815)
   )
 
-  (symbol (lib_id "Device:C_Polarized_US") (at 127.635 97.155 0)
+  (symbol (lib_id "Device:C_Polarized_US") (at 127.635 97.155 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 01cf29d6-65fd-424c-a1f9-49ef3759f2ec)
     (property "Reference" "C2" (id 0) (at 130.556 95.9866 0)
@@ -384,7 +384,7 @@
     (pin "2" (uuid 13a8719a-0c36-43ee-ac66-529481597b7f))
   )
 
-  (symbol (lib_id "Device:C_Polarized_US") (at 158.115 97.155 0)
+  (symbol (lib_id "Device:C_Polarized_US") (at 158.115 97.155 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 2e304444-7195-4027-b495-eddacb745316)
     (property "Reference" "C3" (id 0) (at 161.1122 95.9866 0)
@@ -403,7 +403,7 @@
     (pin "2" (uuid f91d9c48-3796-4b45-8af4-a3b74917176d))
   )
 
-  (symbol (lib_id "power:+5V") (at 169.545 88.265 0)
+  (symbol (lib_id "power:+5V") (at 169.545 88.265 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid addb7395-a76d-40ba-8d1b-8fc9d951db77)
     (property "Reference" "#PWR027" (id 0) (at 169.545 92.075 0)
@@ -419,7 +419,7 @@
     (pin "1" (uuid b6de9061-7194-4efe-a019-165ae2c4f33b))
   )
 
-  (symbol (lib_id "power:+12V") (at 127.635 88.265 0)
+  (symbol (lib_id "power:+12V") (at 127.635 88.265 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid d68453b9-4a43-4dae-bbf5-117fb086d81c)
     (property "Reference" "#PWR026" (id 0) (at 127.635 92.075 0)
@@ -435,7 +435,7 @@
     (pin "1" (uuid 37c7f353-2304-4d20-98aa-b08c2d14d66b))
   )
 
-  (symbol (lib_id "Device:C_Polarized_US") (at 169.545 97.155 0)
+  (symbol (lib_id "Device:C_Polarized_US") (at 169.545 97.155 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ded8385f-d976-40a3-b9d3-3c651b0902e5)
     (property "Reference" "C4" (id 0) (at 172.5422 95.9866 0)
@@ -454,7 +454,7 @@
     (pin "2" (uuid c29630ae-d05a-499f-86f6-c01599ae89c3))
   )
 
-  (symbol (lib_id "MRDT_Devices:OKI") (at 139.065 93.345 0)
+  (symbol (lib_id "MRDT_Devices:OKI") (at 139.065 93.345 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e8067ed1-f723-45e3-86a9-60164243f6b4)
     (property "Reference" "U2" (id 0) (at 140.335 94.615 0)
@@ -474,7 +474,7 @@
     (pin "3" (uuid bf01c794-c1ce-4f61-8845-cf4108fd109a))
   )
 
-  (symbol (lib_id "power:GND") (at 146.05 104.775 0)
+  (symbol (lib_id "power:GND") (at 146.05 104.775 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid eb60033f-c0ce-494b-ac86-61fcfdb86753)
     (property "Reference" "#PWR028" (id 0) (at 146.05 111.125 0)

@@ -6,12 +6,12 @@
 
   (title_block
     (title "MRDT NavBoard")
-    (date "2022-10-08")
+    (date "2022-11-03")
     (rev "3, 2023")
     (company "Thomas Francois, Missouri S&T Mars Rover Design Team")
-    (comment 1 "Teensy 4.1 Daughter Boards and Modules")
-    (comment 2 "and accelerometers")
-    (comment 3 "These boards are to be stacked together, and connects the Teensy to power, ethernet, ")
+    (comment 1 "Teensy 4.1 Daughter Board")
+    (comment 2 "accelerometers, and a GPS receiver")
+    (comment 3 "This module is a Teensy4.1 daughter board, and connects the Teensy to power, ethernet, ")
   )
 
   (lib_symbols
@@ -544,7 +544,7 @@
     (uuid f710e8e5-e680-4221-9d7f-b3696f78973e)
   )
 
-  (symbol (lib_id "Device:R_US") (at 117.475 106.045 0)
+  (symbol (lib_id "Device:R_US") (at 117.475 106.045 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 05c47988-4715-42bd-b17e-b6acbeb4a9ff)
     (property "Reference" "R14" (id 0) (at 111.76 105.41 0)
@@ -563,7 +563,7 @@
     (pin "2" (uuid 011094ce-d342-49c8-aa93-74b18790858e))
   )
 
-  (symbol (lib_id "Device:R_US") (at 175.26 97.155 0)
+  (symbol (lib_id "Device:R_US") (at 175.26 97.155 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 0be299d0-aa14-4640-8822-37d2f8ad2210)
     (property "Reference" "R13" (id 0) (at 177.165 96.52 0)
@@ -582,7 +582,7 @@
     (pin "2" (uuid 52f6baa4-091f-4ea8-a21c-187ebcda3720))
   )
 
-  (symbol (lib_id "Device:C") (at 142.24 76.2 0)
+  (symbol (lib_id "Device:C") (at 142.24 76.2 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 1b690a7c-2bdf-4c6c-9040-fcce0a44b775)
     (property "Reference" "C11" (id 0) (at 137.16 74.93 0)
@@ -601,7 +601,7 @@
     (pin "2" (uuid 39d913d7-1880-4ac9-9522-bdb5881894e4))
   )
 
-  (symbol (lib_id "power:GND") (at 163.83 81.28 0)
+  (symbol (lib_id "power:GND") (at 163.83 81.28 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 1d8288d2-73b6-4acd-85c8-0624cfa4e1f6)
     (property "Reference" "#PWR040" (id 0) (at 163.83 87.63 0)
@@ -617,7 +617,7 @@
     (pin "1" (uuid 552ce55c-ae01-4a78-b3fc-8406d5bc8161))
   )
 
-  (symbol (lib_id "Device:C") (at 133.35 76.2 0) (mirror y)
+  (symbol (lib_id "Device:C") (at 133.35 76.2 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 2dd328ed-0614-4874-95e1-d1526415ed28)
     (property "Reference" "C10" (id 0) (at 130.429 75.0316 0)
@@ -636,7 +636,7 @@
     (pin "2" (uuid f6bb9af5-b058-496e-9df5-203c88650b61))
   )
 
-  (symbol (lib_id "power:GND") (at 175.26 102.87 0)
+  (symbol (lib_id "power:GND") (at 175.26 102.87 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 73cc7a08-42a5-457c-850b-2231df19db80)
     (property "Reference" "#PWR041" (id 0) (at 175.26 109.22 0)
@@ -652,7 +652,7 @@
     (pin "1" (uuid 737a5217-bdb0-4c50-bda4-a9c66eb7e9f1))
   )
 
-  (symbol (lib_id "Device:C") (at 123.825 76.2 0) (mirror y)
+  (symbol (lib_id "Device:C") (at 123.825 76.2 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 784923f8-599f-4be1-b129-f95780a2908f)
     (property "Reference" "C9" (id 0) (at 120.65 74.93 0)
@@ -671,7 +671,7 @@
     (pin "2" (uuid 012e9b62-c41d-4811-b07b-5b9571a5935b))
   )
 
-  (symbol (lib_id "power:GND") (at 133.35 81.28 0)
+  (symbol (lib_id "power:GND") (at 133.35 81.28 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 7bd6778a-13c1-4942-93d0-78777c5b0fe1)
     (property "Reference" "#PWR039" (id 0) (at 133.35 87.63 0)
@@ -687,7 +687,7 @@
     (pin "1" (uuid dab6958d-8c89-47ec-8bf7-c0cde103b353))
   )
 
-  (symbol (lib_id "power:GND") (at 117.475 111.76 0)
+  (symbol (lib_id "power:GND") (at 117.475 111.76 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 7c064222-02d3-41fe-986e-e759eafb2d44)
     (property "Reference" "#PWR042" (id 0) (at 117.475 118.11 0)
@@ -703,7 +703,7 @@
     (pin "1" (uuid 5eeb37bd-09c8-437e-8b37-2d5776a069b7))
   )
 
-  (symbol (lib_id "Connector:TestPoint") (at 117.475 99.695 0) (mirror y)
+  (symbol (lib_id "Connector:TestPoint") (at 117.475 99.695 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 885ec225-9a08-444e-9280-4e97097e1285)
     (property "Reference" "TP4" (id 0) (at 116.205 96.52 0)
@@ -721,7 +721,7 @@
     (pin "1" (uuid cfe9cf2d-3801-4dda-bfed-9b4fbe9ee5b3))
   )
 
-  (symbol (lib_id "power:GND") (at 147.32 113.665 0)
+  (symbol (lib_id "power:GND") (at 147.32 113.665 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9fec8fb3-16dc-4531-bfe1-b79dfbb1322b)
     (property "Reference" "#PWR043" (id 0) (at 147.32 120.015 0)
@@ -737,7 +737,7 @@
     (pin "1" (uuid 6e080b8a-6ae7-4d2e-95aa-501fd453bcea))
   )
 
-  (symbol (lib_id "Device:C") (at 163.83 76.2 0)
+  (symbol (lib_id "Device:C") (at 163.83 76.2 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid bec9963d-5bd0-462e-8ce4-b380e1167d2b)
     (property "Reference" "C12" (id 0) (at 166.37 74.93 0)
@@ -756,7 +756,7 @@
     (pin "2" (uuid 8aee54b9-49ff-4a24-8b69-e0acccb0fe74))
   )
 
-  (symbol (lib_id "MRDT_Sensors:ICM-20608-G") (at 148.59 97.79 0)
+  (symbol (lib_id "MRDT_Sensors:ICM-20608-G") (at 148.59 97.79 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid d32d24e7-8bdf-4a9b-9e41-ace90d2958f7)
     (property "Reference" "U4" (id 0) (at 160.655 110.49 0)
@@ -797,7 +797,7 @@
     (pin "9" (uuid 921b5868-10f8-48b4-bc88-998ceb39e4f8))
   )
 
-  (symbol (lib_id "power:+3V3") (at 133.35 69.215 0)
+  (symbol (lib_id "power:+3V3") (at 133.35 69.215 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid eae45706-712f-4058-88de-edebf16b7be2)
     (property "Reference" "#PWR038" (id 0) (at 133.35 73.025 0)
@@ -813,7 +813,7 @@
     (pin "1" (uuid 6f216e75-c91d-4a25-b43b-9332b455dbb7))
   )
 
-  (symbol (lib_id "Connector:TestPoint") (at 175.26 89.535 0)
+  (symbol (lib_id "Connector:TestPoint") (at 175.26 89.535 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid f41a7e57-a3a1-40ed-a9c3-e457da089c6b)
     (property "Reference" "TP3" (id 0) (at 176.53 86.36 0)

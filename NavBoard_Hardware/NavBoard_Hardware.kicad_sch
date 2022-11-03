@@ -6,12 +6,12 @@
 
   (title_block
     (title "MRDT NavBoard")
-    (date "2022-10-08")
+    (date "2022-11-03")
     (rev "3, 2023")
     (company "Thomas Francois, Missouri S&T Mars Rover Design Team")
-    (comment 1 "Teensy 4.1 Daughter Boards and Modules")
-    (comment 2 "and accelerometers")
-    (comment 3 "These boards are to be stacked together, and connects the Teensy to power, ethernet, ")
+    (comment 1 "Teensy 4.1 Daughter Board")
+    (comment 2 "accelerometers, and a GPS receiver")
+    (comment 3 "This module is a Teensy4.1 daughter board, and connects the Teensy to power, ethernet, ")
   )
 
   (lib_symbols
@@ -1329,7 +1329,7 @@
 
   (no_connect (at 53.975 140.97) (uuid 27c33f58-80e7-437b-ac01-54ee61c7a110))
   (no_connect (at 33.655 156.21) (uuid b8ecd010-fae6-4e1c-999f-a3f7cf31da3c))
-  (no_connect (at 33.655 153.67) (uuid b8ecd010-fae6-4e1c-999f-a3f7cf31da3c))
+  (no_connect (at 33.655 153.67) (uuid b8ecd010-fae6-4e1c-999f-a3f7cf31da3d))
 
   (bus_entry (at 191.77 89.535) (size 2.54 -2.54)
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -1585,11 +1585,11 @@
   )
   (bus_entry (at 243.84 141.605) (size -2.54 2.54)
     (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid f79cca6f-8f5e-4adb-8478-b22069065e58)
+    (uuid f79cca6f-8f5e-4adb-8478-b22069065e59)
   )
   (bus_entry (at 243.84 130.175) (size -2.54 2.54)
     (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid f79cca6f-8f5e-4adb-8478-b22069065e58)
+    (uuid f79cca6f-8f5e-4adb-8478-b22069065e5a)
   )
 
   (wire (pts (xy 116.84 76.835) (xy 124.46 76.835))
