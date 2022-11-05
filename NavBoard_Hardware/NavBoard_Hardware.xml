@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Users\frisc_000\Documents\GitHub\NavBoard_Hardware\NavBoard_Hardware\NavBoard_Hardware.kicad_sch</source>
-    <date>9/23/2022 12:49:57 PM</date>
+    <date>11/4/2022 7:03:33 PM</date>
     <tool>Eeschema (6.0.1)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -58,7 +58,7 @@
         <comment number="9" value=""/>
       </title_block>
     </sheet>
-    <sheet number="4" name="/OKI - 5V/" tstamps="/b6ba73bb-0e4b-47eb-b14c-72930e936971/">
+    <sheet number="4" name="/5V Regulator (OKI or TSR)/" tstamps="/b6ba73bb-0e4b-47eb-b14c-72930e936971/">
       <title_block>
         <title>OKI 5V Voltage Regulator</title>
         <company>Thomas Francois, Katherine Dunlap, Missouri S&amp;T Mars Rover Design Team</company>
@@ -76,7 +76,7 @@
         <comment number="9" value=""/>
       </title_block>
     </sheet>
-    <sheet number="5" name="/OKI - 3V3/" tstamps="/9fe43653-090e-41d1-81ad-b1efbf245cec/">
+    <sheet number="5" name="/3V3 Regulator (OKI or TSR)/" tstamps="/9fe43653-090e-41d1-81ad-b1efbf245cec/">
       <title_block>
         <title>OKI 3V3 Voltage Regulator</title>
         <company>Thomas Francois, Katherine Dunlap, Missouri S&amp;T Mars Rover Design Team</company>
@@ -179,7 +179,7 @@
       <tstamps>4df8f32e-549b-40fc-8197-9aa1b0185b9a</tstamps>
     </comp>
     <comp ref="R1">
-      <value>100</value>
+      <value>100R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <property name="Sheetname" value=""/>
@@ -188,7 +188,7 @@
       <tstamps>00000000-0000-0000-0000-000061999303</tstamps>
     </comp>
     <comp ref="R2">
-      <value>43</value>
+      <value>43R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <property name="Sheetname" value=""/>
@@ -241,12 +241,30 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>ebd92cee-c892-4430-b3ba-7cf0af953c5d</tstamps>
     </comp>
+    <comp ref="R15">
+      <value>0ohm</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NavBoard_Hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ba434246-84e6-4414-ab49-6ee0f4e6098c</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>0ohm</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NavBoard_Hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e9de15d2-0fc2-4124-98ab-40b48da37e93</tstamps>
+    </comp>
     <comp ref="C9">
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value="IMU #1 - BHI160B"/>
-      <property name="Sheetfile" value="component_sheets\BHI160B.kicad_sch"/>
+      <property name="Sheetfile" value="component_sheets/BHI160B.kicad_sch"/>
       <sheetpath names="/IMU #1 - BHI160B/" tstamps="/71cfd937-2c9a-491b-8b2f-35550415f704/"/>
       <tstamps>d40caa0e-8930-4ee1-96a2-790ba761c1bf</tstamps>
     </comp>
@@ -255,7 +273,7 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value="IMU #1 - BHI160B"/>
-      <property name="Sheetfile" value="component_sheets\BHI160B.kicad_sch"/>
+      <property name="Sheetfile" value="component_sheets/BHI160B.kicad_sch"/>
       <sheetpath names="/IMU #1 - BHI160B/" tstamps="/71cfd937-2c9a-491b-8b2f-35550415f704/"/>
       <tstamps>6a5d4edc-3ae2-4eb8-afa8-ac1eca62c9ea</tstamps>
     </comp>
@@ -264,7 +282,7 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value="IMU #1 - BHI160B"/>
-      <property name="Sheetfile" value="component_sheets\BHI160B.kicad_sch"/>
+      <property name="Sheetfile" value="component_sheets/BHI160B.kicad_sch"/>
       <sheetpath names="/IMU #1 - BHI160B/" tstamps="/71cfd937-2c9a-491b-8b2f-35550415f704/"/>
       <tstamps>f01251fb-f2ee-4c03-8309-d30031825f91</tstamps>
     </comp>
@@ -273,7 +291,7 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value="IMU #1 - BHI160B"/>
-      <property name="Sheetfile" value="component_sheets\BHI160B.kicad_sch"/>
+      <property name="Sheetfile" value="component_sheets/BHI160B.kicad_sch"/>
       <sheetpath names="/IMU #1 - BHI160B/" tstamps="/71cfd937-2c9a-491b-8b2f-35550415f704/"/>
       <tstamps>d997983e-985b-4240-8c4e-c57a43eedad7</tstamps>
     </comp>
@@ -282,7 +300,7 @@
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <property name="Sheetname" value="IMU #1 - BHI160B"/>
-      <property name="Sheetfile" value="component_sheets\BHI160B.kicad_sch"/>
+      <property name="Sheetfile" value="component_sheets/BHI160B.kicad_sch"/>
       <sheetpath names="/IMU #1 - BHI160B/" tstamps="/71cfd937-2c9a-491b-8b2f-35550415f704/"/>
       <tstamps>006a5a2e-f954-480e-928d-0456865c68b2</tstamps>
     </comp>
@@ -291,7 +309,7 @@
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <property name="Sheetname" value="IMU #1 - BHI160B"/>
-      <property name="Sheetfile" value="component_sheets\BHI160B.kicad_sch"/>
+      <property name="Sheetfile" value="component_sheets/BHI160B.kicad_sch"/>
       <sheetpath names="/IMU #1 - BHI160B/" tstamps="/71cfd937-2c9a-491b-8b2f-35550415f704/"/>
       <tstamps>e982ded1-e97c-4dc8-a3d8-853bdce6fe3b</tstamps>
     </comp>
@@ -300,7 +318,7 @@
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <property name="Sheetname" value="IMU #1 - BHI160B"/>
-      <property name="Sheetfile" value="component_sheets\BHI160B.kicad_sch"/>
+      <property name="Sheetfile" value="component_sheets/BHI160B.kicad_sch"/>
       <sheetpath names="/IMU #1 - BHI160B/" tstamps="/71cfd937-2c9a-491b-8b2f-35550415f704/"/>
       <tstamps>201fdf1e-2829-4fa2-96fb-a2a60a1b14d8</tstamps>
     </comp>
@@ -309,7 +327,7 @@
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <property name="Sheetname" value="IMU #1 - BHI160B"/>
-      <property name="Sheetfile" value="component_sheets\BHI160B.kicad_sch"/>
+      <property name="Sheetfile" value="component_sheets/BHI160B.kicad_sch"/>
       <sheetpath names="/IMU #1 - BHI160B/" tstamps="/71cfd937-2c9a-491b-8b2f-35550415f704/"/>
       <tstamps>877ff5b5-f5f4-403e-a928-02f0a5d60a48</tstamps>
     </comp>
@@ -318,7 +336,7 @@
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <property name="Sheetname" value="IMU #1 - BHI160B"/>
-      <property name="Sheetfile" value="component_sheets\BHI160B.kicad_sch"/>
+      <property name="Sheetfile" value="component_sheets/BHI160B.kicad_sch"/>
       <sheetpath names="/IMU #1 - BHI160B/" tstamps="/71cfd937-2c9a-491b-8b2f-35550415f704/"/>
       <tstamps>0a1e845b-9d23-42a8-8c4d-98f8e8f3cddc</tstamps>
     </comp>
@@ -327,7 +345,7 @@
       <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value="IMU #1 - BHI160B"/>
-      <property name="Sheetfile" value="component_sheets\BHI160B.kicad_sch"/>
+      <property name="Sheetfile" value="component_sheets/BHI160B.kicad_sch"/>
       <sheetpath names="/IMU #1 - BHI160B/" tstamps="/71cfd937-2c9a-491b-8b2f-35550415f704/"/>
       <tstamps>fadf7f4a-6125-4ad1-993e-1fb21ca0eeb8</tstamps>
     </comp>
@@ -336,7 +354,7 @@
       <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value="IMU #1 - BHI160B"/>
-      <property name="Sheetfile" value="component_sheets\BHI160B.kicad_sch"/>
+      <property name="Sheetfile" value="component_sheets/BHI160B.kicad_sch"/>
       <sheetpath names="/IMU #1 - BHI160B/" tstamps="/71cfd937-2c9a-491b-8b2f-35550415f704/"/>
       <tstamps>91b985ca-4c09-4239-a304-0e08e3bbb010</tstamps>
     </comp>
@@ -346,7 +364,7 @@
       <datasheet>https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bhi160b-ds000.pdf</datasheet>
       <libsource lib="MRDT_Sensors" part="BHI160B" description="IMU"/>
       <property name="Sheetname" value="IMU #1 - BHI160B"/>
-      <property name="Sheetfile" value="component_sheets\BHI160B.kicad_sch"/>
+      <property name="Sheetfile" value="component_sheets/BHI160B.kicad_sch"/>
       <sheetpath names="/IMU #1 - BHI160B/" tstamps="/71cfd937-2c9a-491b-8b2f-35550415f704/"/>
       <tstamps>6b570b0e-b046-4f1e-aa27-616110d3e310</tstamps>
     </comp>
@@ -355,7 +373,7 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value="IMU #2 - ICM-20608"/>
-      <property name="Sheetfile" value="component_sheets\ICM-20608.kicad_sch"/>
+      <property name="Sheetfile" value="component_sheets/ICM-20608.kicad_sch"/>
       <sheetpath names="/IMU #2 - ICM-20608/" tstamps="/206c7c2e-abf9-46a7-98d2-9b430b56950c/"/>
       <tstamps>1b690a7c-2bdf-4c6c-9040-fcce0a44b775</tstamps>
     </comp>
@@ -364,7 +382,7 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value="IMU #2 - ICM-20608"/>
-      <property name="Sheetfile" value="component_sheets\ICM-20608.kicad_sch"/>
+      <property name="Sheetfile" value="component_sheets/ICM-20608.kicad_sch"/>
       <sheetpath names="/IMU #2 - ICM-20608/" tstamps="/206c7c2e-abf9-46a7-98d2-9b430b56950c/"/>
       <tstamps>2dd328ed-0614-4874-95e1-d1526415ed28</tstamps>
     </comp>
@@ -373,7 +391,7 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value="IMU #2 - ICM-20608"/>
-      <property name="Sheetfile" value="component_sheets\ICM-20608.kicad_sch"/>
+      <property name="Sheetfile" value="component_sheets/ICM-20608.kicad_sch"/>
       <sheetpath names="/IMU #2 - ICM-20608/" tstamps="/206c7c2e-abf9-46a7-98d2-9b430b56950c/"/>
       <tstamps>784923f8-599f-4be1-b129-f95780a2908f</tstamps>
     </comp>
@@ -382,7 +400,7 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value="IMU #2 - ICM-20608"/>
-      <property name="Sheetfile" value="component_sheets\ICM-20608.kicad_sch"/>
+      <property name="Sheetfile" value="component_sheets/ICM-20608.kicad_sch"/>
       <sheetpath names="/IMU #2 - ICM-20608/" tstamps="/206c7c2e-abf9-46a7-98d2-9b430b56950c/"/>
       <tstamps>bec9963d-5bd0-462e-8ce4-b380e1167d2b</tstamps>
     </comp>
@@ -391,7 +409,7 @@
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <property name="Sheetname" value="IMU #2 - ICM-20608"/>
-      <property name="Sheetfile" value="component_sheets\ICM-20608.kicad_sch"/>
+      <property name="Sheetfile" value="component_sheets/ICM-20608.kicad_sch"/>
       <sheetpath names="/IMU #2 - ICM-20608/" tstamps="/206c7c2e-abf9-46a7-98d2-9b430b56950c/"/>
       <tstamps>0be299d0-aa14-4640-8822-37d2f8ad2210</tstamps>
     </comp>
@@ -400,7 +418,7 @@
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <property name="Sheetname" value="IMU #2 - ICM-20608"/>
-      <property name="Sheetfile" value="component_sheets\ICM-20608.kicad_sch"/>
+      <property name="Sheetfile" value="component_sheets/ICM-20608.kicad_sch"/>
       <sheetpath names="/IMU #2 - ICM-20608/" tstamps="/206c7c2e-abf9-46a7-98d2-9b430b56950c/"/>
       <tstamps>05c47988-4715-42bd-b17e-b6acbeb4a9ff</tstamps>
     </comp>
@@ -409,7 +427,7 @@
       <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value="IMU #2 - ICM-20608"/>
-      <property name="Sheetfile" value="component_sheets\ICM-20608.kicad_sch"/>
+      <property name="Sheetfile" value="component_sheets/ICM-20608.kicad_sch"/>
       <sheetpath names="/IMU #2 - ICM-20608/" tstamps="/206c7c2e-abf9-46a7-98d2-9b430b56950c/"/>
       <tstamps>885ec225-9a08-444e-9280-4e97097e1285</tstamps>
     </comp>
@@ -418,7 +436,7 @@
       <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value="IMU #2 - ICM-20608"/>
-      <property name="Sheetfile" value="component_sheets\ICM-20608.kicad_sch"/>
+      <property name="Sheetfile" value="component_sheets/ICM-20608.kicad_sch"/>
       <sheetpath names="/IMU #2 - ICM-20608/" tstamps="/206c7c2e-abf9-46a7-98d2-9b430b56950c/"/>
       <tstamps>f41a7e57-a3a1-40ed-a9c3-e457da089c6b</tstamps>
     </comp>
@@ -436,7 +454,7 @@
       <property name="PARTREV" value="1.0"/>
       <property name="STANDARD" value="IPC-7351B"/>
       <property name="Sheetname" value="IMU #2 - ICM-20608"/>
-      <property name="Sheetfile" value="component_sheets\ICM-20608.kicad_sch"/>
+      <property name="Sheetfile" value="component_sheets/ICM-20608.kicad_sch"/>
       <sheetpath names="/IMU #2 - ICM-20608/" tstamps="/206c7c2e-abf9-46a7-98d2-9b430b56950c/"/>
       <tstamps>d32d24e7-8bdf-4a9b-9e41-ace90d2958f7</tstamps>
     </comp>
@@ -444,73 +462,93 @@
       <value>22uF 50V</value>
       <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
       <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
-      <property name="Sheetname" value="OKI - 5V"/>
-      <property name="Sheetfile" value="component_sheets\OKI-5V.kicad_sch"/>
-      <sheetpath names="/OKI - 5V/" tstamps="/b6ba73bb-0e4b-47eb-b14c-72930e936971/"/>
+      <property name="Sheetname" value="5V Regulator (OKI or TSR)"/>
+      <property name="Sheetfile" value="component_sheets/OKI-5V.kicad_sch"/>
+      <sheetpath names="/5V Regulator (OKI or TSR)/" tstamps="/b6ba73bb-0e4b-47eb-b14c-72930e936971/"/>
       <tstamps>01cf29d6-65fd-424c-a1f9-49ef3759f2ec</tstamps>
     </comp>
     <comp ref="C2">
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
-      <property name="Sheetname" value="OKI - 5V"/>
-      <property name="Sheetfile" value="component_sheets\OKI-5V.kicad_sch"/>
-      <sheetpath names="/OKI - 5V/" tstamps="/b6ba73bb-0e4b-47eb-b14c-72930e936971/"/>
+      <property name="Sheetname" value="5V Regulator (OKI or TSR)"/>
+      <property name="Sheetfile" value="component_sheets/OKI-5V.kicad_sch"/>
+      <sheetpath names="/5V Regulator (OKI or TSR)/" tstamps="/b6ba73bb-0e4b-47eb-b14c-72930e936971/"/>
       <tstamps>2e304444-7195-4027-b495-eddacb745316</tstamps>
     </comp>
     <comp ref="C3">
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
-      <property name="Sheetname" value="OKI - 5V"/>
-      <property name="Sheetfile" value="component_sheets\OKI-5V.kicad_sch"/>
-      <sheetpath names="/OKI - 5V/" tstamps="/b6ba73bb-0e4b-47eb-b14c-72930e936971/"/>
+      <property name="Sheetname" value="5V Regulator (OKI or TSR)"/>
+      <property name="Sheetfile" value="component_sheets/OKI-5V.kicad_sch"/>
+      <sheetpath names="/5V Regulator (OKI or TSR)/" tstamps="/b6ba73bb-0e4b-47eb-b14c-72930e936971/"/>
       <tstamps>ded8385f-d976-40a3-b9d3-3c651b0902e5</tstamps>
     </comp>
     <comp ref="U1">
       <value>OKI-5V</value>
       <footprint>MRDT_Devices:OKI_Horizontal</footprint>
       <libsource lib="MRDT_Devices" part="OKI" description="DC/DC Buck Converter"/>
-      <property name="Sheetname" value="OKI - 5V"/>
-      <property name="Sheetfile" value="component_sheets\OKI-5V.kicad_sch"/>
-      <sheetpath names="/OKI - 5V/" tstamps="/b6ba73bb-0e4b-47eb-b14c-72930e936971/"/>
+      <property name="Sheetname" value="5V Regulator (OKI or TSR)"/>
+      <property name="Sheetfile" value="component_sheets/OKI-5V.kicad_sch"/>
+      <sheetpath names="/5V Regulator (OKI or TSR)/" tstamps="/b6ba73bb-0e4b-47eb-b14c-72930e936971/"/>
       <tstamps>e8067ed1-f723-45e3-86a9-60164243f6b4</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>TSR 2-2450</value>
+      <footprint>Converter_DCDC:Converter_DCDC_TRACO_TSR-1_THT</footprint>
+      <datasheet>http://www.tracopower.com/products/tsr1.pdf</datasheet>
+      <libsource lib="Regulator_Switching" part="TSR_1-2412" description="1A step-down regulator module, fixed 1.2V output voltage, 6-36V input voltage, -40°C to +85°C temperature range, TO-220 compatible LM78xx replacement"/>
+      <property name="Sheetname" value="5V Regulator (OKI or TSR)"/>
+      <property name="Sheetfile" value="component_sheets/OKI-5V.kicad_sch"/>
+      <sheetpath names="/5V Regulator (OKI or TSR)/" tstamps="/b6ba73bb-0e4b-47eb-b14c-72930e936971/"/>
+      <tstamps>f3fcedec-fd71-4305-b907-c60ecc6034e0</tstamps>
     </comp>
     <comp ref="C4">
       <value>22uF 50V</value>
       <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
       <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
-      <property name="Sheetname" value="OKI - 3V3"/>
-      <property name="Sheetfile" value="component_sheets\OKI-3V3.kicad_sch"/>
-      <sheetpath names="/OKI - 3V3/" tstamps="/9fe43653-090e-41d1-81ad-b1efbf245cec/"/>
+      <property name="Sheetname" value="3V3 Regulator (OKI or TSR)"/>
+      <property name="Sheetfile" value="component_sheets/OKI-3V3.kicad_sch"/>
+      <sheetpath names="/3V3 Regulator (OKI or TSR)/" tstamps="/9fe43653-090e-41d1-81ad-b1efbf245cec/"/>
       <tstamps>8a8f956a-784e-4722-86b6-81529e5ab031</tstamps>
     </comp>
     <comp ref="C5">
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
-      <property name="Sheetname" value="OKI - 3V3"/>
-      <property name="Sheetfile" value="component_sheets\OKI-3V3.kicad_sch"/>
-      <sheetpath names="/OKI - 3V3/" tstamps="/9fe43653-090e-41d1-81ad-b1efbf245cec/"/>
+      <property name="Sheetname" value="3V3 Regulator (OKI or TSR)"/>
+      <property name="Sheetfile" value="component_sheets/OKI-3V3.kicad_sch"/>
+      <sheetpath names="/3V3 Regulator (OKI or TSR)/" tstamps="/9fe43653-090e-41d1-81ad-b1efbf245cec/"/>
       <tstamps>adf6e372-11b0-4024-890b-fadc141fe3b6</tstamps>
     </comp>
     <comp ref="C6">
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
-      <property name="Sheetname" value="OKI - 3V3"/>
-      <property name="Sheetfile" value="component_sheets\OKI-3V3.kicad_sch"/>
-      <sheetpath names="/OKI - 3V3/" tstamps="/9fe43653-090e-41d1-81ad-b1efbf245cec/"/>
+      <property name="Sheetname" value="3V3 Regulator (OKI or TSR)"/>
+      <property name="Sheetfile" value="component_sheets/OKI-3V3.kicad_sch"/>
+      <sheetpath names="/3V3 Regulator (OKI or TSR)/" tstamps="/9fe43653-090e-41d1-81ad-b1efbf245cec/"/>
       <tstamps>aa932aa9-51ac-42a4-a5d0-13441a36a01a</tstamps>
     </comp>
     <comp ref="U4">
       <value>OKI-3V3</value>
       <footprint>MRDT_Devices:OKI_Horizontal</footprint>
       <libsource lib="MRDT_Devices" part="OKI" description="DC/DC Buck Converter"/>
-      <property name="Sheetname" value="OKI - 3V3"/>
-      <property name="Sheetfile" value="component_sheets\OKI-3V3.kicad_sch"/>
-      <sheetpath names="/OKI - 3V3/" tstamps="/9fe43653-090e-41d1-81ad-b1efbf245cec/"/>
+      <property name="Sheetname" value="3V3 Regulator (OKI or TSR)"/>
+      <property name="Sheetfile" value="component_sheets/OKI-3V3.kicad_sch"/>
+      <sheetpath names="/3V3 Regulator (OKI or TSR)/" tstamps="/9fe43653-090e-41d1-81ad-b1efbf245cec/"/>
       <tstamps>52d8a84d-aba9-4a17-9ffc-3c0921b90a99</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>TSR 2-2450</value>
+      <footprint>Converter_DCDC:Converter_DCDC_TRACO_TSR-1_THT</footprint>
+      <datasheet>http://www.tracopower.com/products/tsr1.pdf</datasheet>
+      <libsource lib="Regulator_Switching" part="TSR_1-2412" description="1A step-down regulator module, fixed 1.2V output voltage, 6-36V input voltage, -40°C to +85°C temperature range, TO-220 compatible LM78xx replacement"/>
+      <property name="Sheetname" value="3V3 Regulator (OKI or TSR)"/>
+      <property name="Sheetfile" value="component_sheets/OKI-3V3.kicad_sch"/>
+      <sheetpath names="/3V3 Regulator (OKI or TSR)/" tstamps="/9fe43653-090e-41d1-81ad-b1efbf245cec/"/>
+      <tstamps>7e2ad708-c653-4704-8f46-8f59a0e35570</tstamps>
     </comp>
   </components>
   <libparts>
@@ -774,6 +812,24 @@
         <pin num="16" name="VDD" type="power_in"/>
       </pins>
     </libpart>
+    <libpart lib="Regulator_Switching" part="TSR_1-2412">
+      <description>1A step-down regulator module, fixed 1.2V output voltage, 6-36V input voltage, -40°C to +85°C temperature range, TO-220 compatible LM78xx replacement</description>
+      <docs>http://www.tracopower.com/products/tsr1.pdf</docs>
+      <footprints>
+        <fp>Converter*DCDC*TRACO*TSR?1*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TSR_1-2412</field>
+        <field name="Footprint">Converter_DCDC:Converter_DCDC_TRACO_TSR-1_THT</field>
+        <field name="Datasheet">http://www.tracopower.com/products/tsr1.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vin" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="Vout" type="power_out"/>
+      </pins>
+    </libpart>
   </libparts>
   <libraries>
     <library logical="Connector">
@@ -797,6 +853,9 @@
     <library logical="MRDT_Sensors">
       <uri>C:/Users/frisc/Documents/GitHub/MRDT_KiCAD_Libraries/Symbols/MRDT_Sensors.kicad_sym</uri>
     </library>
+    <library logical="Regulator_Switching">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Regulator_Switching.kicad_sym</uri>
+    </library>
   </libraries>
   <nets>
     <net code="1" name="+3V3">
@@ -808,12 +867,15 @@
       <node ref="C7" pin="1" pintype="passive"/>
       <node ref="C8" pin="1" pintype="passive"/>
       <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
       <node ref="U2" pin="13" pinfunction="VDD" pintype="power_in"/>
       <node ref="U2" pin="8" pinfunction="VDDIO" pintype="power_in"/>
       <node ref="U3" pin="1" pinfunction="VDDIO" pintype="power_in"/>
       <node ref="U3" pin="16" pinfunction="VDD" pintype="power_in"/>
       <node ref="U4" pin="3" pinfunction="Vo" pintype="output"/>
+      <node ref="U6" pin="3" pinfunction="Vout" pintype="power_out"/>
     </net>
     <net code="2" name="+5V">
       <node ref="C2" pin="1" pintype="passive"/>
@@ -826,41 +888,44 @@
       <node ref="R6" pin="1" pintype="passive"/>
       <node ref="R7" pin="1" pintype="passive"/>
       <node ref="U1" pin="3" pinfunction="Vo" pintype="output"/>
+      <node ref="U5" pin="3" pinfunction="Vout" pintype="power_out"/>
     </net>
-    <net code="3" name="/I2C-SCL">
-      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
-      <node ref="J2" pin="5" pinfunction="SCL/GPIO3" pintype="bidirectional"/>
-      <node ref="R12" pin="1" pintype="passive"/>
-      <node ref="U2" pin="23" pinfunction="SCK" pintype="unspecified"/>
-    </net>
-    <net code="4" name="/I2C-SDA">
-      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
-      <node ref="J2" pin="3" pinfunction="SDA/GPIO2" pintype="bidirectional"/>
-      <node ref="R13" pin="1" pintype="passive"/>
-      <node ref="U2" pin="24" pinfunction="SDA" pintype="unspecified"/>
-    </net>
-    <net code="5" name="/I2C_Status_LED">
-      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="J2" pin="33" pinfunction="PWM1/GPIO13" pintype="bidirectional"/>
-    </net>
-    <net code="6" name="/IMU #1 - BHI160B/I2C_ADR">
-      <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
-      <node ref="U2" pin="9" pinfunction="SA_GPIO7" pintype="unspecified"/>
-    </net>
-    <net code="7" name="/M8Q-RX">
-      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
-      <node ref="J2" pin="8" pinfunction="GPIO14/TXD" pintype="bidirectional"/>
-    </net>
-    <net code="8" name="/M8Q-TX">
-      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="J2" pin="10" pinfunction="GPIO15/RXD" pintype="bidirectional"/>
-    </net>
-    <net code="9" name="/OKI - 3V3/+12V">
+    <net code="3" name="/3V3 Regulator (OKI or TSR)/+12V">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="C4" pin="1" pintype="passive"/>
       <node ref="Conn1" pin="2" pinfunction="V+Log" pintype="input"/>
       <node ref="U1" pin="1" pinfunction="Vi" pintype="input"/>
       <node ref="U4" pin="1" pinfunction="Vi" pintype="input"/>
+      <node ref="U5" pin="1" pinfunction="Vin" pintype="power_in"/>
+      <node ref="U6" pin="1" pinfunction="Vin" pintype="power_in"/>
+    </net>
+    <net code="4" name="/I2C-SCL">
+      <node ref="J2" pin="5" pinfunction="SCL/GPIO3" pintype="bidirectional"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="U2" pin="23" pinfunction="SCK" pintype="unspecified"/>
+    </net>
+    <net code="5" name="/I2C-SDA">
+      <node ref="J2" pin="3" pinfunction="SDA/GPIO2" pintype="bidirectional"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="U2" pin="24" pinfunction="SDA" pintype="unspecified"/>
+    </net>
+    <net code="6" name="/I2C_Status_LED">
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J2" pin="33" pinfunction="PWM1/GPIO13" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/IMU #1 - BHI160B/I2C_ADR">
+      <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="SA_GPIO7" pintype="unspecified"/>
+    </net>
+    <net code="8" name="/M8Q-RX">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J2" pin="8" pinfunction="GPIO14/TXD" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/M8Q-TX">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J2" pin="10" pinfunction="GPIO15/RXD" pintype="bidirectional"/>
     </net>
     <net code="10" name="/SPI-CS">
       <node ref="J2" pin="24" pinfunction="~{CE0}/GPIO8" pintype="bidirectional"/>
@@ -916,8 +981,6 @@
       <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="R10" pin="2" pintype="passive"/>
       <node ref="R11" pin="2" pintype="passive"/>
-      <node ref="R12" pin="2" pintype="passive"/>
-      <node ref="R13" pin="2" pintype="passive"/>
       <node ref="R14" pin="2" pintype="passive"/>
       <node ref="R3" pin="2" pintype="passive"/>
       <node ref="R4" pin="2" pintype="passive"/>
@@ -929,6 +992,8 @@
       <node ref="U3" pin="13" pinfunction="GND" pintype="power_in"/>
       <node ref="U3" pin="15" pinfunction="GND" pintype="power_in"/>
       <node ref="U4" pin="2" pinfunction="GND" pintype="output"/>
+      <node ref="U5" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="2" pinfunction="GND" pintype="power_in"/>
     </net>
     <net code="17" name="Net-(C11-Pad1)">
       <node ref="C11" pin="1" pintype="passive"/>
@@ -958,114 +1023,122 @@
       <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R5" pin="2" pintype="passive"/>
     </net>
-    <net code="24" name="Net-(R3-Pad1)">
+    <net code="24" name="Net-(J1-Pad5)">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(J1-Pad6)">
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(R3-Pad1)">
       <node ref="R3" pin="1" pintype="passive"/>
       <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U2" pin="3" pinfunction="GPIO1" pintype="bidirectional"/>
     </net>
-    <net code="25" name="Net-(R4-Pad1)">
+    <net code="27" name="Net-(R4-Pad1)">
       <node ref="R4" pin="1" pintype="passive"/>
       <node ref="U2" pin="21" pinfunction="ASDA" pintype="unspecified"/>
     </net>
-    <net code="26" name="Net-(R8-Pad1)">
+    <net code="28" name="Net-(R8-Pad1)">
       <node ref="R8" pin="1" pintype="passive"/>
       <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U2" pin="11" pinfunction="GPIO2" pintype="bidirectional"/>
     </net>
-    <net code="27" name="Net-(R9-Pad1)">
+    <net code="29" name="Net-(R9-Pad1)">
       <node ref="R9" pin="1" pintype="passive"/>
       <node ref="U2" pin="12" pinfunction="INT" pintype="unspecified"/>
     </net>
-    <net code="28" name="Net-(R10-Pad1)">
+    <net code="30" name="Net-(R10-Pad1)">
       <node ref="R10" pin="1" pintype="passive"/>
       <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U3" pin="6" pinfunction="INT" pintype="output"/>
     </net>
-    <net code="29" name="Net-(R11-Pad1)">
+    <net code="31" name="Net-(R11-Pad1)">
       <node ref="R11" pin="1" pintype="passive"/>
       <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U3" pin="8" pinfunction="FSYNC" pintype="input"/>
     </net>
-    <net code="30" name="Net-(R14-Pad1)">
+    <net code="32" name="Net-(R14-Pad1)">
       <node ref="R14" pin="1" pintype="passive"/>
       <node ref="U2" pin="7" pinfunction="ASCK" pintype="output"/>
     </net>
-    <net code="31" name="unconnected-(J2-Pad1)">
+    <net code="33" name="unconnected-(J2-Pad1)">
       <node ref="J2" pin="1" pinfunction="3V3" pintype="power_in+no_connect"/>
     </net>
-    <net code="32" name="unconnected-(J2-Pad7)">
+    <net code="34" name="unconnected-(J2-Pad7)">
       <node ref="J2" pin="7" pinfunction="GCLK0/GPIO4" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="33" name="unconnected-(J2-Pad11)">
+    <net code="35" name="unconnected-(J2-Pad11)">
       <node ref="J2" pin="11" pinfunction="GPIO17" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="34" name="unconnected-(J2-Pad12)">
+    <net code="36" name="unconnected-(J2-Pad12)">
       <node ref="J2" pin="12" pinfunction="GPIO18/PWM0" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="35" name="unconnected-(J2-Pad13)">
+    <net code="37" name="unconnected-(J2-Pad13)">
       <node ref="J2" pin="13" pinfunction="GPIO27" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="36" name="unconnected-(J2-Pad15)">
+    <net code="38" name="unconnected-(J2-Pad15)">
       <node ref="J2" pin="15" pinfunction="GPIO22" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="37" name="unconnected-(J2-Pad16)">
+    <net code="39" name="unconnected-(J2-Pad16)">
       <node ref="J2" pin="16" pinfunction="GPIO23" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="38" name="unconnected-(J2-Pad17)">
+    <net code="40" name="unconnected-(J2-Pad17)">
       <node ref="J2" pin="17" pinfunction="3V3" pintype="power_in+no_connect"/>
     </net>
-    <net code="39" name="unconnected-(J2-Pad18)">
+    <net code="41" name="unconnected-(J2-Pad18)">
       <node ref="J2" pin="18" pinfunction="GPIO24" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="40" name="unconnected-(J2-Pad22)">
+    <net code="42" name="unconnected-(J2-Pad22)">
       <node ref="J2" pin="22" pinfunction="GPIO25" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="41" name="unconnected-(J2-Pad26)">
+    <net code="43" name="unconnected-(J2-Pad26)">
       <node ref="J2" pin="26" pinfunction="~{CE1}/GPIO7" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="42" name="unconnected-(J2-Pad27)">
+    <net code="44" name="unconnected-(J2-Pad27)">
       <node ref="J2" pin="27" pinfunction="ID_SD/GPIO0" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="43" name="unconnected-(J2-Pad28)">
+    <net code="45" name="unconnected-(J2-Pad28)">
       <node ref="J2" pin="28" pinfunction="ID_SC/GPIO1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="44" name="unconnected-(J2-Pad29)">
+    <net code="46" name="unconnected-(J2-Pad29)">
       <node ref="J2" pin="29" pinfunction="GCLK1/GPIO5" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="45" name="unconnected-(J2-Pad31)">
+    <net code="47" name="unconnected-(J2-Pad31)">
       <node ref="J2" pin="31" pinfunction="GCLK2/GPIO6" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="46" name="unconnected-(J2-Pad32)">
+    <net code="48" name="unconnected-(J2-Pad32)">
       <node ref="J2" pin="32" pinfunction="PWM0/GPIO12" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="47" name="unconnected-(J2-Pad36)">
+    <net code="49" name="unconnected-(J2-Pad36)">
       <node ref="J2" pin="36" pinfunction="GPIO16" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="48" name="unconnected-(J2-Pad38)">
+    <net code="50" name="unconnected-(J2-Pad38)">
       <node ref="J2" pin="38" pinfunction="GPIO20/MOSI1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="49" name="unconnected-(J2-Pad40)">
+    <net code="51" name="unconnected-(J2-Pad40)">
       <node ref="J2" pin="40" pinfunction="GPIO21/SCLK1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="50" name="unconnected-(U2-Pad4)">
+    <net code="52" name="unconnected-(U2-Pad4)">
       <node ref="U2" pin="4" pinfunction="RESV2" pintype="no_connect"/>
     </net>
-    <net code="51" name="unconnected-(U2-Pad5)">
+    <net code="53" name="unconnected-(U2-Pad5)">
       <node ref="U2" pin="5" pinfunction="RESV3" pintype="no_connect"/>
     </net>
-    <net code="52" name="unconnected-(U2-Pad22)">
+    <net code="54" name="unconnected-(U2-Pad22)">
       <node ref="U2" pin="22" pinfunction="RESV4" pintype="no_connect"/>
     </net>
-    <net code="53" name="unconnected-(U3-Pad9)">
+    <net code="55" name="unconnected-(U3-Pad9)">
       <node ref="U3" pin="9" pinfunction="RESV" pintype="no_connect"/>
     </net>
-    <net code="54" name="unconnected-(U3-Pad10)">
+    <net code="56" name="unconnected-(U3-Pad10)">
       <node ref="U3" pin="10" pinfunction="RESV" pintype="no_connect"/>
     </net>
-    <net code="55" name="unconnected-(U3-Pad11)">
+    <net code="57" name="unconnected-(U3-Pad11)">
       <node ref="U3" pin="11" pinfunction="RESV" pintype="no_connect"/>
     </net>
-    <net code="56" name="unconnected-(U3-Pad12)">
+    <net code="58" name="unconnected-(U3-Pad12)">
       <node ref="U3" pin="12" pinfunction="RESV" pintype="no_connect"/>
     </net>
   </nets>
