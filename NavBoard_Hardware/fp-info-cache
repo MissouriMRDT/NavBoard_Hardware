@@ -1,4 +1,4 @@
-20244214311130417
+20230877326177378
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -60858,21 +60858,7 @@ BHI160B
 24
 24
 Nav_Board
-BHI160B_ExtendedPads
-
-
-0
-24
-24
-Nav_Board
 ICM-20608-G
-
-
-0
-16
-16
-Nav_Board
-ICM-20608-G_ExtendedPads
 
 
 0
@@ -60893,26 +60879,12 @@ MRDT_Logo_2
 0
 0
 Nav_Board
-OKI_Vertical_TSR
-
-
-0
-3
-3
-Nav_Board
 PinSocket_2x16_P2.54mm_Vertical_Nav_Board
 
 
 0
 32
 32
-Nav_Board
-PinSocket_2x16_P2.54mm_Vertical_Nav_Board_2
-
-
-0
-38
-38
 Nav_Board
 Teensy-2.54mm_Adapter
 
@@ -60921,33 +60893,12 @@ Teensy-2.54mm_Adapter
 102
 54
 Nav_Board
-Teensy-2.54mm_Adapter_2
-
-
-0
-86
-86
-Nav_Board
 Teensy-2.54mm_Adapter_Separate_Pins
 
 
 0
 96
 96
-Nav_Board
-Teensy41
-
-
-0
-54
-54
-Nav_Board
-Teensy41_Suspended
-
-
-0
-54
-54
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads
@@ -79631,13 +79582,6 @@ LEM Hall Effect Voltage transducer
 0
 5
 5
-Signatures
-ThomasFSignature
-
-
-0
-0
-0
 Signatures
 z_sig_Jorge_Noriega_34.3mmx15.1mm
 
