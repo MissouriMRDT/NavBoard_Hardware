@@ -1,4 +1,4 @@
-20230877326177378
+20252553770909078
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56728,6 +56728,13 @@ ABM3B-8.000MHZ-10-1-U-T
 4
 4
 MRDT_Actives
+DO-214AC
+<b>SURFACE MOUNT GENERAL RECTIFIER</b> JEDEC DO-214AC molded platic body<p>Method 2026<br>Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf
+
+0
+2
+2
+MRDT_Actives
 IRFZ44ESTRLPBF
 TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/
 D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404
@@ -57694,13 +57701,6 @@ LAUNCHXL_F28069M_J5_THT_TOP
 40
 39
 MRDT_Shields
-MODULE_DEV-16771
-
-
-0
-65
-65
-MRDT_Shields
 RASPBERRY_PI_HEADERS
 
 
@@ -57834,6 +57834,13 @@ TM4C129E_Launchpad_X9_THT_TOP
 40
 39
 MRDT_Shields
+Teensy_4_1
+
+
+0
+65
+65
+MRDT_Shields
 Teensy_4_1_Vertical
 
 
@@ -57960,6 +57967,13 @@ MRDT_Silkscreens
 0
 0
 MRDT_Silkscreens
+yagi
+
+
+0
+0
+0
+MRDT_Silkscreens
 z_sig_Aaron_Colvin_Sig_4mmx14.1mm
 
 
@@ -58059,6 +58073,20 @@ z_sig_Eric_Welch_Sig_22mmx9.4mm
 0
 MRDT_Silkscreens
 z_sig_Evan_Hite_Sig_15mm
+
+
+0
+0
+0
+MRDT_Silkscreens
+z_sig_Grant_Brinker_25mmx6
+
+
+0
+0
+0
+MRDT_Silkscreens
+z_sig_Grant_Brinker_30mmx7.3
 
 
 0
@@ -60858,12 +60886,33 @@ BHI160B
 24
 24
 Nav_Board
+BHI160B_ExtendedPads
+
+
+0
+24
+24
+Nav_Board
 ICM-20608-G
 
 
 0
 16
 16
+Nav_Board
+ICM-20608-G_ExtendedPads
+
+
+0
+16
+16
+Nav_Board
+MOLEX_SL_06_Vertical
+
+
+0
+6
+6
 Nav_Board
 MRDT_Logo_1
 
@@ -60879,12 +60928,26 @@ MRDT_Logo_2
 0
 0
 Nav_Board
+OKI_Vertical_TSR
+
+
+0
+3
+3
+Nav_Board
 PinSocket_2x16_P2.54mm_Vertical_Nav_Board
 
 
 0
 32
 32
+Nav_Board
+PinSocket_2x16_P2.54mm_Vertical_Nav_Board_2
+
+
+0
+38
+38
 Nav_Board
 Teensy-2.54mm_Adapter
 
@@ -60893,12 +60956,33 @@ Teensy-2.54mm_Adapter
 102
 54
 Nav_Board
+Teensy-2.54mm_Adapter_2
+
+
+0
+86
+86
+Nav_Board
 Teensy-2.54mm_Adapter_Separate_Pins
 
 
 0
 96
 96
+Nav_Board
+Teensy41
+
+
+0
+54
+54
+Nav_Board
+Teensy41_Suspended
+
+
+0
+54
+54
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads
@@ -79582,6 +79666,13 @@ LEM Hall Effect Voltage transducer
 0
 5
 5
+Signatures
+ThomasFSignature
+
+
+0
+0
+0
 Signatures
 z_sig_Jorge_Noriega_34.3mmx15.1mm
 
