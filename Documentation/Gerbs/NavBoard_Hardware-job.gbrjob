@@ -1,128 +1,170 @@
 {
-  "Header":
-  {
-    "GenerationSoftware":
-    {
-      "Vendor":      "KiCad",
+  "Header": {
+    "GenerationSoftware": {
+      "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version":     "(5.1.10)-1"
+      "Version": "(6.0.1)"
     },
-    "CreationDate":  "2021-11-18T18:33:26-06:00"
+    "CreationDate": "2022-11-25T01:31:12-06:00"
   },
-  "GeneralSpecs":
-  {
-    "ProjectId":
-    {
+  "GeneralSpecs": {
+    "ProjectId": {
       "Name": "NavBoard_Hardware",
       "GUID": "4e617642-6f61-4726-945f-486172647761",
       "Revision": "rev?"
     },
-    "Size":
-    {
-      "X": 124.510,
-      "Y": 79.298
+    "Size": {
+      "X": 100.05,
+      "Y": 33.1538
     },
-    "LayerNumber": 2,
-    "BoardThickness":  1.600
+    "LayerNumber": 4,
+    "BoardThickness": 1.6,
+    "Finish": "None"
   },
-  "DesignRules":
-  [
+  "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad":  0.127,
-      "PadToTrack":  0.127,
-      "TrackToTrack":  0.127,
-      "MinLineWidth":  0.254,
-      "TrackToRegion":  0.508,
-      "RegionToRegion":  0.508
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
+      "TrackToTrack": 0.127,
+      "MinLineWidth": 0.2286,
+      "TrackToRegion": 0.508,
+      "RegionToRegion": 0.508
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
+      "TrackToTrack": 0.127,
+      "MinLineWidth": 0.5,
+      "TrackToRegion": 0.3,
+      "RegionToRegion": 0.3
     }
   ],
-  "FilesAttributes":
-  [
+  "FilesAttributes": [
     {
-      "Path":  "NavBoard_Hardware-F_Cu.gbr",
-      "FileFunction":  "Copper,L1,Top",
-      "FilePolarity":  "Positive"
+      "Path": "NavBoard_Hardware-Top_Cu.gbr",
+      "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive"
     },
     {
-      "Path":  "NavBoard_Hardware-B_Cu.gbr",
-      "FileFunction":  "Copper,L2,Bot",
-      "FilePolarity":  "Positive"
+      "Path": "NavBoard_Hardware-GND_Cu.gbr",
+      "FileFunction": "Copper,L2,Inr",
+      "FilePolarity": "Positive"
     },
     {
-      "Path":  "NavBoard_Hardware-F_Paste.gbr",
-      "FileFunction":  "SolderPaste,Top",
-      "FilePolarity":  "Positive"
+      "Path": "NavBoard_Hardware-Pwr_Cu.gbr",
+      "FileFunction": "Copper,L3,Inr",
+      "FilePolarity": "Positive"
     },
     {
-      "Path":  "NavBoard_Hardware-B_Paste.gbr",
-      "FileFunction":  "SolderPaste,Bot",
-      "FilePolarity":  "Positive"
+      "Path": "NavBoard_Hardware-Bottom_Cu.gbr",
+      "FileFunction": "Copper,L4,Bot",
+      "FilePolarity": "Positive"
     },
     {
-      "Path":  "NavBoard_Hardware-F_SilkS.gbr",
-      "FileFunction":  "Legend,Top",
-      "FilePolarity":  "Positive"
+      "Path": "NavBoard_Hardware-F_Paste.gbr",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
     },
     {
-      "Path":  "NavBoard_Hardware-B_SilkS.gbr",
-      "FileFunction":  "Legend,Bot",
-      "FilePolarity":  "Positive"
+      "Path": "NavBoard_Hardware-B_Paste.gbr",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
     },
     {
-      "Path":  "NavBoard_Hardware-F_Mask.gbr",
-      "FileFunction":  "SolderMask,Top",
-      "FilePolarity":  "Negative"
+      "Path": "NavBoard_Hardware-F_Silkscreen.gbr",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
     },
     {
-      "Path":  "NavBoard_Hardware-B_Mask.gbr",
-      "FileFunction":  "SolderMask,Bot",
-      "FilePolarity":  "Negative"
+      "Path": "NavBoard_Hardware-B_Silkscreen.gbr",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
     },
     {
-      "Path":  "NavBoard_Hardware-Edge_Cuts.gbr",
-      "FileFunction":  "Profile",
-      "FilePolarity":  "Positive"
+      "Path": "NavBoard_Hardware-F_Mask.gbr",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "NavBoard_Hardware-B_Mask.gbr",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "NavBoard_Hardware-Edge_Cuts.gbr",
+      "FileFunction": "Profile",
+      "FilePolarity": "Positive"
     }
   ],
-  "MaterialStackup":
-  [
+  "MaterialStackup": [
     {
-      "Type":  "Legend",
-      "Notes":  "Layer F.SilkS"
+      "Type": "Legend",
+      "Name": "Top Silk Screen"
     },
     {
-      "Type":  "SolderPaste",
-      "Notes":  "Layer F.Paste"
+      "Type": "SolderPaste",
+      "Name": "Top Solder Paste"
     },
     {
-      "Type":  "SolderMask",
-      "Notes":  "Layer F.Mask"
+      "Type": "SolderMask",
+      "Thickness": 0.01,
+      "Name": "Top Solder Mask"
     },
     {
-      "Type":  "Copper",
-      "Notes":  "Layer F.Cu"
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "Top.Cu"
     },
     {
-      "Type":  "Dielectric",
-      "Material":  "FR4",
-      "Notes":  "Layers L1/L2"
+      "Type": "Dielectric",
+      "Thickness": 0.48,
+      "Material": "FR4",
+      "Name": "Top.Cu/GND.Cu",
+      "Notes": "Type: dielectric layer 1 (from Top.Cu to GND.Cu)"
     },
     {
-      "Type":  "Copper",
-      "Notes":  "Layer B.Cu"
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "GND.Cu"
     },
     {
-      "Type":  "SolderMask",
-      "Notes":  "Layer B.Mask"
+      "Type": "Dielectric",
+      "Thickness": 0.48,
+      "Material": "FR4",
+      "Name": "GND.Cu/Pwr.Cu",
+      "Notes": "Type: dielectric layer 2 (from GND.Cu to Pwr.Cu)"
     },
     {
-      "Type":  "SolderPaste",
-      "Notes":  "Layer B.Paste"
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "Pwr.Cu"
     },
     {
-      "Type":  "Legend",
-      "Notes":  "Layer B.SilkS"
+      "Type": "Dielectric",
+      "Thickness": 0.48,
+      "Material": "FR4",
+      "Name": "Pwr.Cu/Bottom.Cu",
+      "Notes": "Type: dielectric layer 3 (from Pwr.Cu to Bottom.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "Bottom.Cu"
+    },
+    {
+      "Type": "SolderMask",
+      "Thickness": 0.01,
+      "Name": "Bottom Solder Mask"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Bottom Solder Paste"
+    },
+    {
+      "Type": "Legend",
+      "Name": "Bottom Silk Screen"
     }
   ]
 }
