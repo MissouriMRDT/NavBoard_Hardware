@@ -1,10 +1,10 @@
 # MRDT NavBoard PCB
-![alt text](https://github.com/MissouriMRDT/NavBoard_Hardware/blob/Navboard_2023_rev2/Documentation/Images/Render_Top.png?raw=true)
+![alt text](https://github.com/MissouriMRDT/NavBoard_Hardware/blob/Navboard_2023_Rev3/Documentation/Images/Render_Top.png?raw=true)
 ## Dimensions
  - 100mm Long (124.29mm w/ Horizontal Power Poles)
  - 33.1mm Wide
 ## Board Specifications
-![alt text](https://github.com/MissouriMRDT/NavBoard_Hardware/blob/Navboard_2023_rev2/Documentation/Images/Layout_Top_Tracks_Filled.png?raw=true)
+![alt text](https://github.com/MissouriMRDT/NavBoard_Hardware/blob/Navboard_2023_Rev3/Documentation/Images/Layout_Top_Tracks_Filled.png?raw=true)
  - 4-layer
   -- Top Copper (Signals, SMD Components, Ground Pour)
   -- Ground Copper
